@@ -61,8 +61,8 @@
       "folders": []
     }
   ],
-  "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module.json",
-  "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip",
+  "manifest": "https://github.com/RealDeuce/kpogl-dnd5e/releases/download/latest/module.json",
+  "download": "https://github.com/RealDeuce/kpogl-dnd5e/releases/download/v0.31/koboldpressogl.zip",
   "id": "koboldpressogl",
   "compatibility": {
     "minimum": "11",

@@ -18,12 +18,12 @@ I'm not willing to commit to a strict release timeline, so it's possible an issu
 
 ## Building the package
 
-We need the Foundry VTT CLI to pack the JSON files. I can't get it to work out of the foundryvtt-cli repo on my FreeBSD system, but the one in the dnd5e repo does seem to work... so I use it (as do the scripts in the `scripts` folder).
+We need the Foundry VTT CLI to pack the JSON files.
 
-Clone the dnd5e repository:
-git clone https://github.com/foundryvtt/dnd5e.git
+Pretend we're a package to make npm happy:
+echo {} > package.json
 
-"Install" the dnd5e tools
-cd dnd5e ; npm install
+Install the cli
+npm install @foundryvtt/foundryvtt-cli
 
 Now, you can just run `scripts/build.sh` from the root of the repo. *DO NOT RUN IT FROM ANYWHERE ELSE* it forcibly deletes aritrary path names and doesn't do any error checking.

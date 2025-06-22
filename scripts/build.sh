@@ -2,7 +2,7 @@
 
 pack () {
 	local name=$1
-	dnd5e/node_modules/.bin/fvtt package --in "${name}" --out packs pack "${name}"
+	node_modules/.bin/fvtt package --in "${name}" --out packs pack "${name}"
 }
 
 rm -rf packs

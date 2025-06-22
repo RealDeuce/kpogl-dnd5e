@@ -20,10 +20,4 @@ I'm not willing to commit to a strict release timeline, so it's possible an issu
 
 We need the Foundry VTT CLI to pack the JSON files. You can run `scripts/installcli.sh` from the root of the repo to do this.
 
-Pretend we're a package to make npm happy:
-echo {} > package.json
-
-Install the cli
-npm install @foundryvtt/foundryvtt-cli
-
 Now, you can just run `scripts/build.sh` from the root of the repo. *DO NOT RUN IT FROM ANYWHERE ELSE* it forcibly deletes aritrary path names and doesn't do any error checking.

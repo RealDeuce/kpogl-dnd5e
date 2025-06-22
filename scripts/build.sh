@@ -2,6 +2,7 @@
 
 pack () {
 	local name=$1
+	echo node_modules/.bin/fvtt package --in "${name}" --out packs pack "${name}"
 	node_modules/.bin/fvtt package --in "${name}" --out packs pack "${name}"
 }
 

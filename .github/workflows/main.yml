@@ -8,20 +8,20 @@ on:
 jobs:
   build:
     name: Build
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-      - run: scripts/installcli.sh
-      - run: scripts/build.sh
-      - name: Create Release
-        id: create_latest_release
-        uses: ncipollo/release-action@v1
-        with:
-          allowUpdates: true
-          name: Latest
-          draft: false
-          prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: 'module.json,koboldpressogl.zip'
-          tag: latest
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+    - run: scripts/installcli.sh
+    - run: scripts/build.sh
+    - name: Create Release
+      id: create_latest_release
+      uses: ncipollo/release-action@v1
+      with:
+        allowUpdates: true
+        name: Latest
+        draft: false
+        prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}
+        artifacts: 'module.json,koboldpressogl.zip'
+        tag: latest

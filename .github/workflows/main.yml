@@ -11,8 +11,23 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
+    - name: Get Version
+      shell: bash
+      id: get-version
+      run echo "::set-output name=version::${node ./.github/workflows/get-version.js)"
     - run: scripts/installcli.sh
     - run: scripts/build.sh
+    - name: Create Release
+      id: create_versioned_release
+      uses: ncipollo/release-action@v1
+      with:
+        allowUpdates: true
+        name: Release ${{ steps.get-version.outputs.version }}
+        draft: false
+        prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}
+        artifacts: './module.json,./koboldpressogl.zip'
+        tag: v${{ steps.get-version.outputs.version }}
     - name: Create Release
       id: create_latest_release
       uses: ncipollo/release-action@v1
@@ -22,5 +37,5 @@ jobs:
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: 'module.json,koboldpressogl.zip'
+        artifacts: './module.json,./koboldpressogl.zip'
         tag: latest

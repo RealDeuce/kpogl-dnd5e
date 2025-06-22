@@ -18,7 +18,7 @@ I'm not willing to commit to a strict release timeline, so it's possible an issu
 
 ## Building the package
 
-We need the Foundry VTT CLI to pack the JSON files.
+We need the Foundry VTT CLI to pack the JSON files. You can run `scripts/installcli.sh` from the root of the repo to do this.
 
 Pretend we're a package to make npm happy:
 echo {} > package.json

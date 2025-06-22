@@ -1,10 +1,10 @@
-+ OGL Content from Kobold Press Foundry VTT module
+# OGL Content from Kobold Press Foundry VTT module
 
 This is the new home of the [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl) module. It will still be updated on [the KPOGL wiki](http://kpogl.wikidot.com/) for the forseeable future, but GitHub is considerably more stable than wikidot.
 
 With the move to GitHub, I can also start accepting contributions from the community.
 
-++ Contributing
+## Contributing
 
 I will accept contributions of OGL licensed Kobold Press sourced materials only in this repo. What this means is that if Kobold Press has updated a piece of content under a different license, it *must not* be used as a source for the text of contributions. You *cannot* copy text for a Tales of the Valiant *or* Black Flag products into this repo. Literal copying must only be done from OGL licensed sources, and must be careful to avoid any declared Product Identity.
 
@@ -16,7 +16,7 @@ However, if you're a Foundry VTT user and not familiar with git, JSON, or any of
 
 I'm not willing to commit to a strict release timeline, so it's possible an issue or PR will be open for months before being merged, but I promise to update this file if I lose interest in continuing.
 
-++ Building the package
+## Building the package
 
 We need the Foundry VTT CLI to pack the JSON files. I can't get it to work out of the foundryvtt-cli repo on my FreeBSD system, but the one in the dnd5e repo does seem to work... so I use it (as do the scripts in the `scripts` folder).
 

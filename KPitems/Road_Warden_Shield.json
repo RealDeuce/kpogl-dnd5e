@@ -1,0 +1,44 @@
+{
+  "name": "Road Warden Shield",
+  "_id": "KProadwardenshie",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (Shield), Common</em><br>While holding this shield, you can speak its command word to seal a portion of a shadow road, turning it into a looping path. Once that occurs, creatures walking the path always return to their starting point after 120 feet of movement. To end the looping effect, a creature on the looping path must step off the path. The effect also ends if the shield is destroyed or you speak the command word while holding the shield.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "road-warden-shield",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KProadwardenshie"
+}

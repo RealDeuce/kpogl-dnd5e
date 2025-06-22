@@ -1,0 +1,155 @@
+{
+  "_id": "KPcurseofdust000",
+  "name": "Curse of Dust",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You cast a curse on a creature within range that you’re familiar with, causing it to be unsatiated by food no matter how much it eats. This effect isn’t merely an issue of perception; the target physically can’t draw sustenance from food. Within minutes after the spell is cast, the target feels constant hunger no matter how much food it consumes. The target must make a Constitution saving throw 24 hours after the spell is cast and every 24 hours thereafter. On a failed save, the target gains one level of exhaustion. The effect ends when the duration expires or when the target makes two consecutive successful saves.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM1",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "value": "10",
+      "condition": ""
+    },
+    "duration": {
+      "value": 5,
+      "units": "day"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "500",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 7,
+    "school": "nec",
+    "materials": {
+      "value": "a piece of spoiled food",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "500",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "curse-of-dust"
+  },
+  "sort": 387,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPcurseofdust000"
+}

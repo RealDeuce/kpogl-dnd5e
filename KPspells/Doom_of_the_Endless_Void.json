@@ -1,0 +1,173 @@
+{
+  "_id": "KPdoomoftheendle",
+  "name": "Doom of the Endless Void",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>Void</em><br>You open a rift into the Void itself, tearing apart reality around you. All creatures within 20 feet of you must make a Constitution saving throw. You must also make this save. On a failed save, the target takes 6d6 + 20 force damage. If this damage reduces the target to 0 hit points, it is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a <em>@UUID[Compendium.dnd5e.spells.Item.qLeEXZDbW5y4bmLY]{true resurrection}</em> or <em>@UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{wish}</em> spell. This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it each round. A magic item is unaffected by this spell.<br>If you maintain concentration on the spell, the same saving throw is required again on your next turn-you must make your saving throw before any target creatures do. If the spell kills you, the effect ends immediately.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "WG4",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "Concentration"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "type": "cube",
+        "size": "10",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "0",
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 6,
+    "school": "trs",
+    "materials": {
+      "value": "iron filings and a vial of acid",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "0",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 6,
+              "denomination": 6,
+              "bonus": "+ 20",
+              "types": [
+                "force"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "doom-of-the-endless-void"
+  },
+  "sort": 468,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPdoomoftheendle"
+}

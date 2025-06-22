@@ -1,0 +1,45 @@
+{
+  "name": "Angelic Earrings",
+  "_id": "KPangelicearring",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>These earrings feature platinum loops from which hang bronzed claws from a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPchamrosh000000]{chamrosh}, freely given by the angelic hound. While wearing these earrings, you have advantage on Wisdom (Insight) checks to determine if a creature is lying or if it has an evil alignment.<br>If you cast <em>@UUID[Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8]{detect evil and good}</em> while wearing these earrings, the range increases to 60 feet, and the spell lasts 10 minutes without requiring concentration.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "angelic-earrings",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPangelicearring"
+}

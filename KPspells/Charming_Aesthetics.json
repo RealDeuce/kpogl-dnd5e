@@ -1,0 +1,155 @@
+{
+  "_id": "KPcharmingaesthe",
+  "name": "Charming Aesthetics",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You affect a group of the same plants or animals within range, giving them a harmless and attractive appearance. If a creature studies one of the enchanted plants or animals, it must make a Wisdom saving throw. If it fails the saving throw, it is charmed by the plant or animal until the spell ends or until another creature other than one of its allies does anything harmful to it. While the creature is charmed and stays within sight of the enchanted plants or animals, it has disadvantage on Wisdom (Perception) checks as well as checks to notice signs of danger. If the charmed creature attempts to move out of sight of the spell’s subject, it must make a second Wisdom saving throw. If it fails the saving throw, it refuses to move out of sight of the spell’s subject. It can repeat this save once per minute. If it succeeds, it can move away, but it remains charmed.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, you can target one additional group of plants or animals for each slot level above 4th.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "WG3",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "day"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 3,
+    "school": "enc",
+    "materials": {
+      "value": "a preserved flower or tuft of animal fur",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "charming-aesthetics"
+  },
+  "sort": 308,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPcharmingaesthe"
+}

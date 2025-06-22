@@ -1,0 +1,139 @@
+{
+  "_id": "KPcosmicalignmen",
+  "name": "Cosmic Alignment",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>illumination</em><br>You arrange the forces of the cosmos to your benefit. Choose a cosmic event from the Comprehension of the Starry Sky ability that affects spellcasting (conjunction, eclipse, or nova; listed after the spell). You cast spells as if under the effect of the cosmic event until the next sunrise or 24 hours have passed. When the ability requires you to expend your insight, you expend your ritual focus instead. This spell must be cast outdoors, and the casting of this spell is obvious to everyone within 100 miles of its casting when an appropriate symbol, such as a flaming comet, appears in the sky above your location while you are casting the spell.<ul><li><strong>Conjunction:</strong> Planetary conjunctions destabilize minds and emotions. You can give one creature you can see disadvantage on a saving throw against one enchantment or illusion spell cast by you.</li><li><strong>Eclipse:</strong> Eclipses plunge the world into darkness and strengthen connections to the shadow plane. When you cast a spell of 5th level or lower that causes necrotic damage, you can reroll a number of damage dice up to your Intelligence modifier (minimum of one). You must use the new rolls.</li><li><strong>Nova:</strong> The nova is a powerful aid to divination spells. You can treat one divination spell you cast as though you had used a spell slot one level higher than the slot actually used.</li><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HH",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "hour",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "mi",
+        "type": "radius",
+        "size": "100",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "0",
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 9,
+    "school": "con",
+    "materials": {
+      "value": "a piece of quartz",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "ritual",
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "hour",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "cosmic-alignment"
+  },
+  "sort": 369,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPcosmicalignmen"
+}

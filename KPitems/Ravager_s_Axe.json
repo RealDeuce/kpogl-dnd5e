@@ -1,0 +1,64 @@
+{
+  "name": "Ravager’s Axe",
+  "_id": "KPravagersaxe000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (greataxe), very rare</em><br>You gain a +1 bonus to attack and damage rolls made with this magic weapon. On a critical hit, the head of the axe briefly becomes a rift to the Void, and the attack inflicts an additional 5 (1d10) cold damage and 5 (1d10) necrotic damage. When you hit an object with the axe, the hit is always a critical hit.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ravagers-axe",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPravagersaxe000"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Linguist’s Cap",
+  "_id": "KPlinguistscap00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>While wearing this simple hat, you have the ability to speak and read a single language. Each cap has a specific language associated with it, and the caps often come in styles or boast features unique to the cultures where their associated languages are most prominent. The GM chooses the language or determines it randomly from the lists of standard and exotic languages.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "linguists-cap",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPlinguistscap00"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Bottomless Tankard",
+  "_id": "KPbottomlesstank",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Very Rare (Requires Attunement by a Follower of Ninkash)</em><br>While beer is meant to be consumed and not kept for long periods of time, this tankard allows you to store multiple varieties of beer or other liquids in it. Five magical runes are inscribed upon this tankard. If you pour a liquid into the tankard and press one of the runes, it is transported into an extradimensional space. Pressing that rune again will fill the tankard with that liquid. Once all five runes are used, no more liquid can be stored within the tankard until one of the runes is emptied.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "bottomless-tankard",
+    "source": {
+      "book": "WG4",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPbottomlesstank"
+}

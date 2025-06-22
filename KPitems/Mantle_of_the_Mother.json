@@ -1,0 +1,45 @@
+{
+  "name": "Mantle of the Mother",
+  "_id": "KPmantleofthemot",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item (cloak), very rare (requires attunement)</em><br>Made of strips of black leather, this cloak always shines as if freshly oiled. It increases the wearer's armor class by 2. The strips writhe and grasp at a foe during grappling attempts, providing advantage on checks to establish or maintain a grapple (but not on escape attempts). As a bonus action once per round, the wearer can command the cloak to make its own, independent grapple attack. This attack uses the wearer’s Strength but doesn't have advantage. If this succeeds, the wearer can grapple an opponent and still have his or her hands free for other tasks, including making weapon attacks or casting spells.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "mantle-of-the-mother",
+    "source": {
+      "book": "DC&SS",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPmantleofthemot"
+}

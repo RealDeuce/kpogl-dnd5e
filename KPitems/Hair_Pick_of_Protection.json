@@ -1,0 +1,45 @@
+{
+  "name": "Hair Pick of Protection",
+  "_id": "KPhairpickofprot",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare</em><br>This hair pick has glittering teeth that slide easily into your hair, making your hair look perfectly coiffed and battle‑ready. Though typically worn in hair, you can also wear the pick as a brooch or cloak clasp. While wearing this pick, you gain a +2 bonus to AC, and you have advantage on saving throws against spells. In addition, the pick magically boosts your self-esteem and your confidence in your ability to overcome any challenge, making you immune to the frightened condition.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "hair-pick-of-protection",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPhairpickofprot"
+}

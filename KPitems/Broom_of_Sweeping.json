@@ -1,0 +1,45 @@
+{
+  "name": "Broom of Sweeping",
+  "_id": "KPbroomofsweepin",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>You can use an action to speak the broom's command word and give it short instructions consisting of a few words, such as “sweep the floor” or “dust the cabinets. ” The broom can clean up to 5 cubic feet each minute and continues cleaning until you use another action to deactivate it. The broom can’t climb barriers higher than 5 feet and can’t open doors.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "broom-of-sweeping",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPbroomofsweepin"
+}

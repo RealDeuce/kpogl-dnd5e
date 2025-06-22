@@ -1,0 +1,44 @@
+{
+  "name": "Brain Juice",
+  "_id": "KPbrainjuice0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, very rare</em><br>This foul-smelling, murky, purple-gray liquid is created from the liquefied brains of spellcasting creatures, such as @UUID[Compendium.dnd5e.monsters.Actor.shhHtE7b92PefCWB]{aboleths}. Anyone consuming this repulsive mixture must make a DC 15 Intelligence saving throw. On a successful save, the drinker is infused with magical power and regains 1d6 + 4 expended spell slots. On a failed save, the drinker is afflicted with short-term madness for 1 day. If a creature consumes multiple doses of brain juice and fails three consecutive Intelligence saving throws, it is afflicted with long-term madness permanently and automatically fails all further saving throws brought about by drinking brain juice.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "brain-juice",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPbrainjuice0000"
+}

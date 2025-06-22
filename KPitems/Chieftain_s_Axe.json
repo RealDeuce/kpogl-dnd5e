@@ -1,0 +1,64 @@
+{
+  "name": "Chieftain’s Axe",
+  "_id": "KPchieftainsaxe0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (battleaxe), very rare (requires attunement)</em><br>Furs conceal the worn runes lining the haft of this oversized, silver-headed battleaxe. You gain a +2 bonus to attack and damage rolls made with this silvered, magic weapon.<br><em><strong>Chieftain’s Rally.</strong></em> You can use an action to raise the axe while shouting a rallying cry. All allies who can hear and see you can use a reaction to make a melee attack. Once used, this property can’t be used again until the next dawn.<br><em><strong>Bearfolk Belonging.</strong></em> If you aren’t a bearfolk, bearfolk who see you carrying the chieftain’s axe are immediately hostile. In addition, you have disadvantage on Charisma checks to influence bearfolk. However, if you turn the axe over to bearfolk, provided you haven’t used the axe against bearfolk to their knowledge, they become friendly and, at the GM’s discretion, might provide aid to you and your allies.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "chieftains-axe",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPchieftainsaxe0"
+}

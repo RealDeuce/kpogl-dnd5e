@@ -1,0 +1,45 @@
+{
+  "name": "Talking Tablets",
+  "_id": "KPtalkingtablets",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>These two enchanted brass tablets each have gold styli chained to them by small, silver chains. As long as both tablets are on the same plane of existence, any message written on one tablet with its gold stylus appears on the other tablet. If the writer writes words in a language the reader doesn’t understand, the tablets translate the words into a language the reader can read. While holding a tablet, you know if no creature bears the paired tablet.<br>When the tablets have transferred a total of 150 words between them, their magic ceases to function until the next dawn. If one of the tablets is destroyed, the other one becomes a nonmagical block of brass worth 25 gp.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "talking-tablets",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPtalkingtablets"
+}

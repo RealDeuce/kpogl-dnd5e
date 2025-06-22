@@ -1,0 +1,45 @@
+{
+  "name": "Brotherhood of Fezzes",
+  "_id": "KPbrotherhoodoff",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This trio of fezzes works only if all three hats are worn within 60 feet of each other by creatures of the same size. If one of the hats is removed or moves further than 60 feet from the others or if creatures of different sizes are wearing the hats, the hats’ magic temporarily ceases.<br>While three creatures of the same size wear these fezzes within 60 feet of each other, each creature can use its action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alter self}</em> spell from it at will. However, all three wearers of the fezzes are affected as if the same spell was simultaneously cast on each of them, making each wearer appear identical to the other. For example, if one Medium wearer uses an action to change its appearance to that of a specific elf, each other wearer’s appearance changes to look like the exact same elf.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "brotherhood-of-fezzes",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPbrotherhoodoff"
+}

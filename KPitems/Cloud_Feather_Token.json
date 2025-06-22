@@ -1,0 +1,45 @@
+{
+  "name": "Cloud Feather Token",
+  "_id": "KPcloudfeatherto",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This feather token is shaped like a white cloud. You can use an action to step on the token, which expands into a 10-foot-diameter cloud that immediately begins to rise slowly to a height of 20 feet. Any creatures standing on the cloud rise with it. The cloud disappears after 10 minutes, and anything that was on the cloud falls slowly to the ground.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "cloud-feather-token",
+    "source": {
+      "book": "WG2",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPcloudfeatherto"
+}

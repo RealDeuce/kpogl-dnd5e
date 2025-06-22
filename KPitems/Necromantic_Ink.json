@@ -1,0 +1,45 @@
+{
+  "name": "Necromantic Ink",
+  "_id": "KPnecromanticink",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>The scent of death and decay hangs around this grey ink. It is typically found in 1d4 pots, and each pot contains 2 doses. If you spend 1 minute using one dose of the ink to draw symbols of death on a dead creature that has been dead no longer than 10 days, you can imbue the creature with the ink’s magic. The creature rises 24 hours later as a @UUID[Compendium.dnd5e.monsters.Actor.nU8GN8La8DCt8SDb]{skeleton} or @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{zombie} (your choice), unless the creature is restored to life or its body is destroyed. You have no control over the undead creature.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "necromantic-ink",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPnecromanticink"
+}

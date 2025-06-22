@@ -1,0 +1,54 @@
+{
+  "name": "Hazelwood Wand",
+  "_id": "KPhazelwoodwand0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/weapons/wands/wand-star-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wand, common (requires attunement by a druid)</em><br>You can use this wand as a spellcasting focus. The wand has 3 charges and regains all expended charges daily at dawn. When you cast the <em>@UUID[Compendium.dnd5e.spells.Item.Qf6CAZkc7ms4ZY3e]{goodberry}</em> spell while using this wand as your spellcasting focus, you can expend 1 of the wand’s charges to transform the berries into hazelnuts, which restore 2 hit points instead of 1. The spell is otherwise unchanged. In addition, when you cast a spell that deals lightning damage while using this wand as your spellcasting focus, the spell deals 1 extra lightning damage.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "hazelwood-wand",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "common"
+  },
+  "_key": "!items!KPhazelwoodwand0"
+}

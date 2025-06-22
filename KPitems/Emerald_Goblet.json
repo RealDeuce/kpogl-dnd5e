@@ -1,0 +1,45 @@
+{
+  "name": "Emerald Goblet",
+  "_id": "KPemeraldgoblet0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em><br>This goblet’s rim and stem are made of silver. The cup of the goblet is a single enormous chunk of emerald that allows a view of the liquid within. When filled with any liquid, it becomes a shining green vessel filled with a green potion. Any creature that drinks from the goblet is protected against shadow corruption for a day.<br>The protection grants several additional benefits: you have advantage on Wisdom (Survival) checks used to gather food within the Shadow Realm, and you gain darkvision to 30 feet or extend your existing dark vision by 30 feet.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "emerald-goblet",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPemeraldgoblet0"
+}

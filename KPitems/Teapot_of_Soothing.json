@@ -1,0 +1,45 @@
+{
+  "name": "Teapot of Soothing",
+  "_id": "KPteapotofsoothi",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>This cast iron teapot is adorned with the simple image of fluffy clouds that seem to slowly shift and move across the pot as if on a gentle breeze. Any water placed inside the teapot immediately becomes hot tea at the perfect temperature, and when poured, it becomes the exact flavor the person pouring it prefers. The teapot can serve up to 6 creatures, and any creature that spends 10 minutes drinking a cup of the tea gains 2d6 temporary hit points for 24 hours. The creature pouring the tea has advantage on Charisma (Persuasion) checks for 10 minutes after pouring the first cup. Once used, the teapot can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "teapot-of-soothing",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPteapotofsoothi"
+}

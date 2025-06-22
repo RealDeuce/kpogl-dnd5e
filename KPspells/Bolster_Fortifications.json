@@ -1,0 +1,146 @@
+{
+  "_id": "KPbolsterfortifi",
+  "name": "Bolster Fortifications",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You create a ward that bolsters a structure or a collection of structures that occupy up to 2,500 square feet of floor space.The bolstered structures can be up to 20 feet tall and shaped as you desire. You can ward several small buildings in a stronghold by dividing the area among them, as long as you can walk into each contiguous area while you are casting the spell. For the purpose of this spell, “structures” include walls, such as the palisade that might surround a small fort, provided the wall is no more than 20 feet tall.<br>For the duration, each structure you bolstered has a damage threshold of 5. If a structure already has a damage threshold, that threshold increases by 5.<br>This spell protects only the walls, support beams, roofs, and similar that make up the core components of the structure. It doesn’t bolster objects within the structures, such as furniture.<br>The protected structure or structures radiate magic. A <em>@UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{dispel magic}</em> cast on a structure removes the bolstering from only that structure.<br>You can create a permanently bolstered structure or collection of structures by casting this spell there every day for one year.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the square feet of floor space you can bolster increases by 500 and the damage threshold increases by 2 for each slot level above 3rd.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "ToH",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "value": "10",
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+      },
+      "prompt": true,
+      "override": false
+    },
+    "range": {
+      "value": "120",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 3,
+    "school": "abj",
+    "materials": {
+      "value": "a piece of metal, stone, or wood",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "bolster-fortifications"
+  },
+  "sort": 248,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPbolsterfortifi"
+}

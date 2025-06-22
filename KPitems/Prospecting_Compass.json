@@ -1,0 +1,45 @@
+{
+  "name": "Prospecting Compass",
+  "_id": "KPprospectingcom",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>This battered, old compass has engravings of lumps of ore and natural crystalline minerals. While holding this compass, you can use an action to name a type of metal or stone. The compass points to the nearest naturally occurring source of that metal or stone for 1 hour or until you name a different type of metal or stone. The compass can point to cut gemstones, but it can’t point to processed metals, such as iron swords or gold coins. The compass can’t be used this way again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "prospecting-compass",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPprospectingcom"
+}

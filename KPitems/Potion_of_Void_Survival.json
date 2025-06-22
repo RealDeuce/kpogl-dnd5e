@@ -1,0 +1,44 @@
+{
+  "name": "Potion of Void Survival",
+  "_id": "KPpotionofvoidsu",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, Rare</em><br>For 1 hour after you drink this potion, you are immune to cold and necrotic damage, and you do not require air if you are a breathing creature.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "potion-of-void-survival",
+    "source": {
+      "book": "WG4",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPpotionofvoidsu"
+}

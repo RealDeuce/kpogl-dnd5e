@@ -1,0 +1,156 @@
+{
+  "_id": "KPnidhoggsblessi",
+  "name": "Nidhogg’s Blessing",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>Bard</em><br><em><strong>Deep Magic: </strong>Cleric</em><br><em><strong>Deep Magic: </strong>Druid</em><br><em><strong>Deep Magic: </strong>Sorcerer</em><br><em><strong>Deep Magic: </strong>Wizard</em><br>This spell transforms a creature that you can see within range into a new form beloved of the Void. An unwilling creature must make a Wisdom saving throw to avoid the effect. A shapechanger automatically succeeds on this saving throw. The transformation lasts for the duration or until the target drops to 0 hit points or dies. If the target is willing, it can retain the new form for 1 day. The new form can be either a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPdestroyer00000]{satarre destroyer}, @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPmystic00000000]{satarre mystic}, for a creature with spells or spell-like abilities, or a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPselang00000000]{selang}, for a creature that already knows Void Speech. The target’s statistics, including mental ability scores and hit points, are replaced by the statistics of the chosen creature. The target retains its alignment and personality.<br>When it reverts to its original form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it can’t speak, except for Void Speech, or cast spells, except those with the <strong>void</strong> keyword. The target’s gear melds into the new form, so the creature can’t activate, use, wield, or otherwise benefit from any of its equipment.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "WG4",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 3,
+    "school": "trs",
+    "materials": {
+      "value": "plate of satarre chitin",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "nidhoggs-blessing"
+  },
+  "sort": 849,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPnidhoggsblessi"
+}

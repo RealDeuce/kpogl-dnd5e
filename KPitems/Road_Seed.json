@@ -1,0 +1,45 @@
+{
+  "name": "Road Seed",
+  "_id": "KProadseed000000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em><br>This seed must be used outdoors, and when thrown, it creates a well-built road through any terrain, up to 5 miles long. The road includes up to one bridge crossing for a stream or chasm up to 50 feet across, and it may likewise include supports, log causeways, or leveled sections along a single section of marsh, hillside, or even mountainous terrain.<br>A road seed combined with a <em>@UUID[Compendium.koboldpressogl.koboldpressitems.Item.KPtavernseed0000]{tavern seed}</em> can generate a road twice as long as a <em>road seed</em> alone. A <em>road seed</em> can be countered or removed with an <em>@UUID[Compendium.dnd5e.spells.Item.x5JNBSyIBBZsjcGT]{earthquake}</em> or <em>ebon tide</em> spell.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "road-seed",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KProadseed000000"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Exsanguinating Tome",
+  "_id": "KPexsanguinatin1",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, legendary (requires attunement by a wizard)</em><br>This tome is wrapped in a filthy cover that weeps warm, wet droplets of blood. Although gore flows over the book’s pages when opened, the unnerving leakage never obscures the spells’ details to those who wish to read them.<br><em>Exsanguinating tome</em> contains the following spells.<br><strong>Cantrip:</strong> <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPbloodtide00000]{blood tide}</em><br><strong>1st Level:</strong> <em>@UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]{bane}, @UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{false life}, @UUID[Compendium.dnd5e.spells.Item.BQk5Row4NymMnUQl]{hideous laughter}, ray of sickness, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPstanch00000000]{stanch}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPweaponofblood0]{weapon of blood}</em><br><strong>2nd Level:</strong> <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPbloodarmor0000]{blood armor}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPbloodlure00000]{blood lure}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPbloodshot00000]{bloodshot}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPcausticblood00]{caustic blood}</em><br><strong>3rd Level:</strong> <em>@UUID[Compendium.dnd5e.spells.Item.oyE5nVppa5mde5gT]{animate dead}, @UUID[Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0]{fear}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPrayofexhaustio]{ray of exhaustion}, @UUID[Compendium.dnd5e.spells.Item.UfHQhA54M4323gVO]{vampiric touch}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPvitalmark00000]{vital mark}</em><br><strong>4th Level:</strong> <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPbloodandsteel0]{blood and steel}, @UUID[Compendium.dnd5e.spells.Item.BYNvBJzHcF5VJhXw]{phantasmal killer}</em><br><strong>5th Level:</strong> <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPcruorofvisions]{cruor of visions}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPexsanguinating]{exsanguinating cloud}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPsanguinehorror]{sanguine horror}</em><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "exsanguinating-tome",
+    "source": {
+      "book": "MWB",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPexsanguinatin1"
+}

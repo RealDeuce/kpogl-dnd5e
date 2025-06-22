@@ -1,0 +1,45 @@
+{
+  "name": "Scrimshaw Parrot",
+  "_id": "KPscrimshawparro",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>This parrot is carved from bits of whalebone and decorated with bright feathers and tiny jewels. You can use an action to affix the parrot to your shoulder or arm. While the parrot is affixed, you gain the following benefits:<ul><li>You have advantage on Wisdom (Perception) checks that rely on sight.</li><li>You can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k]{comprehend languages}</em> spell from it at will.</li><li>You can use an action to speak the command word and activate the parrot. It records up to 2 minutes of sounds within 30 feet of it. You can touch the parrot at any time (no action required), stopping the recording. Commanding the parrot to record new sounds overwrites the previous recording. You can use a bonus action to speak a different command word, and the parrot repeats the sounds it heard. Effects that limit or block sound, such as a closed door or the <em>@UUID[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp]{silence}</em> spell, similarly limit or block the sounds the parrot records.</li><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "scrimshaw-parrot",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPscrimshawparro"
+}

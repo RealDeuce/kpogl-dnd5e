@@ -1,0 +1,45 @@
+{
+  "name": "Cloak of the Elements",
+  "_id": "KPcloakoftheelem",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common (requires attunement)</em><br>A warm and sturdy cloak of finely woven cloth, when you wear this cloak you become resistant to extreme hot or cold climates and no longer have to make saving throws to resist the effects of such environments. This cloak does not protect you from taking damage from cold or heat due to attacks, traps, or other adventuring hazards.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "cloak-of-the-elements",
+    "source": {
+      "book": "WG3",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPcloakoftheelem"
+}

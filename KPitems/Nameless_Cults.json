@@ -1,0 +1,45 @@
+{
+  "name": "Nameless Cults",
+  "_id": "KPnamelesscults0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, legendary (requires attunement)</em><br>This dubious old book, bound in heavy leather with iron hasps, details the forbidden secrets and monstrous blasphemy of a multitude of nightmare cults that worship nameless and ghastly entities. It reads like the monologue of a maniac, illustrated with unsettling glyphs and filled with fluctuating moments of vagueness and clarity.<br>The tome is a spellbook that contains the following spells: <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPblackgoatsbles]{black goat’s blessing}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPcurseofyig0000]{curse of Yig}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPectoplasm00000]{ectoplasm}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPeldritchcommun]{eldritch communion}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPemanationofyot]{emanation of Yoth}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPgreendecay0000]{green decay}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPhungerofleng00]{hunger of Leng}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPmindexchange00]{mind exchange}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPseedofdestruct]{seed of destruction}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPsemblanceofdre]{semblance of dread}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPsignofkoth0000]{sign of Koth}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPsleepofthedeep]{sleep of the deep}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPsummoneldritch]{summon eldritch servitor}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPsummonavatar00]{summon avatar}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPunseenstrangle]{unseen strangler}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPvoorishsign000]{voorish sign}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPwarpmindandmat]{warp mind and matter}</em>, and <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPyellowsign0000]{yellow sign}</em>.<br>While attuned to the book, you can reference it whenever you make an Intelligence check to recall information about any aspect of evil or the occult, such as lore about Great Old Ones, mythos creatures, or the cults that worship them. When doing so, your proficiency bonus for that check is doubled.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "nameless-cults",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPnamelesscults0"
+}

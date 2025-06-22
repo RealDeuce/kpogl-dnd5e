@@ -1,0 +1,44 @@
+{
+  "name": "Broth of Needful Fortitude",
+  "_id": "KPbrothofneedful",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, rare</em><br>This rich stock brewed from the flesh and bones of humanoids is kept sealed in an earthenware jar. When drunk, it removes 2 levels of exhaustion and provides advantage on saving throws against disease, poison, and environmental effects for 8 hours. If drunk by an undead creature, it heals 10 (3d6 + 1) hit points.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "broth-of-needful-fortitude",
+    "source": {
+      "book": "DC&SS",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPbrothofneedful"
+}

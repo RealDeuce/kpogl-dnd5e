@@ -1,0 +1,45 @@
+{
+  "name": "Soulbound Wraps",
+  "_id": "KPsoulboundwraps",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement by a monk)</em><br>These cloth hand wraps are embroidered with symbols of balance and meditation. When you hit a creature with an unarmed strike while wearing these wraps, you can choose to reduce the damage you deal by up to 10, pulling some of the energy of the hit back into you through the wraps. You regain 1 ki point for every 10 damage you choose not to deal to a creature you hit. Once you regain a number of ki points equal to half your proficiency bonus, the wraps unravel and can’t be worn again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "soulbound-wraps",
+    "source": {
+      "book": "ToH",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPsoulboundwraps"
+}

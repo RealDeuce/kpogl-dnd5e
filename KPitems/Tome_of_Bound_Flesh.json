@@ -1,0 +1,45 @@
+{
+  "name": "Tome of Bound Flesh",
+  "_id": "KPtomeofboundfle",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, very rare (requires attunement by a spellcaster)</em><br>This book is painstakingly crafted from humanoid flesh. Its ragged-edged pages are finely made from humanoid skin, inked in blood, and stitched with sinew. The leather cover often displays a humanoid face on its front or is decorated with tattoos, brands, or ritual scars.<br>A <em>tome of bound flesh</em> contains a wealth of information about humanoid anatomy. A creature who consults the tome has advantage on any checks made within 1 hour to extract information from humanoid creatures by torture. It also provides advantage on Medicine checks on humanoid creatures for the same time. The tome can be consulted 1/day.<br>The owner of the tome also has one extra spell slot of his or her highest spell level per day. In addition, the owner can invoke the tome's power 1/day to boost the power of a necromancy spell. The spell takes effect as if it were cast with a slot one level higher than the slot actually used. The tome doesn't need to be physically with the owner when these benefits are used.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "tome-of-bound-flesh",
+    "source": {
+      "book": "DC&SS",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPtomeofboundfle"
+}

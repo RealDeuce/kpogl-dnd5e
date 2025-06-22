@@ -1,0 +1,44 @@
+{
+  "name": "Shield of Blinding",
+  "_id": "KPshieldofblindi",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (Shield), Uncommon</em><br>While holding this shield, you can use an action to speak its command word and choose one creature that you can see within 30 feet of you to make a DC 13 Constitution saving throw. If it fails, the target is blinded for 1 minute. At the end of each of its turns, the target can make a new saving throw to regain their sight.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "shield-of-blinding",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPshieldofblindi"
+}

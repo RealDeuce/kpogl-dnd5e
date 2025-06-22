@@ -1,0 +1,64 @@
+{
+  "name": "Sword of Fallen Saints",
+  "_id": "KPswordoffallens",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any sword), uncommon (requires attunement)</em><br>This enchanted blade is infused with the spirits of fallen warriors who carried it in battle long ago. You gain a +1 bonus to attack and damage rolls made with this magic weapon. If you die while attuned to the sword, you gain the effect of the gentle repose spell. This effect lasts until another creature attunes to the sword.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "sword-of-fallen-saints",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPswordoffallens"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Shield of Infinity",
+  "_id": "KPshieldofinfini",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (Shield), Rare (Requires Attunement)</em><br>The shield has 3 charges, and it regains 1d3 expended charges daily at dawn. If you are holding the shield, you can target a creature within 5 feet as an action. The target must succeed on a DC 15 Dexterity saving throw or be sucked into the airless void within the shield itself and be teleported 60 feet to an unoccupied space of your choice.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "shield-of-infinity",
+    "source": {
+      "book": "WG4",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPshieldofinfini"
+}

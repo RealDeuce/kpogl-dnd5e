@@ -1,0 +1,45 @@
+{
+  "name": "Gritless Grease",
+  "_id": "KPgritlessgrease",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This small, metal jar, 3 inches in diameter, holds 1d4 + 1 doses of a pungent waxy oil. As an action, one dose can be applied to or swallowed by a clockwork creature or device. The clockwork creature or device ignores difficult terrain, and magical effects can’t reduce its speed for 8 hours. As an action, the clockwork creature, or a creature holding a clockwork device, can gain the effect of the <em>@UUID[Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5]{haste}</em> spell until the end of its next turn (no concentration required). The effects of the <em>@UUID[Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5]{haste}</em> spell melt the grease, ending all its effects at the end of the spell’s duration.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "gritless-grease",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPgritlessgrease"
+}

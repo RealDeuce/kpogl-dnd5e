@@ -1,0 +1,56 @@
+{
+  "name": "Moonfield Lens",
+  "_id": "KPmoonfieldlens0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>This lens is rainbow-hued and protected by a sturdy leather case. It has 4 charges, and it regains 1d3 + 1 expended charges daily at dawn. As an action, you can hold the lens to your eye, speak its command word, and expend 2 charges to cause one of the following effects:<ul><li><strong>Find Loved One.</strong> You know the precise location of one creature you love (platonic, familial, or romantic). This knowledge extends into other planes.</li><li><strong>True Path.</strong> For 1 hour, you automatically succeed on all Wisdom (Survival) checks to navigate in the wild. If you are underground, you automatically know the most direct route to reach the surface.</li><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "moonfield-lens",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "4",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d3 + 1",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPmoonfieldlens0"
+}

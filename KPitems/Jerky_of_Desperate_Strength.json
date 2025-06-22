@@ -1,0 +1,45 @@
+{
+  "name": "Jerky of Desperate Strength",
+  "_id": "KPjerkyofdespera",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, rare</em><br>This paste of finely chopped liver and fat was made from the remains of a humanoid. It is commonly stored in waxed paper or a small covered bowl. When eaten, it provides advantage on Intelligence and Charisma skill checks for the next hour. If eaten by an undead creature, the pâté of complacent purpose instead grants a +1 increase to the creature's spell save DC and spell attack bonus for 1 hour.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "jerky-of-desperate-strength",
+    "source": {
+      "book": "DC&SS",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPjerkyofdespera"
+}

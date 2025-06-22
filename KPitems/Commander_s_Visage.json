@@ -1,0 +1,56 @@
+{
+  "name": "Commander’s Visage",
+  "_id": "KPcommandersvisa",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>This golden mask resembles a stern face, glowering at the world. While wearing this mask, you have advantage on saving throws against being frightened. The mask has 7 charges for the following properties, and it regains 1d6 + 1 expended charges daily at midnight.<br><em><strong>Commander’s Call.</strong></em> You can use a bonus action to expend 1 of its charges to bark a command at one ally you can see within 30 feet of you. The target can use its reaction to move up to half its speed and make one attack.<br><em><strong>Conscription.</strong></em> You can use an action to expend 2 of its charges to conscript one humanoid within 60 feet of you that can see the mask. This conscription works like the <em>@UUID[Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM]{dominate person}</em> spell, except it lasts 1 minute, requiring no concentration. You can have only one humanoid conscripted at a time. If you conscript another, the effect on the previous target ends.<br><em><strong>Unsettling Glower.</strong></em> When a creature that can see the mask makes a melee attack against you, you can use your reaction to spend 1 charge to force the target to make a DC 15 Wisdom saving throw. On a failure, the creature must choose a new target or lose the attack.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "commanders-visage",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "7",
+      "recovery": [
+        {
+          "period": "day",
+          "formula": "1d6 + 1",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPcommandersvisa"
+}

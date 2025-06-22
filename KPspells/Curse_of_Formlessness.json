@@ -1,0 +1,155 @@
+{
+  "_id": "KPcurseofformles",
+  "name": "Curse of Formlessness",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>A creature you touch must make a successful Constitution saving throw or be cursed with a shifting, amorphous form. Spells that change the target creature’s shape (such as <em>@UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{polymorph}</em>) do not end the curse, but they do hold the creature in a stable form, temporarily mitigating it until the end of that particular spell’s duration; shapechange and stoneskin have similar effects.<br>While under the effect of the <em>curse of formlessness</em>, the target creature is resistant to slashing and piercing damage and ignores the additional damage done by critical hits, but it can neither hold nor use any item, nor can it cast spells or activate magic items. Its movement is halved, and winged flight becomes impossible. Any armor, clothing, helmet, or ring becomes useless. Large items that are carried or worn, such as armor, backpacks, or clothing, become hindrances, so the target has disadvantage on Dexterity checks and saving throws while such items are in place.<br>A creature under the effect of a <em>curse of formlessness</em> can try to hold itself together through force of will. The afflicted creature uses its action to repeat the saving throw; if it succeeds, the afflicted creature negates the penalties from the spell until the start of its next turn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DC&SS",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "Permanent"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "0",
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 6,
+    "school": "trs",
+    "materials": {
+      "value": "a drop of quicksilver",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "0",
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "curse-of-formlessness"
+  },
+  "sort": 388,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPcurseofformles"
+}

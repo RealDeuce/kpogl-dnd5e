@@ -1,0 +1,75 @@
+{
+  "name": "Staff of the Four Winds",
+  "_id": "KPstaffofthefour",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, very rare (requires attunement by a sorcerer, warlock, or wizard)</em><br>Made of gently twisting ash and engraved with spiraling runes, the staff feels strangely lighter than its size would otherwise suggest. This staff has 10 charges. While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPcircleofwind00]{circle of wind}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n]{feather fall}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{gust of wind}</em> (2 charges), <em>storm god’s doom</em> (3 charges), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPwindtunnel0000]{wind tunnel}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.8PJAsHmbu6UgDHC0]{wind walk}</em> (6 charges), <em>@UUID[Compendium.dnd5e.spells.Item.ew6GA8dJy2spQmFW]{wind wall}</em> (3 charges), or <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPwrestingwind00]{wresting wind}</em> (2 charges). You can also use an action to cast the <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPwindlash000000]{wind lash}</em> spell from the staff without using any charges.<br>The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff crumbles into ashes and is taken away with the breeze.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-the-four-winds",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "10",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPstaffofthefour"
+}

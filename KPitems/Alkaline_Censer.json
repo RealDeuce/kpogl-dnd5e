@@ -1,0 +1,45 @@
+{
+  "name": "Alkaline Censer",
+  "_id": "KPalkalinecenser",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em><br>This magical censer is perforated with small holes and hangs from a short length of decorative chain. When you swing the censer through the air, it releases a faint cloud of chalky powder in a 20-foot radius that moves with you. All creatures within this radius gain resistance to acid damage as long as you use an action each round to continue to swing the censor.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "alkaline-censer",
+    "source": {
+      "book": "RotMM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPalkalinecenser"
+}

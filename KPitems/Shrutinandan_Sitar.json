@@ -1,0 +1,45 @@
+{
+  "name": "Shrutinandan Sitar",
+  "_id": "KPshrutinandansi",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement by a bard)</em><br>An exquisite masterpiece of craftsmanship, this instrument is named for a prestigious musical academy. You must be proficient with stringed instruments to use this instrument. A creature that plays the instrument without being proficient with stringed instruments must succeed on a DC 17 Wisdom saving throw or take 2d6 psychic damage.<br>The exquisite sounds of this sitar are known to weaken the power of demons. Each creature that can hear you playing this sitar has advantage on saving throws against the spells and special abilities of demons.<br><em><strong>Spells.</strong></em> You can use an action to play the sitar and cast one of the following spells from it, using your spell save DC and spellcasting ability: <em>@UUID[Compendium.dnd5e.spells.Item.BV0mpbHh29IbbIj5]{create food and water}, @UUID[Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t]{fly}, @UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{insect plague}, @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibility}, @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate}, @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil and good}</em>, or <em>@UUID[Compendium.dnd5e.spells.Item.zMEo5DKK8uxsuWnq]{reincarnate}</em>. Once the sitar has been used to cast a spell, you can’t use it to cast that spell again until the next dawn.<br><em><strong>Summon.</strong></em> If you spend 1 minute playing the sitar, you can summon animals to fight by your side. This works like the <em>@UUID[Compendium.dnd5e.spells.Item.1Drt0SHxbEAHxprN]{conjure animals}</em> spell, except you can summon only 1 @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]{elephant}, 1d2 @UUID[Compendium.dnd5e.monsters.Actor.FayqbnjBMszO6Pat]{tigers}, or 2d4 @UUID[Compendium.dnd5e.monsters.Actor.yawTeS8u2FCfzzZH]{wolves}.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "shrutinandan-sitar",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPshrutinandansi"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Locket of Remembrance",
+  "_id": "KPlocketofrememb",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>You can place a small keepsake of a creature, such as a miniature portrait, a lock of hair, or similar item, within the locket. The keepsake must be willingly given to you or must be from a creature personally connected to you, such as a relative or lover.<br><em><strong>Communication.</strong></em> While holding or wearing the locket, you can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.GtGjNjPBgUHxGYAD]{sending}</em> spell from it. The target must be the creature whose keepsake is in the locket. Once used, this property can’t be used again until you have completed a long rest.<br><em><strong>Location.</strong></em> While holding or wearing the locket, you can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{locate creature}</em> spell from it at will. The target must be the creature whose keepsake is in the locket.<br><em><strong>Reminiscence.</strong></em> If the locket contains a keepsake from a dead creature, you can use it to manifest their spirit and speak with them while holding or wearing the locket. This works like the <em>@UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with dead}</em> spell, but the spirit’s answers are typically less cryptic and more helpful. Once used, this property can’t be used again until 7 days have passed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "locket-of-remembrance",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPlocketofrememb"
+}

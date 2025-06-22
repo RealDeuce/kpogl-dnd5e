@@ -1,0 +1,55 @@
+{
+  "name": "Empowering Amplifier",
+  "_id": "KPempoweringampl",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em><br>This hollow cone of beaten brass has a handle on one side. When attuned to the amplifier, you can use an action to sing through it, channeling your voice and magical power into deadly sonic attacks.<br>The amplifier has 3 charges. You can spend a charge as an action to expend a spell slot and sing through the amplifier. Treat this as a spell attack with a range of 60 feet. On a hit, the target takes 9 (2d8) thunder damage per level of the spell slot. A follower of the Song Undying has advantage on attack rolls using the amplifier and deals 11 (2d10) thunder damage per spell slot level.<br>The amplifier regains all expended charges daily at dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "empowering-amplifier",
+    "source": {
+      "book": "CotSU",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPempoweringampl"
+}

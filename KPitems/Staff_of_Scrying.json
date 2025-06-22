@@ -1,0 +1,75 @@
+{
+  "name": "Staff of Scrying",
+  "_id": "KPstaffofscrying",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, rare (requires attunement by a sorcerer, warlock, or wizard)</em><br>This is a graceful, highly polished wooden staff crafted from willow. A crystal ball tops the staff, and smooth gold bands twist around its shaft. This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: <em>@UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detect thoughts}</em> (2 charges), <em>@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{locate creature}</em> (4 charges), <em>@UUID[Compendium.dnd5e.spells.Item.SleYkHovQ8NagmeV]{locate object}</em> (2 charges), <em>@UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{scrying}</em> (5 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.XzkJpE6XpZfKjODD]{true seeing}</em> (6 charges).<br>The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a bright flash of light erupts from the crystal ball, and the staff vanishes.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-scrying",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "10",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPstaffofscrying"
+}

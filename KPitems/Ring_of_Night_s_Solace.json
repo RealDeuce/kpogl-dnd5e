@@ -1,0 +1,44 @@
+{
+  "name": "Ring of Night’s Solace",
+  "_id": "KPringofnightsso",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, uncommon (requires attunement)</em><br>A disc of black onyx sits within an encompassing band of white chalcedony, set into fittings on this pewter ring. While wearing this ring in bright light, you are draped in a comforting cloak of shadow, protecting you from the harshest glare. If you have the Sunlight Sensitivity trait or a similar trait that causes you to have disadvantage on attack rolls or Wisdom (Perception) checks while in bright light or sunlight, you don’t suffer those effects while wearing this ring. In addition, you have advantage on saving throws against being blinded.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ring-of-nights-solace",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPringofnightsso"
+}

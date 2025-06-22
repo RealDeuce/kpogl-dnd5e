@@ -1,0 +1,45 @@
+{
+  "name": "Trickster’s Boots",
+  "_id": "KPtrickstersboot",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Common</em><br>These boots are usually shaped with a bright leather: red, orange, or purple. While wearing these boots, you can leave the tracks of any other creature in the snow, as you choose, including animal, monster, or even dragon tracks. You can also leave tracks resembling footgear you have seen or worn in the past. Attempts to follow these tracks are made normally.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "tricksters-boots",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPtrickstersboot"
+}

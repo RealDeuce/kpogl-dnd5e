@@ -1,0 +1,44 @@
+{
+  "name": "Glamour Rings",
+  "_id": "KPglamourrings00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, uncommon</em><br>These rings are made from twisted loops of gold and onyx and are always found in pairs. The rings’ magic works only while you and another humanoid of the same size each wear one ring and are on the same plane of existence. While wearing a ring, you or the other humanoid can use an action to swap your appearances, if both of you are willing. This effect works like the Change Appearance effect of the <em>@UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alter self}</em> spell, except you can change your appearance to only look identical to each other. Your clothing and equipment don’t change, and the effect lasts until one of you uses this property again or until one of you removes the ring.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "glamour-rings",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPglamourrings00"
+}

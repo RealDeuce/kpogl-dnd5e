@@ -1,0 +1,64 @@
+{
+  "name": "Ninefold Swarmdagger",
+  "_id": "KPninefoldswarmd",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (dagger), rare</em><br>You gain a +1 bonus to attack and damage rolls made with this magic weapon.<br>When you hit a creature with this weapon, you can use a bonus action to launch ghostly duplicates of the dagger at nearby creatures. Ghostly duplicates of the dagger fly at up to three creatures you can see within 30 feet of the creature you hit. Make a ranged attack with this dagger at each target. On a hit, a target takes 1d4 force damage. Once you hit six creatures with these ghostly daggers, you can’t launch ghostly daggers from this weapon again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ninefold-swarmdagger",
+    "source": {
+      "book": "ToH",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPninefoldswarmd"
+}

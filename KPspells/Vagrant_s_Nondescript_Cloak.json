@@ -1,0 +1,146 @@
+{
+  "_id": "KPvagrantsnondes",
+  "name": "Vagrant’s Nondescript Cloak",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You touch a creature. The creature is warded against the effects of <em>@UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{faerie fire}, @UUID[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4]{hold person}</em>, and <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPorderofrevenge]{order of revenge}</em> for the duration of the effect, granting them advantage on the saving throw against the effect and a saving throw each round they are affected by the spells. If the warded creature is the focus of <em>@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{locate creature}</em>, the caster may determine if the affected creature is within 1,000 feet but cannot determine the direction to the target of <em>vagrant’s nondescript cloak</em>. If the creature is already affected by one of the warded spells, then both the effect and <em>vagrant’s nondescript cloak</em> end immediately.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of third level or higher, you can target +1 creature for each slot level above second.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "ZCC",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+      },
+      "prompt": true,
+      "override": false
+    },
+    "range": {
+      "value": "0",
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 2,
+    "school": "abj",
+    "materials": {
+      "value": "a pinch of crushed obsidian, a scrap of rag",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "vagrants-nondescript-cloak"
+  },
+  "sort": 1214,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPvagrantsnondes"
+}

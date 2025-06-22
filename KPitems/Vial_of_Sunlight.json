@@ -1,0 +1,45 @@
+{
+  "name": "Vial of Sunlight",
+  "_id": "KPvialofsunlight",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>This crystal vial is filled with water from a spring high in the mountains and has been blessed by priests of a deity of healing and light. You can use an action to cause the vial to emit bright light in a 30-foot radius and dim light for an additional 30 feet for 1 minute. This light is pure sunlight, causing harm or discomfort to vampires and other undead creatures that are sensitive to it. The vial can’t be used this way again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "vial-of-sunlight",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPvialofsunlight"
+}

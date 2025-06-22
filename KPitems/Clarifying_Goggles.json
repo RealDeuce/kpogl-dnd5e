@@ -1,0 +1,45 @@
+{
+  "name": "Clarifying Goggles",
+  "_id": "KPclarifyinggogg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>These goggles contain a lens of slightly rippled blue glass that turns clear underwater. While wearing these goggles underwater, you don’t have disadvantage on Wisdom (Perception) checks that rely on sight when peering through silt, murk, or other natural underwater phenomena that would ordinarily lightly obscure your vision. While wearing these goggles above water, your vision is lightly obscured.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "clarifying-goggles",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPclarifyinggogg"
+}

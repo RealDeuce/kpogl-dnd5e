@@ -1,0 +1,44 @@
+{
+  "name": "Draught of the Black Owl",
+  "_id": "KPdraughtofthebl",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, common</em><br>When you drink this potion, you transform into a black-feathered @UUID[Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec]{owl} for 1 hour. This effect works like the <em>@UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{polymorph}</em> spell, except you can take only the form of an @UUID[Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec]{owl}. While you are in the form of an @UUID[Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec]{owl}, you retain your Intelligence, Wisdom, and Charisma scores.<br>If you are a druid with the Wild Shape feature, you can transform into a @UUID[Compendium.dnd5e.monsters.Actor.VVXly3ue0i3YgGrB]{giant owl} instead. Drinking this potion doesn’t expend a use of Wild Shape.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "draught-of-the-black-owl",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPdraughtofthebl"
+}

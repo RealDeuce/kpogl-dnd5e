@@ -1,0 +1,45 @@
+{
+  "name": "Heavy Weathervane",
+  "_id": "KPheavyweatherva",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, Uncommon</em><br>This simple stone and wood weathervane is shaped like a rolling pile of rocks. It can be affixed to a shield or sewn to the front of armor or robes.<br>Bearing this weathervane, you have advantage on all grappling checks. In addition, whenever you cast a spell that forces a creature to move, you can choose to move that creature an additional 5 feet.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "heavy-weathervane",
+    "source": {
+      "book": "DM2",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPheavyweatherva"
+}

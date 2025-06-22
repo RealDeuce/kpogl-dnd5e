@@ -1,0 +1,55 @@
+{
+  "name": "Wand of Relieved Burdens",
+  "_id": "KPwandofrelieved",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/weapons/wands/wand-star-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wand, uncommon</em><br>This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and touch a creature with the wand. If the creature is blinded, charmed, deafened, frightened, paralyzed, poisoned, or stunned, the condition is removed from the creature and transferred to you. You suffer the condition for the remainder of its duration or until it is removed.<br>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles to dust and is destroyed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "wand-of-relieved-burdens",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "7",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 1",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPwandofrelieved"
+}

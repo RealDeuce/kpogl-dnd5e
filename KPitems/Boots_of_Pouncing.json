@@ -1,0 +1,45 @@
+{
+  "name": "Boots of Pouncing",
+  "_id": "KPbootsofpouncin",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>These soft leather boots have a collar made of @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPalbinodeathwea]{albino death weasel} fur. While you wear these boots, your walking speed becomes 40 feet, unless your walking speed is higher. Your speed is still reduced if you are encumbered or wearing heavy armor.<br>If you move at least 20 feet straight toward a creature and hit it with a melee weapon attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, you can make one melee weapon attack against it as a bonus action.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "boots-of-pouncing",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPbootsofpouncin"
+}

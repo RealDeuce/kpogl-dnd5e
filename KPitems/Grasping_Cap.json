@@ -1,0 +1,45 @@
+{
+  "name": "Grasping Cap",
+  "_id": "KPgraspingcap000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, legendary (requires attunement)</em><br>This cap is a simple, blue silk hat with a goose feather trim. While wearing this cap, you have advantage on Strength (Athletics) checks made to climb, and the cap deflects the first ranged attack made against you each round.<br>In addition, when a creature attacks you while within 30 feet of you, it is illuminated and sheds red-hued dim light in a 50-foot radius until the end of its next turn. Any attack roll against an illuminated creature has advantage if the attacker can see it.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "grasping-cap",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPgraspingcap000"
+}

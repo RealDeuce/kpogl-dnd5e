@@ -1,0 +1,44 @@
+{
+  "name": "Ring of the Grove’s Guardian",
+  "_id": "KPringofthegrove",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, rare (requires attunement by a druid or ranger)</em><br>This pale gold ring looks as though made of delicately braided vines wrapped around a small, rough obsidian stone. While wearing this ring, you have advantage on Wisdom (Perception) checks.<br>You can use an action to speak the ring’s command word to activate it and draw upon the vitality of the grove to which the ring is bound. You regain 2d10 hit points. Once used, this property can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ring-of-the-groves-guardian",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPringofthegrove"
+}

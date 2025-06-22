@@ -1,0 +1,75 @@
+{
+  "name": "Staff of Winter and Ice",
+  "_id": "KPstaffofwintera",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, legendary (requires attunement by a sorcerer, warlock, or wizard)</em><br>This pure white, pine staff is topped with an ornately faceted shard of ice. The entire staff is cold to the touch. You have resistance to cold damage while you hold this staff.<br>The staff has 20 charges for the following properties. It regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff retains its resistance to cold damage but loses all other properties. On a 20, the staff regains 1d8 + 2 charges.<br><em><strong>Spells.</strong></em> While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPboreassbreath0]{Boreas’s breath}</em> (2 charges), <em>@UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{cone of cold}</em> (5 charges), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPcurseofboreas0]{curse of Boreas}</em> (6 charges), <em>@UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{ice storm}</em> (4 charges), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPflurry00000000]{flurry}</em> (1 charge), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPfreezingfog000]{freezing fog}</em> (3 charges), <em>@UUID[Compendium.dnd5e.spells.Item.MImfWCzEPRMYD3Xp]{freezing sphere}</em> (6 charges), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPfrostbite00000]{frostbite}</em> (5 charges), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPfrozenrazors00]{frozen razors}</em> (3 charges), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPglidingstep000]{gliding step}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{sleet storm}</em> (3 charges), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPsnowboulder000]{snow boulder}</em> (4 charges), <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPtriumphofice00]{triumph of ice}</em> (7 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.fzZnVKLmBMo2f5up]{wall of ice}</em> (6 charges). You can also use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd]{chill touch}</em> or <em>@UUID[Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5]{ray of frost}</em> spell from the staff without using any charges.<br><em><strong>Retributive Strike.</strong></em> You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.<br>You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take cold damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of cold damage based on how far away it is from the point of origin as shown in the following table. On a successful save, a creature takes half as much damage.<table><tr><th>Distance from Origin</th><th>Damage</th></tr><tr><td>10 ft. away or closer</td><td>8 × the number of charges in the staff</td></tr><tr><td>11 to 20 ft.away</td><td>6 × the number of charges in the staff</td></tr><tr><td>21 to 30 ft. away</td><td>4 × the number of charges in the staff</td></tr></table><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-winter-and-ice",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "20",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "2d8 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPstaffofwintera"
+}

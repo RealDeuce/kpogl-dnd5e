@@ -1,0 +1,45 @@
+{
+  "name": "Eagle Cape",
+  "_id": "KPeaglecape00000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>The exterior of this silk cape is lined with giant eagle feathers. When you fall while wearing this cape, you descend 60 feet per round, take no damage from falling, and always land on your feet.<br>In addition, you can use an action to speak the cloak’s command word. This turns the cape into a pair of eagle wings which give you a flying speed of 60 feet for 1 hour or until you repeat the command word as an action. When the wings revert back to a cape, you can’t use the cape in this way again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "eagle-cape",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPeaglecape00000"
+}

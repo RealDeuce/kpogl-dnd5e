@@ -1,0 +1,45 @@
+{
+  "name": "Mantle of the Void Lord",
+  "_id": "KPmantleofthevoi",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Legendary (Requires Attunement by a Cleric, Sorcerer, Warlock, or Wizard)</em><br>This luminous garment is made from rich purple cloth stitched with spirals, runes, and comets in golden thread. It has a long hood of black, trimmed in white dragon scales.<br>You gain the following benefits while wearing the robe:<ul><li>Creatures of the Void will not attack you while you wear the robe.</li><li>If you aren’t wearing armor, your base armor class is 14 + your Dexterity modifier.</li><li>You can speak and understand Void Speech.</li><li>Your spell save DC and spell attack bonus each increase by 1 for spells with the void keyword. Targets have disadvantage on saving throws against these spells.</li><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "mantle-of-the-void-lord",
+    "source": {
+      "book": "WG4",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPmantleofthevoi"
+}

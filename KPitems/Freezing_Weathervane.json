@@ -1,0 +1,45 @@
+{
+  "name": "Freezing Weathervane",
+  "_id": "KPfreezingweathe",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, Uncommon</em><br>This simple tin and wood weathervane is shaped like a snowflake. It can be worn around the neck as a pendant or sewn into the hood of a cloak.<br>Bearing this weathervane, you may reduce any cold damage by an amount equal to your proficiency bonus. In addition, when you hit a creature with a weapon attack, its speed is reduced by 5 feet until the end of its next turn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "freezing-weathervane",
+    "source": {
+      "book": "DM2",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPfreezingweathe"
+}

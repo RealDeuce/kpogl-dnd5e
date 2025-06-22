@@ -1,0 +1,45 @@
+{
+  "name": "Eyes of the Outer Dark",
+  "_id": "KPeyesoftheouter",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>These lenses are crafted of polished, opaque black stone. When placed over the eyes, however, they allow the wearer not only improved vision but glimpses into the vast emptiness between the stars.<br>While wearing these lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, its range is extended by 60 feet.<br>As an action, you can use the lenses to pierce the veils of time and space and see into the outer darkness. You gain the benefits of the <em>@UUID[Compendium.dnd5e.spells.Item.6HEEhLdJz32TL4Js]{foresight}</em> and <em>@UUID[Compendium.dnd5e.spells.Item.XzkJpE6XpZfKjODD]{true seeing}</em> spells for 10 minutes. If you activate this property and you aren’t suffering from a madness, you take 3d8 psychic damage. Once used, this property of the lenses can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "eyes-of-the-outer-dark",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPeyesoftheouter"
+}

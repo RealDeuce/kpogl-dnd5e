@@ -1,0 +1,44 @@
+{
+  "name": "Fellforged Armor",
+  "_id": "KPfellforgedarmo",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (plate), very rare (requires attunement)</em><br>While wearing this steam-powered magic armor, you gain a +1 bonus to AC, your Strength score increases by 2, and you gain the ability to cast <em>@UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with dead}</em> as an action. As long as you remain cursed, you exude an unnatural aura, causing beasts with Intelligence 3 or less within 30 feet of you to be frightened. Once you have used the armor to cast <em>@UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with dead}</em>, you can’t cast it again until the next dawn.<br><em><strong>Curse.</strong></em> Once attuned to this armor, you can’t remove it unless you are the subject of a <em>@UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse}</em> spell or similar magic. As long as you remain cursed, while wearing the armor, you gain an unnatural aura, causing all animals to panic when you are within 30 feet of them. You also gain disadvantage on attack rolls against incorporeal undead and on saving throws made against their spells and abilities.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "fellforged-armor",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPfellforgedarmo"
+}

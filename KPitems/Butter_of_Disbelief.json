@@ -1,0 +1,55 @@
+{
+  "name": "Butter of Disbelief",
+  "_id": "KPbutterofdisbel",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This stick of magical butter is carved with arcane runes and never melts or spoils. It has 3 charges. While holding this butter, you can use an action to slice off a piece and expend 1 charge to cast the <em>@UUID[Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx]{grease}</em> spell (save DC 13) from it. The grease that covers the ground looks like melted butter.<br>The butter regains all expended charges daily at dawn. If you expend the last charge, the butter disappears.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "butter-of-disbelief",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPbutterofdisbel"
+}

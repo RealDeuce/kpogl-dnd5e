@@ -1,0 +1,45 @@
+{
+  "name": "Cloak of Coagulation",
+  "_id": "KPcloakofcoagula",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>While wearing this rust red cloak, your blood quickly clots. When you are subjected to an effect that causes additional damage on subsequent rounds due to bleeding, blood loss, or continual necrotic damage, such as a @UUID[Compendium.dnd5e.monsters.Actor.MADGs8pWMVyyFOf1]{horned devil’s} tail attack or a <em>sword of wounding</em>, the effect ceases after a single round of damage. For example, if a @UUID[Compendium.dnd5e.monsters.Actor.gKRtiMNAjZiCVfwz]{stirge} hits you with its proboscis, you take the initial damage, plus the damage from blood loss on the following round, after which the wound clots, the @UUID[Compendium.dnd5e.monsters.Actor.gKRtiMNAjZiCVfwz]{stirge} detaches, and you take no further damage. The cloak doesn’t prevent a creature from using such an attack or effect again; a @UUID[Compendium.dnd5e.monsters.Actor.MADGs8pWMVyyFOf1]{horned devil} or a @UUID[Compendium.dnd5e.monsters.Actor.gKRtiMNAjZiCVfwz]{stirge} can attack you again, though the cloak will continue to stop any recurring effects after a single round.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "cloak-of-coagulation",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPcloakofcoagula"
+}

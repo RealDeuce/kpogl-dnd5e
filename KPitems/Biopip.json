@@ -1,0 +1,45 @@
+{
+  "name": "Biopip",
+  "_id": "KPbiopip00000000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>A marvel of druidcraft, this seed-like rock is prized above all else by horticulturalists. When placed into the soil, it provides the perfect amount of nutrients, water, and sunlight for all plant life within 30 feet. Not only does this allow even the most delicate of plants to grow in hostile environments, but it even bolsters the plants’ rate of growth. This causes the plants affected by the biopip to grow at a rate ten times faster than they normally would.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "biopip",
+    "source": {
+      "book": "WL64",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPbiopip00000000"
+}

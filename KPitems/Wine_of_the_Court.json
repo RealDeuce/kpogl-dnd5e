@@ -1,0 +1,45 @@
+{
+  "name": "Wine of the Court",
+  "_id": "KPwineofthecourt",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item (wine), common</em><br>The white glass of this bottle of sweet, dark red wine is made from the sand found along the banks of the elvish river. It contains enough for six servings. A creature who drinks a serving of this wine may speak and understand Aquan for 1 hour. Creatures who drink more than one serving within 24 hours must make a successful DC 12 Constitution saving throw or become incapacitated for 1d4 hours.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "wine-of-the-court",
+    "source": {
+      "book": "WG",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPwineofthecourt"
+}

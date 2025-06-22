@@ -1,0 +1,45 @@
+{
+  "name": "Fear-Eater’s Mask",
+  "_id": "KPfeareatersmask",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>This painted, wooden mask bears the visage of a snarling, fiendish face. While wearing the mask, you can use a bonus action to feed on the fear of a frightened creature within 30 feet of you. The target must succeed on a DC 13 Wisdom saving throw or take 2d6 psychic damage. You regain hit points equal to the damage dealt. If you are not injured, you gain temporary hit points equal to the damage dealt instead. Once a creature has failed this saving throw, it is immune to the effects of this mask for 24 hours.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "fear-eaters-mask",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPfeareatersmask"
+}

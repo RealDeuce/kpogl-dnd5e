@@ -1,0 +1,44 @@
+{
+  "name": "Philter of Lust",
+  "_id": "KPphilteroflust0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, Uncommon</em><br>As you imbibe this potion, you are overtaken with memories and feelings from a time of physical desire—the specific memories depend on the philter’s creator. You must succeed on a DC 13 Wisdom saving throw or be overcome by a fit of lust for 1 minute. While in a fit of lust, you seek out either a person whose affection you desire or, more rarely, an object of consuming passion (usually a token, trophy, or fetish of some kind) to claim for yourself. On a successful saving throw, only the memories are passed to you. You can repeat the saving throw at the end of each of your turns, ending the effect on a success.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "philter-of-lust",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPphilteroflust0"
+}

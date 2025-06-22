@@ -1,0 +1,45 @@
+{
+  "name": "Radiant Libram",
+  "_id": "KPradiantlibram0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, legendary (requires attunement by a cleric, druid, paladin, or wizard)</em><br>The gilded pages of this holy tome are bound between thin plates of moonstone crystal that emit a gentle incandescence. Aureate celestial runes adorn nearly every inch of its blessed surface.<br><em><strong>Brave.</strong></em> While holding this book, you have advantage on saving throws against being frightened.<br><em><strong>Brilliant.</strong></em> The book sheds dim light in a 5-foot radius. As an action, you can make the book shed bright light in a 20-foot radius and dim light for an additional 20 feet for 1 minute. This light is sunlight. Once used, this property of the book can’t be used again until the next dawn.<br><em><strong>Radiant Spellbook.</strong></em> In addition to the sacred rites of holy communion it contains, the radiant libram is a repository of powerful anti-undead magics and potent divinations. If you attune to this item, you can use it as a spellbook and as an arcane or divine spellcasting focus. In addition, while you are attuned to the book, the spells written in it count as prepared spells and don’t count against the number of spells you can prepare each day. You don’t gain additional spell slots from this feature. The following spells are written in the book: <em>@UUID[Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt]{beacon of hope}, @UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{bless}, @UUID[Compendium.dnd5e.spells.Item.3MYDjS6k9IYL0aTj]{calm emotions}, @UUID[Compendium.dnd5e.spells.Item.d54VDyFulD9xxY7J]{commune}, @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{cure wounds}, @UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{daylight}, @UUID[Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8]{detect evil and good}, @UUID[Compendium.dnd5e.spells.Item.8MICCMeOXT3aJUy9]{divine favor}, @UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{flame strike}, @UUID[Compendium.dnd5e.spells.Item.n4JDcFKe5ikzYmAc]{gentle repose}, @UUID[Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY]{guidance}, @UUID[Compendium.dnd5e.spells.Item.7buEm5KhI5lP8m1z]{guiding bolt}, @UUID[Compendium.dnd5e.spells.Item.ge3Saet9zPTDyaoL]{heroism}, @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{lesser restoration}, @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{light}, @UUID[Compendium.dnd5e.spells.Item.eCPQuQkIabFKTl9u]{produce flame}, @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil and good}, @UUID[Compendium.dnd5e.spells.Item.n9pJzTDsAwQxJVRl]{sacred flame}, @UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{sanctuary}</em>, and <em>@UUID[Compendium.dnd5e.spells.Item.8zT7njvqbpXs4Cel]{spare the dying}</em>.<br><em><strong>Turn Undead.</strong></em> You can use an action to present this book and speak its command word. Each undead that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw, using your spell save DC. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. The creature is instantly destroyed if its challenge rating is 3 or lower.<br>A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action. Once used, this property of the book can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "radiant-libram",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPradiantlibram0"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Throttler’s Gauntlets",
+  "_id": "KPthrottlersgaun",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>These durable leather gloves allow you to choke a creature you are grappling, preventing them from speaking. While you are grappling a creature, you can use a bonus action to throttle it. The creature takes damage equal to your proficiency bonus and can’t speak coherently or cast spells with verbal components until the end of its next turn. You can choose to not damage the creature when you throttle it. A creature can still breathe, albeit uncomfortably, while throttled.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "throttlers-gauntlets",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPthrottlersgaun"
+}

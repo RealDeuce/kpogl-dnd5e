@@ -1,0 +1,45 @@
+{
+  "name": "Thornish Nocturnal",
+  "_id": "KPthornishnoctur",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>The ancient elves constructed these nautical instruments to use as navigational aids on all their seagoing vessels. The knowledge of their manufacture has been lost, and few of them remain.<br>While attuned to the nocturnal, you can spend 1 minute using the nocturnal to determine the precise local time, provided you can see the sun or stars. You can use an action to protect up to four vessels that are within 1 mile of the nocturnal from unwanted effects of the local weather for 1 hour. For example, vessels protected by the nocturnal can’t be damaged by storms or blown onto jagged rocks by adverse wind. To do so, you must have spent at least 1 hour aboard each of the controlled vessels, performing basic sailing tasks and familiarizing yourself with the vessel.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "thornish-nocturnal",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPthornishnoctur"
+}

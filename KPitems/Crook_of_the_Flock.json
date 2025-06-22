@@ -1,0 +1,44 @@
+{
+  "name": "Crook of the Flock",
+  "_id": "KPcrookofthefloc",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, very rare (requires attunement)</em><br>This plain crook is made of smooth, worn lotus wood and is warm to the touch.<br><em><strong>Resolute.</strong></em> While holding the rod, you have advantage on saving throws against being charmed.<br><em><strong>Spells.</strong></em> While holding the rod, you can use an action to cast one of the following spells from it: <em>@UUID[Compendium.dnd5e.spells.Item.X8w9EzYLGc4vQ1H2]{animal messenger}, or </em>@UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{speak with animals}<em>.<br></em><strong>Leader.</strong>// You can use an action to present the rod and command obedience from one creature that you can see within 60 feet of you. The target must succeed on a DC 17 Charisma saving throw or be charmed by you for 8 hours. While charmed in this way, the creature regards you as its trusted leader. If harmed by your companions, or commanded to do something contrary to its nature, the target ceases to be charmed in this way. If harmed by you, the target ceases to be charmed, and you must roll a d20. On a 1, the staff disappears in a burst of golden light and reappears in a random location on the Material Plane. Once used, this property of the rod can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "crook-of-the-flock",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPcrookofthefloc"
+}

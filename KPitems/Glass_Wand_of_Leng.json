@@ -1,0 +1,54 @@
+{
+  "name": "Glass Wand of Leng",
+  "_id": "KPglasswandoflen",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/weapons/wands/wand-star-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wand, rare (requires attunement by a spellcaster)</em><br>The tip of this twisted clear glass wand is razorsharp. It can be wielded as a magic dagger that grants a +1 bonus to attack and damage rolls made with it. The wand weighs 4 pounds and is roughly 18 inches long. When you tap the wand, it emits a single, loud note which can be heard up to 20 feet away and does not stop sounding until you choose to silence it.<br>This wand has 5 charges and regains 1d4 + 1 charges daily at dawn. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 17): <em>@UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{arcane lock}</em> (2 charges), <em>@UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{disguise self}</em> (1 charge), or <em>@UUID[Compendium.dnd5e.spells.Item.gopnZvS0c2jD5FP8]{tongues}</em> (3 charges).<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "glass-wand-of-leng",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "5",
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPglasswandoflen"
+}

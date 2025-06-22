@@ -1,0 +1,45 @@
+{
+  "name": "Three-Section Boots",
+  "_id": "KPthreesectionbo",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>These boots are often decorated with eyes, flames, or other bold patterns such as lightning bolts or wheels. When you step onto water, air, or stone, you can use a reaction to speak the boots’ command word. For 1 hour, you gain the effects of the <em>@UUID[Compendium.dnd5e.spells.Item.64uo4fHriHLjRUrX]{meld into stone}, @UUID[Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS]{water walk}</em>, or <em>@UUID[Compendium.dnd5e.spells.Item.8PJAsHmbu6UgDHC0]{wind walk}</em> spell, depending on the type of surface where you stepped. The boots can’t be used this way again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "three-section-boots",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPthreesectionbo"
+}

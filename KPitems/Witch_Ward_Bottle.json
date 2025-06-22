@@ -1,0 +1,45 @@
+{
+  "name": "Witch Ward Bottle",
+  "_id": "KPwitchwardbottl",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This small pottery jug contains an odd assortment of pins, needles, and rosemary, all sitting in a small amount of wine. A bloody fingerprint marks the top of the cork that seals the jug. When placed within a building (as small as a shack or as large as a castle) or buried in the earth on a section of land occupied by humanoids (as small as a campsite or as large as an estate), the bottle's magic protects those within the building or on the land against the magic of fey and fiends. The humanoid that owns the building or land and any ally or invited guests within the building or on the land has advantage on saving throws against the spells and special abilities of fey and fiends.<br>If a protected creature fails its saving throw against a spell with a duration other than instantaneous, that creature can choose to succeed instead. Doing so immediately drains the jug’s magic, and it shatters.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "witch-ward-bottle",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPwitchwardbottl"
+}

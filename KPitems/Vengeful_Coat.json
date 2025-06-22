@@ -1,0 +1,45 @@
+{
+  "name": "Vengeful Coat",
+  "_id": "KPvengefulcoat00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>This stiff, vaguely uncomfortable coat covers your torso. It smells like ash and oozes a sap-like substance. While wearing this coat, you have resistance to slashing damage from nonmagical attacks.<br>At the end of each long rest, choose one of the following damage types: acid, cold, fire, lightning, or thunder. When you take damage of that type, you have advantage on attack rolls until the end of your next turn. When you take more than 10 damage of that type, you have advantage on your attack rolls for 2 rounds.<br>When you are targeted by an effect that deals damage of the type you chose, you can use your reaction to gain resistance to that damage until the start of your next turn. You have advantage on your attack rolls, as detailed above, then the coat’s magic ceases to function until you finish a long rest.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "vengeful-coat",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPvengefulcoat00"
+}

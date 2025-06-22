@@ -1,0 +1,44 @@
+{
+  "name": "Rod of Blade Bending",
+  "_id": "KProdofbladebend",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, rare (requires attunement)</em><br>This simple iron rod functions as a magic mace that grants a +1 bonus to attack and damage rolls made with it.<br><em><strong>Blade Bend.</strong></em> While holding the rod, you can use an action to activate it, creating a magical field around you for 10 minutes. When a creature attacks you with a melee weapon that deals piercing or slashing damage while the field is active, it must make a DC 15 Wisdom saving throw. On a failure, the creature’s attack misses. On a success, the creature’s attack hits you, but you have resistance to any piercing or slashing damage dealt by the attack as the weapon bends partially away from your body. Once used, this property can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "rod-of-blade-bending",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KProdofbladebend"
+}

@@ -1,0 +1,139 @@
+{
+  "_id": "KPmightyvessel00",
+  "name": "Mighty Vessel",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>A wooden warship rises from an area of water of your choice that you can see within range. The area of water must be large enough to accommodate the boat, at least 100 feet long, 20 feet wide, and 15 feet deep, and it must be clear of any other boats or structures. Any creatures in the area are harmlessly pushed out of the boat’s space.<br>The warship is a Gargantuan vehicle that is 100 feet long and 20 feet wide. The ship has four siege weapons on the deck: two ballistae and two cannons.<br>Below deck is divided into two floors: the lower deck and the hold. Each level of the ship is connected by wooden stairs. Below deck is furnished and decorated however you like, and it contains sufficient food to serve a nine-course banquet for up to 60 people each day. Furnishing, food, and other objects created by this spell crumble to dust if removed from the ship.<br>A crew of forty invisible servants obeys any commands given to it by creatures you designate when you cast the spell. Each servant functions as if created by the <em>@UUID[Compendium.dnd5e.spells.Item.ccduLIvutyNqvkgv]{unseen servant}</em> spell.<br>The ship and the siege weapons aboard it are all made of wood and metal that can be damaged, but they are immune to poison damage and psychic damage. The hull of the ship has AC 15 and 500 hit points. The ballistae have AC 15 and 50 hit points each. The cannons have AC 19 and 75 hit points each.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM2",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "Instantaneous"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "type": "line",
+        "size": "100",
+        "width": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "1",
+      "units": "mi"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 8,
+    "school": "con",
+    "materials": {
+      "value": "a golden model of a warship worth at least 500 gp, which the spell consumes",
+      "consumed": false,
+      "cost": 500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "mighty-vessel"
+  },
+  "sort": 819,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPmightyvessel00"
+}

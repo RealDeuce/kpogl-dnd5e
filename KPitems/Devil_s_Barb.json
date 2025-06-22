@@ -1,0 +1,54 @@
+{
+  "name": "Devil’s Barb",
+  "_id": "KPdevilsbarb0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/weapons/wands/wand-star-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wand, rare (requires attunement)</em><br>This thin wand is fashioned from the fiendish quill of a barbed devil. While attuned to it, you have resistance to cold damage.<br>The wand has 6 charges for the following properties. It regains 1d6 expended charges daily at dusk. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into cinders and is destroyed.<br><em><strong>Hurl Flame.</strong></em> While holding the wand, you can expend 2 charges as an action to hurl a ball of devilish flame at a target you can see within 150 feet of you. The target must succeed on a DC 15 Dexterity check or take 3d6 fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.<br><em><strong>Devil's Sight.</strong></em> While holding the wand, you can expend 1 charge as an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.hJ6ZiA3fpoY8v9cp]{darkvision}</em> spell on yourself. Magical darkness doesn't impede this darkvision.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "devils-barb",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "6",
+      "recovery": [
+        {
+          "period": "dusk",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPdevilsbarb0000"
+}

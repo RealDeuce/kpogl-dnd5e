@@ -1,0 +1,55 @@
+{
+  "name": "Freerunner Rod",
+  "_id": "KPfreerunnerrod0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, very rare (requires attunement)</em><br>Tightly intertwined lengths of grass, bound by additional stiff, knotted blades of grass, form this rod. While holding it and in grasslands, you leave behind no tracks or other traces of your passing, and you can pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard. In addition, beasts with an Intelligence of 3 or lower that are native to grasslands must succeed on a DC 15 Charisma saving throw to attack you.<br>The rod has 10 charges, and it regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the rod collapses into a pile of grass seeds and is destroyed. Among the grass seeds are 1d10 berries, consumable as if created by the <em>@UUID[Compendium.dnd5e.spells.Item.Qf6CAZkc7ms4ZY3e]{goodberry}</em> spell.<br><em><strong>Plainsrunner.</strong></em> You can use a bonus action to expend 1 charge to increase your walking speed by 10 feet for 1 minute. If you are in grasslands, your speed increases by 20 feet instead.<br><em><strong>Freedom.</strong></em> You can use a reaction to expend 2 charges when you become paralyzed or restrained, ending that effect.<br><em><strong>Forbidden Actions.</strong></em> If you burn or inflict fire damage to grasslands or if you kill a grasslands beast without you and your allies eating at least half of its flesh, the rod’s magic ceases to work for you, and you can never attune to this rod again.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "freerunner-rod",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "10",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPfreerunnerrod0"
+}

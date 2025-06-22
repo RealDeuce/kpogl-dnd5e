@@ -1,0 +1,75 @@
+{
+  "name": "Stonedrift Staff",
+  "_id": "KPstonedriftstaf",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, legendary (requires attunement by a druid, sorcerer, warlock, or wizard)</em><br>This staff is fashioned from petrified wood and crowned with a raw chunk of lapis lazuli veined with gold. The staff can be wielded as a magic quarterstaff.<br>The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed.<br><em><strong>Spells.</strong></em> While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: <em>@UUID[Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA]{animate objects}</em> (only stone objects, 5 charges), <em>@UUID[Compendium.dnd5e.spells.Item.x5JNBSyIBBZsjcGT]{earthquake}</em> (8 charges), <em>@UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{passwall}</em> (only stone surfaces, 5 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.QvGcdRUSNRKEQJlK]{stone shape}</em> (4 charges).<br><em><strong>Elemental Speech.</strong></em> You can speak and understand Primordial while holding this staff.<br><em><strong>Favor of the Earthborn.</strong></em> While holding the staff, you have advantage on Charisma checks made to influence earth elementals or other denizens of the Plane of Earth.<br><em><strong>Stone Glide.</strong></em> If the staff has at least 1 charge, you have a burrowing speed equal to your walking speed, and you can burrow through earth and stone while holding this staff. While doing so, you don’t disturb the material you move through.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "stonedrift-staff",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "10",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPstonedriftstaf"
+}

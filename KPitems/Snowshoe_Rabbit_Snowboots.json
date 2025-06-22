@@ -1,0 +1,45 @@
+{
+  "name": "Snowshoe Rabbit Snowboots",
+  "_id": "KPsnowshoerabbit",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em><br>These low, soft boots are fashioned of enchanted snowshoe rabbit pelts and have wide, overlong soles. Icy terrain doesn’t impede your movement, and you have advantage on Dexterity (Stealth) checks made to hide in snow.<br>Additionally, on speaking the command word, you gain +15 feet of movement, plus your jump distance is tripled. When this property has been used for a total of 1 hour, the magic ceases to function until you finish a short or long rest.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "snowshoe-rabbit-snowboots",
+    "source": {
+      "book": "WG4",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPsnowshoerabbit"
+}

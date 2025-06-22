@@ -1,0 +1,44 @@
+{
+  "name": "Rod of Construct Command",
+  "_id": "KProdofconstruct",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, rare (requires attunement)</em><br>This adamantine rod has a flanged head, and it functions as a magic mace that grants a +1 bonus to attack and damage rolls made with it.<br><em><strong>Command Construct.</strong></em> As an action, you can speak the rod’s command word and seize control of a single construct you can see within 30 feet of you. The target must succeed on a DC 15 Wisdom saving throw or be under your control as if under the effects of the <em>@UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{dominate monster}</em> spell for 1 hour. This property can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "rod-of-construct-command",
+    "source": {
+      "book": "ToB2L",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KProdofconstruct"
+}

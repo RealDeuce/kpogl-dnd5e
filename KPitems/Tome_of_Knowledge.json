@@ -1,0 +1,45 @@
+{
+  "name": "Tome of Knowledge",
+  "_id": "KPtomeofknowledg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>This book contains mnemonics and other tips to better perform a specific mental task, and its words are charged with magic. If you spend 24 hours over a period of 3 days or fewer studying the tome and practicing its instructions, you gain proficiency in the Intelligence, Wisdom, or Charisma-based skill (such as History, Insight, or Intimidation) associated with the book. The tome then loses its magic, but regains it in ten years.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "tome-of-knowledge",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPtomeofknowledg"
+}

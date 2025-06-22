@@ -1,0 +1,45 @@
+{
+  "name": "Communal Flute",
+  "_id": "KPcommunalflute0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement by a bard)</em><br>This flute is carved with skulls and can be used as a spellcasting focus. If you spend 10 minutes playing the flute over a dead creature, you can cast the <em>@UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with dead}</em> spell from the flute. The flute can’t be used this way again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "communal-flute",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPcommunalflute0"
+}

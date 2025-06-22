@@ -1,0 +1,45 @@
+{
+  "name": "Sandals of Sand Skating",
+  "_id": "KPsandalsofsands",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>These leather sandals repel sand, leaving your feet free of particles and grit. While you wear these sandals in a desert, on a beach, or in an otherwise sandy environment, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn’t reduced while in nonmagical difficult terrain made of sand. In addition, when you take the Dash action across sand, the extra movement you gain is double your speed instead of equal to your speed. With a speed of 30 feet, for example, you can move up to 90 feet on your turn if you dash across sand.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "sandals-of-sand-skating",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPsandalsofsands"
+}

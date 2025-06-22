@@ -1,0 +1,45 @@
+{
+  "name": "Broken Fang Talisman",
+  "_id": "KPbrokenfangtali",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>This talisman is a piece of burnished copper, shaped into a curved fang with a large crack through the middle. While wearing the talisman, you can use an action to cast the <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPencryptdecrypt]{encrypt/ decrypt}</em> spell. The talisman can’t be used this way again until 1 hour has passed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "broken-fang-talisman",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPbrokenfangtali"
+}

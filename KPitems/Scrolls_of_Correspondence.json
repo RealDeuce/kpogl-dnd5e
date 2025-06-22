@@ -1,0 +1,44 @@
+{
+  "name": "Scrolls of Correspondence",
+  "_id": "KPscrollsofcorre",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "icons/sundries/scrolls/scroll-bound-black-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Scroll, common</em><br>These vellum scrolls always come in pairs. Anything written on one scroll also appears on the matching scroll, as long as they are both on the same plane of existence. Each scroll can hold up to 75 words at a time. While writing on one scroll, you are aware that the words are appearing on a paired scroll, and you know if no creature bears the paired scroll. The scrolls don’t translate words written on them, and the reader and writer must be able to read and write the same language to understanding the writing on the scrolls.<br>While holding one of the scrolls, you can use an action to tap it three times with a quill and speak a command word, causing both scrolls to go blank. If one of the scrolls in the pair is destroyed, the other scroll becomes nonmagical.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "scrolls-of-correspondence",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPscrollsofcorre"
+}

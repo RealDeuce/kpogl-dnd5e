@@ -1,0 +1,44 @@
+{
+  "name": "Ring of Winter’s Kiss",
+  "_id": "KPringofwintersk",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, Rare (Requires Attunement)</em><br>When you suffer cold damage while wearing the ring of winter’s kiss, you take damage normally. However, on your next turn, you can target any creature within 30 feet, making an attack roll with a +7 bonus. On a hit, the target takes the same cold damage you took.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ring-of-winters-kiss",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPringofwintersk"
+}

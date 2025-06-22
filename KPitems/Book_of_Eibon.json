@@ -1,0 +1,45 @@
+{
+  "name": "Book of Eibon",
+  "_id": "KPbookofeibon000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, legendary (requires attunement)</em><br>This fragmentary black book contains puzzling guidelines for frightful necromantic rituals and maddening interdimensional travel.<br>The book holds the following spells: <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPsemblanceofdre]{semblance of dread}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPectoplasm00000]{ectoplasm}, @UUID[Compendium.dnd5e.spells.Item.oyE5nVppa5mde5gT]{animate dead}, @UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with dead}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPemanationofyot]{emanation of Yoth}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPgreendecay0000]{green decay}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPyellowsign0000]{yellow sign}, @UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPeldritchcommun]{eldritch communion}, @UUID[Compendium.dnd5e.spells.Item.E4NXux0RHvME1XgP]{create undead}, @UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{gate}, @UUID[Compendium.dnd5e.spells.Item.tMH6Ivn4GmE1naMj]{harm}, @UUID[Compendium.dnd5e.spells.Item.TIoadMIsUKD4edXi]{astral projection}</em>, and <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPvoidrift000000]{Void rift}</em>.<br>If you are attuned to this book, you can use it as a spellbook and as an arcane focus. In addition, while holding the book, you can use a bonus action to cast a necromancy spell that is written in this tome without expending a spell slot or using any verbal or somatic components. Once used, this property of the book can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "book-of-eibon",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPbookofeibon000"
+}

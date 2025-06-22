@@ -1,0 +1,45 @@
+{
+  "name": "Pocket Spark",
+  "_id": "KPpocketspark000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>What looks like a simple snuff box contains a magical, glowing ember. Though warm to the touch, the ember can be handled without damage. It can be used to ignite flammable materials quickly. Using it to light a torch, lantern, or anything else with abundant, exposed fuel takes a bonus action. Lighting any other fire takes an action. The ember is consumed when used. If the ember is consumed, the box creates a new ember at dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "pocket-spark",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPpocketspark000"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Eclipse Talisman",
+  "_id": "KPeclipsetalisma",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item</em><br>Any character touching one of these items to a magically sealed door or container (as noted in the descriptions of the encounters) unseals it.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "eclipse-talisman",
+    "source": {
+      "book": "ToM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": ""
+  },
+  "_key": "!items!KPeclipsetalisma"
+}

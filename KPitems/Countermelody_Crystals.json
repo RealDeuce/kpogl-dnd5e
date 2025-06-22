@@ -1,0 +1,45 @@
+{
+  "name": "Countermelody Crystals",
+  "_id": "KPcountermelodyc",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This golden bracelet is set with ten glistening crystal bangles that tinkle when they strike one another. When you must make a saving throw against being charmed or frightened, the crystals vibrate, creating an eerie melody, and you have advantage on the saving throw. If you fail the saving throw, you can choose to succeed instead by forcing one of the crystals to shatter. Once all ten crystals have shattered, the bracelet loses its magic and crumbles to powder.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "countermelody-crystals",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPcountermelodyc"
+}

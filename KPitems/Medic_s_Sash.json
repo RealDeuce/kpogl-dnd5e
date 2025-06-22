@@ -1,0 +1,55 @@
+{
+  "name": "Medic’s Sash",
+  "_id": "KPmedicssash0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>While wearing this sash, your carrying capacity doubles. In addition, your movement doesn’t provoke opportunity attacks if you are carrying a friendly creature that has 0 hit points or is dying.<br><em><strong>First Aid.</strong></em> The sash has 3 charges. While wearing the sash, you can expend 1 charge as an action to cast the spare the dying spell, and you can expend 2 charges as an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{cure wounds}</em> spell, using your Charisma modifier as your spellcasting ability modifier (minimum of +1). The sash recovers all expended charges daily at dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "medics-sash",
+    "source": {
+      "book": "ToH",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPmedicssash0000"
+}

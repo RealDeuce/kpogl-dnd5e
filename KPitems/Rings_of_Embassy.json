@@ -1,0 +1,45 @@
+{
+  "name": "Rings of Embassy",
+  "_id": "KPringsofembassy",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>These rings are always found in pairs. They are pewter bands, smooth on the outer surface, and on the inside surface, the runes for voice and distance are engraved. You can use an action to cast a <em>@UUID[Compendium.dnd5e.spells.Item.GtGjNjPBgUHxGYAD]{sending}</em> spell. The target is the attuned wearer of the other ring. The message can be up to fifty words and does not need to be said aloud. You can sense if there is no attuned wearer for the matching ring. There is no chance of message failure, even if the other ring wearer is on another plane. The <em>@UUID[Compendium.dnd5e.spells.Item.GtGjNjPBgUHxGYAD]{sending}</em> spell can only be used once per short rest. If one of the rings is destroyed, the other becomes inert and nonmagical.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "rings-of-embassy",
+    "source": {
+      "book": "ZCC",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPringsofembassy"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Rogue’s Aces",
+  "_id": "KProguesaces0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>These four, colorful parchment cards have long bailed the daring out of hazardous situations. You can use an action to flip a card face-up, activating it. A card is destroyed after it activates.<br><em><strong>Ace of Pentacles.</strong></em> The pentacles suit represents wealth and treasure. When you activate this card, you cast the <em>@UUID[Compendium.dnd5e.spells.Item.1nhIxh0DsJsntCfj]{knock}</em> spell from it on an object you can see within 60 feet of you. In addition, you have advantage on Dexterity checks to pick locks using thieves’ tools for the next 24 hours.<br><em><strong>Ace of Cups.</strong></em> The cups suit represents water and its calming, soothing, and cleansing properties. When you activate this card, you cast the <em>@UUID[Compendium.dnd5e.spells.Item.3MYDjS6k9IYL0aTj]{calm emotions}</em> spell (save DC 15) from it. In addition, you have advantage on Charisma (Deception) checks for the next 24 hours.<br><em><strong>Ace of Staves.</strong></em> The staves suit represents prophecy and divination. When you activate this card, you cast the <em>@UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detect thoughts}</em> spell (save DC 15) from it. In addition, you have advantage on Wisdom (Insight) checks for the next 24 hours.<br><em><strong>Ace of Swords.</strong></em> The swords suit represents war and power. When you activate this card, you cast the <em>@UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{enlarge/reduce}</em> spell (save DC 15) from it. In addition, you have advantage on Charisma (Intimidation) checks for the next 24 hours.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "rogues-aces",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KProguesaces0000"
+}

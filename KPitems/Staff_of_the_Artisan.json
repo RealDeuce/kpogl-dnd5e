@@ -1,0 +1,75 @@
+{
+  "name": "Staff of the Artisan",
+  "_id": "KPstaffofthearti",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, rare (requires attunement by a spellcaster)</em><br>This simple, wooden staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it.<br>The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes in a flash of light, lost forever.<br><em><strong>Create Object.</strong></em> You can use an action to expend 2 charges to conjure an inanimate object in your hand or on the ground in an unoccupied space you can see within 10 feet of you. The object can be no larger than 3 feet on a side and weigh no more than 10 pounds, and its form must be that of a nonmagical object you have seen. You can’t create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of artisan’s tools used to craft such objects. The object sheds dim light in a 5-foot radius. The object disappears after 1 hour, when you use this property again, or if the object takes or deals any damage.<br><em><strong>Spells.</strong></em> While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: <em>@UUID[Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA]{animate objects}</em> (5 charges), <em>@UUID[Compendium.dnd5e.spells.Item.7Fw7Bf1k3xxDVr5L]{fabricate}</em> (4 charges) or <em>@UUID[Compendium.dnd5e.spells.Item.bnjXlk13ZRJuf5d0]{floating disk}</em> (1 charge). You can also use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL]{mending}</em> spell from the staff without using any charges.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-the-artisan",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "10",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPstaffofthearti"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Scoundrel’s Gambit",
+  "_id": "KPscoundrelsgamb",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This fluted silver tube, barely two inches long, bears tiny runes etched between the grooves. While holding this tube, you can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{magic missile}</em> spell from it. Once used, the tube can’t be used to cast <em>@UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{magic missile}</em> again until 12 hours have passed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "scoundrels-gambit",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPscoundrelsgamb"
+}

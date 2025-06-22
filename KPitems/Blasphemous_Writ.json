@@ -1,0 +1,44 @@
+{
+  "name": "Blasphemous Writ",
+  "_id": "KPblasphemouswri",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "icons/sundries/scrolls/scroll-bound-black-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Scroll, uncommon</em><br>The Infernal runes inscribed upon this vellum scroll radiate a faint, crimson glow. When you use this <em>spell scroll of command</em>, the save DC is 15 instead of 13, and you can also affect targets that are undead or that don’t understand your language.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "blasphemous-writ",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPblasphemouswri"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Doppelganger Ointment",
+  "_id": "KPdoppelgangeroi",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>This ceramic jar contains 1d4 + 1 doses of a thick, creamy substance that smells faintly of pork fat. The jar and its contents weigh 1/2 a pound. Applying a single dose to your body takes 1 minute. For 24 hours or until it is washed off with an alcohol solution, you can change your appearance, as per the Change Appearance option of the <em>@UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alter self}</em> spell. For the duration, you can use a bonus action to return to your normal form, and you can use an action to return to the form of the mimicked creature.<br>If you add a piece of a specific creature (such as a single hair, nail paring, or drop of blood), the ointment becomes more powerful allowing you to flawlessly imitate that creature, as long as its body shape is humanoid and within one size category of your own. While imitating that creature, you have advantage on Charisma checks made to convince others you are that specific creature, provided they didn’t see you change form.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "doppelganger-ointment",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPdoppelgangeroi"
+}

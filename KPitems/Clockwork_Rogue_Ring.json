@@ -1,0 +1,44 @@
+{
+  "name": "Clockwork Rogue Ring",
+  "_id": "KPclockworkrogue",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, uncommon (requires attunement)</em><br>This brass clockwork ring is formed to look like a coiled dragon. When you speak or whisper the Draconic command word etched on the inside of the ring, the brass dragon uncoils and attempts to pick any lock within 10 feet of you. The dragon picks the lock using your proficiency bonus but with advantage. It is treated as having thieves’ tools when attempting to pick locks. It uses your Dexterity (Stealth) bonus for purposes of not being spotted but with advantage due to its extremely small size. Whether successful or not, once you have used the ring to attempt to pick a lock, it can’t be used again until the next sunset.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "clockwork-rogue-ring",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPclockworkrogue"
+}

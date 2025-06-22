@@ -1,0 +1,45 @@
+{
+  "name": "Djinn Vessel",
+  "_id": "KPdjinnvessel000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>A rough predecessor to the <em>@UUID[Compendium.dnd5e.items.Item.hdlBOEbEjiwUjTW5]{ring of djinni summoning}</em> and the <em>ring of elemental command</em>, this clay vessel is approximately a foot long and half as wide. An iron stopper engraved with a rune of binding seals its entrance.<br>If the vessel is empty, you can use an action to remove the stopper and cast the <em>@UUID[Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf]{banishment}</em> spell (save DC 15) on a celestial, elemental, or fiend within 60 feet of you. At the end of the spell’s duration, if the target is an elemental, it is trapped in this vessel. While trapped, the elemental can take no actions, but it is aware of occurrences outside of the vessel and of other djinn vessels.<br>You can use an action to remove the vessel’s stopper and release the elemental the vessel contains. Once released, the elemental acts in accordance with its normal disposition and alignment.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "djinn-vessel",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPdjinnvessel000"
+}

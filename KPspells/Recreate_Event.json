@@ -1,0 +1,139 @@
+{
+  "_id": "KPrecreateevent0",
+  "name": "Recreate Event",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Your magic summons an illusory recreation of an event, allowing you to watch and learn from different angles. When you cast this spell, choose a period of time you have experienced within the last 7 days that is up to 1 minute long. Illusory copies of the people, places, and events that existed within 30 feet of you during that minute fill the spell’s area. The illusion appears centered on the past version of you and is recreated from your perspective at the time you experienced it. The recreation is not limited to your line of sight, and it magically recreates everything that occurred within 30 feet of you at that time.<br>For the duration, you can command the illusion to replay, pause, speed up, or slow down as you wish. You and other creatures can walk within the illusory scene, investigating and watching the event. You have advantage on Intelligence (Investigation) and Wisdom (Perception) checks made while observing the event. The spell doesn’t provide insight into the minds of creatures that were present at that time, and it is limited to actions and movements that could have been observed by an average person experiencing the event. For example, it might depict wet footprints left by an invisible creature that walked past you during the event, but it wouldn’t reveal the invisible creature.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM2",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "value": "10",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "type": "cube",
+        "size": "30",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "0",
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 7,
+    "school": "ill",
+    "materials": {
+      "value": "a time piece made of brass and inlaid with diamonds worth at least 250 gp",
+      "consumed": false,
+      "cost": 250,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "recreate-event"
+  },
+  "sort": 953,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPrecreateevent0"
+}

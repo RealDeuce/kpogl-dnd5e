@@ -1,0 +1,55 @@
+{
+  "name": "Ziphian Eye Amulet",
+  "_id": "KPziphianeyeamul",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>This gold amulet holds a preserved eye from a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPziphius0000000]{ziphius}. It has 3 charges, and it regains all expended charges daily at dawn. While wearing this amulet, you can use a bonus action to speak its command word and expend 1 of its charges to create a brief magical bond with a creature you can see within 60 feet of you. The target must succeed on a DC 15 Wisdom saving throw or be magically bonded with you until the end of your next turn. While bonded in this way, you can choose to have advantage on attack rolls against the target or cause the target to have disadvantage on attack rolls against you.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ziphian-eye-amulet",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPziphianeyeamul"
+}

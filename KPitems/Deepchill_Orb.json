@@ -1,0 +1,45 @@
+{
+  "name": "Deepchill Orb",
+  "_id": "KPdeepchillorb00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>This fist-sized sphere of blue quartz emits cold. If placed in a container with a capacity of up to 5 cubic feet, it keeps the internal temperature of the container at a consistent 40 degrees Fahrenheit. This can keep liquids chilled, preserve cooked foods for up to 1 week, raw meats for up to 3 days, and fruits and vegetables for weeks. If you hold the orb without gloves or other insulating method, you take 1 cold damage each minute you hold it. At the GM’s discretion, the orb’s cold can be applied to other uses, such as keeping it in contact with a hot item to cool down the item enough to be handled, wrapping it and using it as a cooling pad to bring down fever or swelling, or similar.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "deepchill-orb",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPdeepchillorb00"
+}

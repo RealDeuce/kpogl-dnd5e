@@ -1,0 +1,44 @@
+{
+  "name": "Iron Nimbus",
+  "_id": "KPironnimbus0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item (requires attunement)</em><br>When you attune yourself to this nimbus worn by the Valkyrie Queen of the Celestial Legion, peek at one random Sacred Augury card held by the GM.<br>When you score a critical hit while wearing the iron nimbus, you may peek at one random Sacred Augury card held by the GM.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "iron-nimbus",
+    "source": {
+      "book": "ToM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": ""
+  },
+  "_key": "!items!KPironnimbus0000"
+}

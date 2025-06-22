@@ -1,0 +1,44 @@
+{
+  "name": "Rod of the Wastes",
+  "_id": "KProdofthewastes",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, legendary (requires attunement by a paladin)</em><br>This rod has a rounded head, and it functions as a magic mace that grants a +2 bonus to attack and damage rolls made with it.<br>While holding or carrying the rod, you have advantage on Wisdom (Perception) and Wisdom (Survival) checks made in badlands and wasteland terrain, and you have advantage on saving throws against being charmed or otherwise compelled by aberrations and fiends. If you are charmed or magically compelled by an aberration or fiend, the rod flashes with crimson light, alerting others to your predicament.<br><em><strong>Aberrant Smite.</strong></em> If you use Divine Smite when you hit an aberration or fiend with this rod, you use the highest number possible for each die of radiant damage rather than rolling one or more dice for the extra radiant damage. You must still roll damage dice for the rod’s damage, as normal. Once used, this property can’t be used again until the next dawn.<br><em><strong>Spells.</strong></em> You can use an action to cast one of the following spells from the rod: <em>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{daylight}, @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{lesser restoration}</em>, or <em>@UUID[Compendium.dnd5e.spells.Item.jZ6JNykRtdQ90MOo]{shield of faith}</em>. Once you cast a spell with this rod, you can’t cast that spell again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "rod-of-the-wastes",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "legendary"
+  },
+  "_key": "!items!KProdofthewastes"
+}

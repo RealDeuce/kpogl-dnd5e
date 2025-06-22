@@ -1,0 +1,44 @@
+{
+  "name": "Shield of Otters",
+  "_id": "KPshieldofotters",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (Shield), Uncommon</em><br>While holding this shield, you can speak its command word to summon a pair of @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPotter000000000]{otters} (use @UUID[Compendium.dnd5e.monsters.Actor.8VXxqeBvN54rPh81]{giant weasel} statistics). For up to 12 hours, these aquatic mammals will scout aquatic and riparian terrain, warn you of enemies, and keep watch while you sleep. They do not engage in combat on your behalf and flee if attacked or threatened. After the duration, the shield cannot summon another otter pair until after you have left fish, shellfish, or similar food on the shield during a short rest.<br>In addition, while holding the shield, you gain the ability to speak with otters and other aquatic mammals, such seals.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "shield-of-otters",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPshieldofotters"
+}

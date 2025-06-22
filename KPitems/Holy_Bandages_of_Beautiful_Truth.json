@@ -1,0 +1,45 @@
+{
+  "name": "Holy Bandages of Beautiful Truth",
+  "_id": "KPholybandagesof",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>A fist-sized bundle of loosely woven, decadently soft, gauze-like cotton, each of these bandages may be applied to a creature as an action, which provokes opportunity attacks. Once applied, the bandage does three things:<ul><li>The creature heals 2d8 + 2 hit points.</li><li>Any blindness suffered by the character is removed.</li><li>If used to bind a severed limb to the character’s body, that limb reattaches. If the limb is missing, it causes a new limb to regrow and become usable after 1d12 + 1 days as long as the character has at least 1 hp over that entire period.</li><br>If you are suffering from a poison, you can, instead, roll against its effects with advantage. The bandage works twice and is then consumed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "holy-bandages-of-beautiful-truth",
+    "source": {
+      "book": "FtDoaS",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPholybandagesof"
+}

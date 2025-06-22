@@ -1,0 +1,45 @@
+{
+  "name": "Manual of Vine Golems",
+  "_id": "KPmanualofvinego",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare</em><br>This tome contains information and incantations necessary to make a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPvinegolem00000]{vine golem}. To decipher and use the manual, you must be a druid with at least two 3rd-level spell slots. A creature that can’t use a <em>manual of vine golems</em> and attempts to read it takes 4d6 psychic damage.<br>To create a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPvinegolem00000]{vine golem}, you must spend 20 days working without interruption with the manual at hand and resting no more than 8 hours per day. You must also use powders made from rare plants and crushed gems worth 30,000 gp to create the @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPvinegolem00000]{vine golem}, all of which are consumed in the process. Once you finish creating the @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPvinegolem00000]{vine golem}, the book decays into ash.<br>The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "manual-of-vine-golems",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPmanualofvinego"
+}

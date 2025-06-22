@@ -1,0 +1,45 @@
+{
+  "name": "Amulet of Horus’s Aegis",
+  "_id": "KPamuletofhoruss",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>The amulet is fashioned like a golden talon clutching a stylized eye of carved ivory and obsidian with a yellow gemstone iris. It grants you immunity from immense environmental heat, though not direct flames or damage from fire effects.<br>Once per long rest while attuned, you may cast <em>@UUID[Compendium.dnd5e.spells.Item.a3XtAO5n2GrqiAh5]{create or destroy water}</em> as if you had used a spell slot equal to 1/2 your character level. Additionally, three times per long rest while attuned, as a reaction that does not provoke opportunity attacks, you may gain advantage on saving throws against effects created by undead creatures, or you may expend two uses of this power as part of an attack action to gain advantage on an attack against an undead creature.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "amulet-of-horuss-aegis",
+    "source": {
+      "book": "FtDoaS",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPamuletofhoruss"
+}

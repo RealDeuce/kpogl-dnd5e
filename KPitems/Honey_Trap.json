@@ -1,0 +1,56 @@
+{
+  "name": "Honey Trap",
+  "_id": "KPhoneytrap00000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>This jar is made of beaten metal and engraved with honeybees. It has 7 charges, and it regains 1d6 + 1 expended charges daily at dawn. If you expend the jar’s last charge, roll a d20. On a 1, the jar shatters and loses all its magical properties.<br>While holding the jar, you can use an action to expend 1 charge to hurl a glob of honey at a target within 30 feet of you. Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the glob expands, and the creature is restrained.<br>A creature restrained by the honey can use an action to make a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check (target’s choice). On a success, the creature is no longer restrained by the honey.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "honey-trap",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "7",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 1",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPhoneytrap00000"
+}

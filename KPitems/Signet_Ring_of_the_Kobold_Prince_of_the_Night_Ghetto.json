@@ -1,0 +1,44 @@
+{
+  "name": "Signet Ring of the Kobold Prince of the Night Ghetto",
+  "_id": "KPsignetringofth",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, rare (unique)</em><br>This ornate signet ring bears an insignia well known to the cities human guards and clockwork watchmen and often deters them from harassing its bearer, granting you advantage on Charisma checks made to interact with the Watch.<br>The ring’s real power, however, is to summon the kobold prince's personal giant riding owl. (Use @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPgiantfeyowl000]{giant fey owl} statistics in Chapter 9). The owl communicates with you telepathically and informs you of all it sees and hears. The owl can carry two Small creatures or one Medium creature and will fight on your behalf. If the owl dies, the ring loses its power.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "signet-ring-of-the-kobold-prince-of-the-night-ghetto",
+    "source": {
+      "book": "ZG",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPsignetringofth"
+}

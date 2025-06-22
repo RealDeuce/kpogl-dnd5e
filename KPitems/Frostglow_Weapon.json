@@ -1,0 +1,64 @@
+{
+  "name": "Frostglow Weapon",
+  "_id": "KPfrostglowweapo",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (Rapier or Dagger), Rare (Requires Attunement)</em><br>These mithral weapons are commonly found among gnomes and quicksteps, who prize their power to shed a chilling blue light on command. You can use a bonus action to speak this weapon’s command word, and all creatures within 30 feet must succeed on a DC 15 Constitution saving throw, becoming paralyzed for 1 round on a failed saving throw and having their speed reduced to zero for 1 round on a successful one. The effect ends at the beginning of your next turn. This action cannot be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "frostglow-weapon",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPfrostglowweapo"
+}

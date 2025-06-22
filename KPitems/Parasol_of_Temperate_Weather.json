@@ -1,0 +1,45 @@
+{
+  "name": "Parasol of Temperate Weather",
+  "_id": "KPparasoloftempe",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This fine, cloth-wrapped 2-foot-long pole unfolds into a parasol with a diameter of 3 feet, which is large enough to cover one Medium or smaller creature. While traveling under the parasol, you ignore the drawbacks of traveling in hot weather or a hot environment. Though it protects you from the sun’s heat in the desert or geothermal heat in deep caverns, the parasol doesn’t protect you from damage caused by super-heated environments or creatures, such as lava or an azer’s Heated Body trait, or magic that deals fire damage, such as the <em>@UUID[Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio]{fire bolt}</em> spell.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "parasol-of-temperate-weather",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPparasoloftempe"
+}

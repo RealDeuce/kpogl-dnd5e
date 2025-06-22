@@ -1,0 +1,146 @@
+{
+  "_id": "KPreassemble0000",
+  "name": "Reassemble",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You touch an undead creature (dust and bones suffice) destroyed not more than 10 hours ago; the creature is surrounded by purple fire for 1 round and is returned to life with full hit points. This spell has no effect on any creatures except undead, and it cannot restore a lich whose phylactery has been destroyed, a vampire destroyed by sunlight, any undead whose remains are destroyed by fire, acid, or holy water, or any remains affected by a <em>@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{bless}</em> or <em>@UUID[Compendium.dnd5e.spells.Item.n4JDcFKe5ikzYmAc]{gentle repose}</em> spell.<br>This spell doesn’t remove magical effects. If they aren’t removed prior to casting, they return when the undead creature comes back to life.<br>This spell closes all mortal wounds but doesn’t restore missing body parts. If the creature doesn’t have body parts or organs necessary for survival, the spell fails.<br>Sudden reassembly is an ordeal involving enormous expenditure of necrotic energy; ley line casters within 5 miles are aware that some great shift in life forces has occurred and a sense of its direction. The target takes a -4 penalty to all attacks, saves, and ability checks. Every time it finishes a long rest, the penalty is reduced by 1 until it disappears.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "WG",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "hour",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "Instantaneous"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+      },
+      "prompt": true,
+      "override": false
+    },
+    "range": {
+      "value": "0",
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 5,
+    "school": "nec",
+    "materials": {
+      "value": "1 gallon of black milk of Evermaw",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "hour",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "reassemble"
+  },
+  "sort": 949,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPreassemble0000"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Chronomancer’s Pocket Lock",
+  "_id": "KPchronomancers1",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare</em><br>Winding this golden, enchanted pocketwatch as an action allows you to cast haste. This effect can be used 3 times and regains spent uses at the stroke of midnight each night.<br>If the pendant is destroyed (AC 14, 15 hit points) while it has all 3 uses remaining, the creature that broke it gains the effects of the <em>@UUID[Compendium.dnd5e.spells.Item.JYuRBwxpoFhXduvD]{time stop}</em> spell.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "chronomancers-pocket-lock",
+    "source": {
+      "book": "ZG",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPchronomancers1"
+}

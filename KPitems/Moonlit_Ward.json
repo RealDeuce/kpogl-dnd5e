@@ -1,0 +1,45 @@
+{
+  "name": "Moonlit Ward",
+  "_id": "KPmoonlitward000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare</em><br>This 10-foot tall standing stone is inlaid with silver runes and symbols of the moons, and weighs 7,500 pounds. When activated, the <em>moonlit ward</em> creates a 200-foot sphere of area safe from the Shadow Realm’s corruption. This area is considered not to be part of the Shadow Realm for purposes of gaining or recovering from shadow corruption.<br>Activating the ward requires a special ritual that takes 8 hours to complete, performed on the night of a full moon, and it remains active until the next full moon. The ritual is detailed in the runes and carvings on the stone, and can be deciphered with a successful DC 20 Intelligence (Arcana or Religion) check.<br>If three or more <em>moonlit wards</em> are arranged to surround an area and activated, they purge shadow corruption from the area between them.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "moonlit-ward",
+    "source": {
+      "book": "MWB",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPmoonlitward000"
+}

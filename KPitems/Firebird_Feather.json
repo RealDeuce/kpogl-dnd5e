@@ -1,0 +1,45 @@
+{
+  "name": "Firebird Feather",
+  "_id": "KPfirebirdfeathe",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This feather sheds bright light in a 20-foot radius and dim light for an additional 20 feet, but it creates no heat and doesn’t use oxygen. While holding the feather, you can tolerate temperatures as low as –50 degrees Fahrenheit.<br>Druids and clerics and paladins who worship nature deities can use the feather as a spellcasting focus. If you use the feather in place of a holy symbol when using your Turn Undead feature, undead in the area have a –1 penalty on the saving throw.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "firebird-feather",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPfirebirdfeathe"
+}

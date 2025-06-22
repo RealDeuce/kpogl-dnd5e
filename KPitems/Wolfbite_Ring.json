@@ -1,0 +1,54 @@
+{
+  "name": "Wolfbite Ring",
+  "_id": "KPwolfbitering00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, rare (requires attunement)</em><br>This heavy iron ring is adorned with the stylized head of a snarling wolf. The ring has 3 charges and regains 1d3 expended charges daily at dawn.<br>When you make a melee weapon attack while wearing this ring, you can use a bonus action to expend 1 of the ring’s charges to deal an extra 2d6 piercing damage to the target. Then, the target must succeed on a DC 15 Strength saving throw or be knocked prone.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "wolfbite-ring",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPwolfbitering00"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Calipha’s Tear",
+  "_id": "KPcaliphastear00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Rare (Requires Attunement)</em><br>Exactly where the Calipha’s Tear came from or why it was made have long since been lost in the mists of time. It is unquestionably a lovely item, a pale blue-white gem that gives off a faint glow. Surely its reputation is exaggerated?<br>While attuned to this item, you have advantage on all Charisma skill checks.<br><em><strong>Curse.</strong></em> This item is cursed. Attuning to it curses you until you are targeted by the <em>@UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse}</em> spell or similar magic. Removing the item fails to end the curse on you. Whenever you fail a Wisdom skill check, the curse causes you to have disadvantage on all subsequent Wisdom skill checks until after you’ve taken a long rest.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "caliphas-tear",
+    "source": {
+      "book": "WL74",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPcaliphastear00"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Sentinel Portrait",
+  "_id": "KPsentinelportra",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This painting appears to be a well-rendered piece of scenery, devoid of subjects. You can spend 5 feet of movement to step into the painting. The painting then appears to be a portrait of you, against whatever background was already present. While in the painting, you are immobile unless you use a bonus action to exit the painting. Your senses still function, and you can use them as if you were in the portrait’s space.<br>You remain unharmed if the painting is damaged, but if it is destroyed, you are immediately shunted into the nearest unoccupied space.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "sentinel-portrait",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPsentinelportra"
+}

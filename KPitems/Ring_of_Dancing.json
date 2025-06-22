@@ -1,0 +1,44 @@
+{
+  "name": "Ring of Dancing",
+  "_id": "KPringofdancing0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, Uncommon</em><br>When you dance, caper, or perform for an audience, your movements are especially thrilling and graceful. You have advantage on all Charisma (Persuasion) checks with any fey, giant, or humanoid who has watched such a performance of yours within 24 hours. When worn with <em>@UUID[Compendium.koboldpressogl.koboldpressitems.Item.KPbootsofdancing]{boots of dancing}</em>, you instead have advantage on all Charisma ability checks.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ring-of-dancing",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPringofdancing0"
+}

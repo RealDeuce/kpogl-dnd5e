@@ -1,0 +1,44 @@
+{
+  "name": "Bloodspeed Elixir",
+  "_id": "KPbloodspeedelix",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, rare</em><br>When you drink this potion, your speed triples for 1minute, but if you take the Dash action, you take 2d6poison damage as your body is pushed beyond itsnormal limits. The murky, crimson liquid smells ofozone and has a thick, sludge-like consistency.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "bloodspeed-elixir",
+    "source": {
+      "book": "ToH",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPbloodspeedelix"
+}

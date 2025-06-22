@@ -1,0 +1,45 @@
+{
+  "name": "Leonino Wings",
+  "_id": "KPleoninowings00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>This cloak is decorated with the spotted white and brown pattern of a barn owl’s wing feathers. While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPleonino0000000]{leonino’s} owl-like feathered wings until you repeat the command word as an action. The wings give you a flying speed equal to your walking speed, and you have advantage on Dexterity (Stealth) checks made while flying in forests and urban settings. In addition, when you fly out of an enemy’s reach, you don’t provoke opportunity attacks.<br>You can use the cloak to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land. The cloak regains 2 hours of flying capability for every 12 hours it isn’t in use.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "leonino-wings",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPleoninowings00"
+}

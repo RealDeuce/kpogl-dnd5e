@@ -1,0 +1,45 @@
+{
+  "name": "Tactile Unguent",
+  "_id": "KPtactileunguent",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>Cat burglars, gearworkers, locksmiths, and even street performers use this gooey substance to increase the sensitivity of their hands. When found, a container contains 1d4 + 1 doses. As an action, one dose can be applied to a creature’s hands. For 1 hour, that creature has advantage on Dexterity (Sleight of Hand) checks and on tactile Wisdom (Perception) checks.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "tactile-unguent",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPtactileunguent"
+}

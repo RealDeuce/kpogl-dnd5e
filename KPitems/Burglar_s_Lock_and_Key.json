@@ -1,0 +1,45 @@
+{
+  "name": "Burglar’s Lock and Key",
+  "_id": "KPburglarslockan",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This heavy iron lock bears a stout, pitted key permanently fixed in the keyhole. As an action, you can twist the key counterclockwise to instantly open one door, chest, bag, bottle, or container of your choice within 30 feet.<br>Any container or portal weighing more than 30 pounds or restrained in any way (latched, bolted, tied, or the like) automatically resists this effect.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "burglars-lock-and-key",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPburglarslockan"
+}

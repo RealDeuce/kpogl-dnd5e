@@ -1,0 +1,44 @@
+{
+  "name": "Oleaginous Elixir",
+  "_id": "KPoleaginouselix",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, Uncommon</em><br>This amber liquid feels unnaturally slick. The elixir can coat one Medium creature. Applying the elixir is an action (if thrown or poured). For 1 hour, the coated creature loses any adhesive traits but gains advantage on any escape checks. Other creatures grappled by the coated creature gain advantage on escape checks.<br>If thrown to the ground, the elixir functions like a <em>@UUID[Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx]{grease}</em> spell but only covers a 5-foot-square area.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "oleaginous-elixir",
+    "source": {
+      "book": "RotMM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPoleaginouselix"
+}

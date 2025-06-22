@@ -1,0 +1,64 @@
+{
+  "name": "Momentblade",
+  "_id": "KPmomentblade000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any axe or sword), rare (requires attunement)</em><br>You gain a +1 bonus to attack and damage rolls made with this magic weapon.<br>When you roll a 20 on an attack roll made with this weapon, the target disappears and shuffles forward in time. At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. When the target returns, it is unaware that any time has passed. If the target is concentrating on a spell and succeeds on the check to maintain concentration after taking damage from your attack with this weapon, the round it disappeared doesn’t count against the spell’s remaining duration.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "momentblade",
+    "source": {
+      "book": "ToH",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPmomentblade000"
+}

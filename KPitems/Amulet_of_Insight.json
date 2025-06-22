@@ -1,0 +1,45 @@
+{
+  "name": "Amulet of Insight",
+  "_id": "KPamuletofinsigh",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>These large, round amulets bear the solar‑disk symbol of Khors, the sun god. Most of the known amulets are platinum, hung on silver neck chains, and set with nine lapis lazuli and epidote gemstones around the edges. You gain advantage on all Wisdom (Insight) checks. Additionally, all Wisdom (Insight) checks made against you are made with disadvantage.<br>If nine successful Wisdom (Insight) checks are made against you between two long rests, the stones turn grey, and the amulet becomes inert and nonmagical.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "amulet-of-insight",
+    "source": {
+      "book": "ZCC",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPamuletofinsigh"
+}

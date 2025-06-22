@@ -1,0 +1,45 @@
+{
+  "name": "Umber Beans",
+  "_id": "KPumberbeans0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>These magical beans have a modest ochre or umber hue, and they are about the size and weight of walnuts. Typically, 1d4 + 4 <em>umber beans</em> are found together.<br>You can use an action to throw one or more beans up to 10 feet. When the bean lands, it grows into a creature you determine by rolling a d10 and consulting the following table. The creature vanishes at the next dawn or when it takes bludgeoning, piercing, or slashing damage. The bean is destroyed when the creature vanishes.<br>The creature is illusory, and you are aware of this. You can use a bonus action to command how the illusory creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature. The creature’s attacks deal psychic damage, though the target perceives the damage as the type appropriate to the illusion, such as slashing for a vrock’s talons.<br>A creature with truesight or that uses its action to examine the illusion can determine that it is an illusion with a successful DC 13 Intelligence (Investigation) check. If a creature discerns the illusion for what it is, the creature sees the illusion as faint and the illusion can’t attack that creature.<table><tr><th>d10</th><th>Creature</th></tr><tr><td>1</td><td>@UUID[Compendium.dnd5e.monsters.Actor.kz2fW9xb5CcvXLX4]{Dretch}</td></tr><tr><td>2-3</td><td>2 @UUID[Compendium.dnd5e.monsters.Actor.QGcQYZbVl4bWzi4E]{Shadows}</td></tr><tr><td>4-6</td><td>@UUID[Compendium.dnd5e.monsters.Actor.P6qC8jB3pnEH0tIE]{Chuul}</td></tr><tr><td>7-8</td><td>@UUID[Compendium.dnd5e.monsters.Actor.6oc29m5uzzzb0pk3]{Vrock}</td></tr><tr><td>9</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPpsoglavdemon00]{Psoglav Demon}</td></tr><tr><td>10</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPvoidling000000]{Voidling}</td></tr></table><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "umber-beans",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPumberbeans0000"
+}

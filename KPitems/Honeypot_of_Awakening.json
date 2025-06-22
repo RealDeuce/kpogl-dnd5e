@@ -1,0 +1,45 @@
+{
+  "name": "Honeypot of Awakening",
+  "_id": "KPhoneypotofawak",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>If you place 1 pound of honey inside this pot, the honey transforms into an @UUID[Compendium.dnd5e.monsters.Actor.xBhG7Dos3tkg9jWz]{ochre jelly} after 24 hours. The jelly remains in a dormant state within the pot until you dump it out. You can use an action to dump the jelly from the pot in an unoccupied space within 5 feet of you. Once dumped, the @UUID[Compendium.dnd5e.monsters.Actor.xBhG7Dos3tkg9jWz]{ochre jelly} is hostile to all creatures, including you. Only one @UUID[Compendium.dnd5e.monsters.Actor.xBhG7Dos3tkg9jWz]{ochre jelly} can occupy the pot at a time.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "honeypot-of-awakening",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPhoneypotofawak"
+}

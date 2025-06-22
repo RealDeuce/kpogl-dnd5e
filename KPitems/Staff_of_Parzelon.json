@@ -1,0 +1,75 @@
+{
+  "name": "Staff of Parzelon",
+  "_id": "KPstaffofparzelo",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, legendary (requires attunement by a sorcerer, warlock, or wizard)</em><br>This tarnished silver staff is tipped with the unholy visage of a fiendish lion skull carved from labradorite. The staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.<br>The staff has 20 charges for the following properties. It regains 2d8 + 4 expended charges daily at dusk. If you expend the last charge, roll a d20. On a 20, the staff regains 1d8 + 2 charges.<br><em><strong>Spells.</strong></em> While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: <em>@UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{charm person}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM]{dominate person}</em> (5 charges), <em>@UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{lightning bolt}</em> (3 charges), <em>@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{locate creature}</em> (4 charges), <em>@UUID[Compendium.dnd5e.spells.Item.SleYkHovQ8NagmeV]{locate object}</em> (2 charges), <em>@UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{magic missile}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{scrying}</em> (5 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{suggestion}</em> (2 charges). You can also use an action to cast one of the following spells from the staff without using any charges: <em>@UUID[Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k]{comprehend languages}], @UUID[Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8]{detect evil and good}, @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detect magic}, @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{identify}</em>, or <em>@UUID[Compendium.dnd5e.spells.Item.icZokbgV1jIMpNCv]{message}</em>.<br><em><strong>Extract Ageless Knowledge.</strong></em> As an action, you can touch the head of the staff to a corpse. You must form a question in your mind as part of this action. If the corpse has an answer to your question, it reveals the information to you. The answer is always brief—no more than one sentence—and very specific to the framed question. The corpse doesn’t need a mouth to answer; you receive the information telepathically. The corpse knows only what it knew in life, and it is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This property doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events. Once the staff has been used to ask a corpse 5 questions, it can’t be used to extract knowledge from that same corpse again until 3 days have passed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-parzelon",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "20",
+      "recovery": [
+        {
+          "period": "dusk",
+          "formula": "2d8 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPstaffofparzelo"
+}

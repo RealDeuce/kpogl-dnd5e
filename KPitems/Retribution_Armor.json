@@ -1,0 +1,44 @@
+{
+  "name": "Retribution Armor",
+  "_id": "KPretributionarm",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (breastplate), very rare (requires attunement)</em><br>Etchings of flames adorn this breastplate, which is wrapped in chains of red gold, silver, and black iron. While wearing this armor, you gain a +1 bonus to AC. In addition, if a creature scores a critical hit against you, you have advantage on any attacks against that creature until the end of your next turn or until you score a critical hit against that creature.<br><em><strong>Retributive Resurrection.</strong></em> If you are killed by a creature while wearing this armor, you arise the following round as a tireless, vengeful undead. Your type changes to undead, and you gain the following benefits:<ul><li>You have resistance to necrotic damage, and you are immune to poison damage.</li><li>You can’t be charmed or poisoned, and you don’t suffer from exhaustion.</li><li>You have darkvision out to a range of 60 feet.</li><li>You have advantage on saving throws against effects that turn undead.</li><li>You can use an action to sense the direction of your killer. This works like the <em>@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{locate creature}</em> spell, except you can sense only the creature that killed you.</li><br>You rise as an undead only if your death was caused with intent; accidental deaths or deaths from unintended consequences (such as dying from a disease unintentionally passed to you) don’t activate this property of the armor. You exist in this deathly state for up to 1 week per Hit Die or until you exact revenge on your killer, at which time your body crumbles to ash and you finally die. You can be restored to life only by means of a <em>@UUID[Compendium.dnd5e.spells.Item.qLeEXZDbW5y4bmLY]{true resurrection}</em> or <em>@UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{wish}</em> spell.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "retribution-armor",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPretributionarm"
+}

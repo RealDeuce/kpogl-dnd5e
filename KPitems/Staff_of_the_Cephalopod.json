@@ -1,0 +1,75 @@
+{
+  "name": "Staff of the Cephalopod",
+  "_id": "KPstaffoftheceph",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, very rare (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)</em><br>This ugly staff is fashioned from a piece of gnarled driftwood and is crowned with an octopus carved from brecciated jasper. Its gray and red stone tentacles wrap around the top half of the staff. While holding this staff, you have a swimming speed of 30 feet.<br>This staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the jasper octopus crumbles to dust, and the staff becomes a nonmagical piece of driftwood.<br><em><strong>Spells.</strong></em> While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: <em>@UUID[Compendium.dnd5e.spells.Item.DGONTFbk5eORs5qv]{black tentacles}</em> (4 charges), <em>@UUID[Compendium.dnd5e.spells.Item.1Drt0SHxbEAHxprN]{conjure animals}</em> (only beasts that can breathe water, 3 charges), <em>@UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{darkness}</em> (2 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.13uVuBQP6VaiSPvC]{water breathing}</em> (3 charges).<br><em><strong>Ink Cloud.</strong></em> While holding this staff, you can use an action and expend 1 charge to cause an inky, black cloud to spread out in a 30-foot radius from you. The cloud can form in or out of water. The cloud remains for 10 minutes, making the area heavily obscured for creatures other than you. The cloud moves with you, remaining centered on you. A wind of at least 10 miles per hour or a steady current (if underwater) disperses the cloud and ends the effect.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-the-cephalopod",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "10",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPstaffoftheceph"
+}

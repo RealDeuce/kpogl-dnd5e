@@ -1,0 +1,45 @@
+{
+  "name": "Plumb of the Elements",
+  "_id": "KPplumboftheelem",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>This four-faceted lead weight is hung on a long leather strip, which can be wound around the haft or handle of any melee weapon. You can remove the plumb and transfer it to another weapon whenever you wish. Weapons with the plumb attached to it deal additional force damage equal to your proficiency bonus (up to a maximum of 3). As an action, you can activate the plumb to change this additional damage type to fire, cold, lightning, or back to force.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "plumb-of-the-elements",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPplumboftheelem"
+}

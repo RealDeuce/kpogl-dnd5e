@@ -1,0 +1,45 @@
+{
+  "name": "Mantle of the Forest Lord",
+  "_id": "KPmantleofthefor",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>Created by village elders for druidic scouts to better traverse and survey the perimeters of their lands, this cloak resembles thick oak bark but bends and flows like silk.<br>While wearing this cloak, you can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.DUBgwHPakcLDkB6W]{tree stride}</em> spell on yourself at will, except trees need not be living in order to pass through them.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "mantle-of-the-forest-lord",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPmantleofthefor"
+}

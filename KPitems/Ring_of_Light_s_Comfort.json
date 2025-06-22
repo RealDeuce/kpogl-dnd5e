@@ -1,0 +1,44 @@
+{
+  "name": "Ring of Light’s Comfort",
+  "_id": "KPringoflightsco",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, uncommon (requires attunement)</em><br>A disc of white chalcedony sits within an encompassing band of black onyx, set into fittings on this pewter ring. While wearing this ring in dim light or darkness, you can use a bonus action to speak the ring’s command word, causing it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The ring automatically sheds this light if you start your turn within 60 feet of an undead or lycanthrope. The light lasts until you use a bonus action to repeat the command word. In addition, you can’t be charmed, frightened, or possessed by undead or lycanthropes.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ring-of-lights-comfort",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPringoflightsco"
+}

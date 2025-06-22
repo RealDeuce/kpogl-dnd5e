@@ -1,0 +1,56 @@
+{
+  "name": "Vielle of Weirding and Warding",
+  "_id": "KPvielleofweirdi",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>The strings of this bowed instrument never break. You must be proficient in stringed instruments to use this vielle. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d8 psychic damage.<br>If you play the vielle as the somatic component for a spell that causes a target to become charmed on a failed saving throw, the target has disadvantage on the saving throw.<br><em><strong>Spells.</strong></em> The vielle has 5 charges and regains 1d4 + 1 expended charges daily at dusk. While playing it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 15) from it: <em>@UUID[Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf]{banishment}</em> (4 charges), <em>@UUID[Compendium.dnd5e.spells.Item.dSTu1MaPhBqPITwM]{contact other plane}</em> (5 charges), <em>@UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{magic circle}</em> (3 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil and good}</em> (1 charge).<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "vielle-of-weirding-and-warding",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "5",
+      "recovery": [
+        {
+          "period": "dusk",
+          "formula": "1d4 + 1",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPvielleofweirdi"
+}

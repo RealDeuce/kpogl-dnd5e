@@ -1,0 +1,45 @@
+{
+  "name": "Cap of Thorns",
+  "_id": "KPcapofthorns000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>Donning this thorny wooden circlet causes it to meld with your scalp. It can be removed only upon your death or by a remove curse spell. The cap ingests some of your blood, dealing 2d4 piercing damage. After this first feeding, the thorns feed once per day for 1d4 piercing damage.<br>Once per day, you can sacrifice 1 hit point per level you possess to cast a special <em>@UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{entangle}</em> spell made of thorny vines. Charisma is your spellcasting ability for this effect. Restrained creatures must make a successful Charisma saving throw or be affected by a <em>@UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{charm person}</em> spell as thorns pierce their body. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target fails three consecutive saves, the thorns become deeply rooted and the charmed effect is permanent until remove curse or similar magic is cast on the target.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "cap-of-thorns",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPcapofthorns000"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Cloak of the Empire",
+  "_id": "KPcloakoftheempi",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement by a creature of non-good alignment)</em><br>This voluminous grey cloak has bright red trim and the sigil from an unknown empire on its back. The cloak is stiff and doesn’t fold as easily as normal cloth. Whenever you are struck by a ranged weapon attack, you can use a reaction to reduce the damage from that attack by your Charisma modifier (minimum of 1).<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "cloak-of-the-empire",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPcloakoftheempi"
+}

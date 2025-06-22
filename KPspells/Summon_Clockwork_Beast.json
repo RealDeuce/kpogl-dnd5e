@@ -1,0 +1,147 @@
+{
+  "_id": "KPsummonclockwor",
+  "name": "Summon Clockwork Beast",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>clockwork</em><br>Once per day, you can cast this ritual to summon a Tiny @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworkbeast]{clockwork beast}. The creature is considered a construct and can take the shape of the following: a spider, rat, snake, octopus, bat, or raven. The @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworkbeast]{clockwork beast} appears in an unoccupied space within range.<br>The @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworkbeast]{clockwork beast} acts independently of you but always obeys your commands. In combat, it rolls its own initiative and acts on its own turn.<br>When the @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworkbeast]{clockwork beast} is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through the @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworkbeast]{clockwork beast’s} eyes and hear what it hears, and you continue to do so until you use your action to return to your normal senses. During this time, you are deaf and blind with regard to your own senses.<br>The @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworkbeast]{clockwork beast} doesn’t require air, food, drink, or sleep. When its hit points are reduced to 0, it crumbles into a heap of gears and springs.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "WG2",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "value": "10",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+      },
+      "prompt": true,
+      "override": false
+    },
+    "range": {
+      "value": "10",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 5,
+    "school": "con",
+    "materials": {
+      "value": "a handful of tiny gears",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "ritual",
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "summon-clockwork-beast"
+  },
+  "sort": 1133,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPsummonclockwor"
+}

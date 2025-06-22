@@ -1,0 +1,45 @@
+{
+  "name": "Celestial Sextant",
+  "_id": "KPcelestialsexta",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>While attuned to the sextant, you can spend 1 minute using the sextant to determine your latitude and longitude, provided you can see the sun or stars. You can use an action steer up to four vessels that are within 1 mile of the sextant, provided their crews are willing. To do so, you must have spent at least 1 hour aboard each of the controlled vessels, performing basic sailing tasks and familiarizing yourself with the vessel.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "celestial-sextant",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPcelestialsexta"
+}

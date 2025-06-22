@@ -1,0 +1,45 @@
+{
+  "name": "Eyes of the Owl",
+  "_id": "KPeyesoftheowl00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>These translucent onyx lenses fit over the eyes. While wearing them, your eyes appear much larger than usual. In addition, you have advantage on Wisdom (Perception) checks that rely on sight, and you don’t have disadvantage on such checks when in a lightly-obscured area if the disadvantage is caused by dim light.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "eyes-of-the-owl",
+    "source": {
+      "book": "WL39",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPeyesoftheowl00"
+}

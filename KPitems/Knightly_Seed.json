@@ -1,0 +1,45 @@
+{
+  "name": "Knightly Seed",
+  "_id": "KPknightlyseed00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em><br>You must crack this seed and throw it—greater skill gains greater results. Make a Strength (Athletics) or Dexterity (Acrobatics) check and consult the table below. The creature that appears serves you as a knight and steed for a week and a day. If you are already a titled knight, the creature and steed serve as a squire.<table><tr><th>Check</th><th>Result</th></tr><tr><td>10 or less</td><td>@UUID[Compendium.dnd5e.monsters.Actor.D5UqYD1EnTrJaMTO]{Knight} with @UUID[Compendium.dnd5e.monsters.Actor.T1xZTDCGuvMBSq8d]{warhorse}</td></tr><tr><td>11–15</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPgreenknightoft]{Green knight of the woods} with warhorse</td></tr><tr><td>16–19</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPwyvernknight00]{Wyvern knight} with @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPwarwyvern00000]{war wyvern}</td></tr><tr><td>20+</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPinfernalknight]{Infernal knight} (devil) on @UUID[Compendium.dnd5e.monsters.Actor.5SgVGhQBswgWRwsF]{nightmare}</td></tr></table><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "knightly-seed",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPknightlyseed00"
+}

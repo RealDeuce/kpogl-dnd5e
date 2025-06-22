@@ -1,0 +1,156 @@
+{
+  "_id": "KPcallshadowmast",
+  "name": "Call Shadow Mastiff",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You tap into the power of the Plane of Shadow and conjure a large dog made of pure shadow in an unoccupied space you can see within range. The shadow mastiff disappears when it drops to 0 hit points or when the spell ends.<br>The mastiff is friendly to you and your companions. Roll initiative for the mastiff, which has its own turns. It obeys verbal commands that you issue to it (no action required by you). If you don’t issue any commands to it, the mastiff defends itself from hostile creatures, but otherwise takes no actions.<br>The GM has the shadow mastiff ’s statistics, using a @UUID[Compendium.dnd5e.monsters.Actor.EYiQZ3rFL25fEJY5]{dire wolf}, except it is a Monstrosity, it doubles its proficiency bonus when making Dexterity (Stealth) checks, and it has the Bay action and the Shadow Stealth bonus action, both of which are described below:<br><em><strong>Bay.</strong></em> The shadow mastiff uses an action to release a terrifying howl. Each creature within a 30-foot cone of the mastiff must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. While frightened, a creature must take the Dash action and move away from the mastiff by the safest available route on each of its turns, unless there is nowhere to move. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the Bay of shadow mastiffs for the next 24 hours.<br><em><strong>Shadow Stealth.</strong></em> As a bonus action while in dim light or darkness, the mastiff takes the Hide action.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "a dog’s tooth",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": "13"
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "call-shadow-mastiff"
+  },
+  "sort": 283,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPcallshadowmast"
+}

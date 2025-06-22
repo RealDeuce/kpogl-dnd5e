@@ -1,0 +1,45 @@
+{
+  "name": "Hammer of Decrees",
+  "_id": "KPhammerofdecree",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement by a creature of lawful alignment)</em><br>This adamantine hammer was part of a set of smith’s tools used to create weapons of law for an ancient dwarven civilization. It is pitted and appears damaged, and its oak handle is split and bound with cracking hide. While attuned to this hammer, you have advantage on ability checks using smith’s tools, and the time it takes you to craft an item with your smith’s tools is halved.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "hammer-of-decrees",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPhammerofdecree"
+}

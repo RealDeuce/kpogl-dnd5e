@@ -1,0 +1,45 @@
+{
+  "name": "Periapt of Proof Against Lies",
+  "_id": "KPperiaptofproof",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>A pendant fashioned from the claw or horn of a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPpactdrake00000]{pact drake} is affixed to a thin gold chain. While you wear it, you know if you hear a lie, but this doesn’t apply to evasive statements that remain within the boundaries of the truth. If you lie while wearing this pendant, you become poisoned for 10 minutes.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "periapt-of-proof-against-lies",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPperiaptofproof"
+}

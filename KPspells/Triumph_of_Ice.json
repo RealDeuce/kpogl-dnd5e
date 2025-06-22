@@ -1,0 +1,174 @@
+{
+  "_id": "KPtriumphofice00",
+  "name": "Triumph of Ice",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You transform one of the four elements-air, earth, fire, or water-into ice or snow. The affected area is a sphere with a radius of 100 feet, centered on you. The specific effect depends on the element you choose.<br><em><strong>Air.</strong></em> Vapor condenses into snowfall. If the effect of a <em>@UUID[Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX]{fog cloud}</em> spell, a <em>@UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{stinking cloud}</em>, or similar magic is in the area, this spell negates it. A creature of elemental air within range takes 8d6 cold damage-and, if airborne, it must make a successful Constitution saving throw at the start of its turn to avoid being knocked prone (no falling damage).<br><em><strong>Earth.</strong></em> Soil freezes into permafrost to a depth of 10 feet. A creature burrowing through the area has its speed halved until the area thaws unless it can burrow through solid rock. A creature of elemental earth within range must make a successful Constitution saving throw or take 8d6 cold damage.<br><em><strong>Fire.</strong></em> Flames or other sources of extreme heat (such as molten lava) on the ground within range transform into shards of ice, and the area they occupy becomes difficult terrain. Each creature in the previously burning area takes 2d6 slashing damage when the spell is cast and 1d6 slashing damage for every 5 feet it moves in the area (unless it is not hindered by icy terrain) until the spell ends; a successful Dexterity saving throw reduces the slashing damage by half. A creature of elemental fire within range must make a successful Constitution saving throw or take 8d6 cold damage and be stunned for 1d6 rounds.<br><em><strong>Water.</strong></em> Open water (a pond, lake, or river) freezes to a depth of 4 feet. A creature on the surface of the water when it freezes must make a successful Dexterity saving throw to avoid being trapped in the ice. A trapped creature can free itself by using an action to make a successful Strength (Athletics) check. A creature of elemental water within range takes no damage from the spell but is paralyzed for 1d6 rounds unless it makes a successful Constitution saving throw, and it treats the affected area as difficult terrain.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM1",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "type": "sphere",
+        "size": "100",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "100",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 7,
+    "school": "trs",
+    "materials": {
+      "value": "a stone extracted from glacial ice",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "100",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 8,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "cold"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "triumph-of-ice"
+  },
+  "sort": 1192,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPtriumphofice00"
+}

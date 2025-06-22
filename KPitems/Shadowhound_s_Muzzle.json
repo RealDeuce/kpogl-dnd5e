@@ -1,0 +1,45 @@
+{
+  "name": "Shadowhound’s Muzzle",
+  "_id": "KPshadowhoundsmu",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>This black leather muzzle seems to absorb light. As an action, you can place this muzzle around the snout of a grappled, unconscious, or willing canine with an Intelligence of 3 or lower, such as a mastiff or wolf. The canine transforms into a shadowy version of itself for 1 hour. It uses the statistics of a @UUID[Compendium.dnd5e.monsters.Actor.QGcQYZbVl4bWzi4E]{shadow}, except it retains its size. It has its own turns and acts on its own initiative. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to it, it defends itself from hostile creatures, but otherwise takes no actions.<br>If the shadow canine is reduced to 0 hit points, the canine reverts to its original form, and the muzzle is destroyed. At the end of the duration or if you remove the muzzle (by stroking the canine’s snout), the canine reverts to its original form, and the muzzle remains intact. If you become unattuned to this item while the muzzle is on a canine, its transformation becomes permanent, and the creature becomes independent with a will of its own.<br>Once used, the muzzle can’t be used to transform a canine again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "shadowhounds-muzzle",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPshadowhoundsmu"
+}

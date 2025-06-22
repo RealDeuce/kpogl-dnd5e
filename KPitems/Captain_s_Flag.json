@@ -1,0 +1,45 @@
+{
+  "name": "Captain’s Flag",
+  "_id": "KPcaptainsflag00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>This red and white flag adorned with a white anchor is made of velvet that never seems to fray in strong wings. When mounted and flown on a ship, the flag changes to the colors and symbol of the ship’s captain and crew.<br>While this flag is mounted on a ship, the captain and its allies have advantage on saving throws against being charmed or frightened. In addition, when the captain is reduced to 0 hit points while on the ship where this flag flies, each ally of the captain has advantage on its attack rolls until the end of its next turn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "captains-flag",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPcaptainsflag00"
+}

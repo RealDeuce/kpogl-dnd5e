@@ -1,0 +1,44 @@
+{
+  "name": "Golden Elixir",
+  "_id": "KPgoldenelixir00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, legendary</em><br>The most famous of the six elixirs is this thick, golden, syrupy liquid that grants its imbiber eternal life. The potion completely stops the aging process and renders the imbiber immune to all natural and magical diseases and poisons. The drinker can still be harmed or killed through other methods such as violence, but the march of time no longer holds any threat over him or her.<br><em><strong>Ingredients:</strong></em> a thimble of distilled sunlight, the breath of a solar, and the hair of a venerable sage who is at least 100 years old.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "golden-elixir",
+    "source": {
+      "book": "DM:Al",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPgoldenelixir00"
+}

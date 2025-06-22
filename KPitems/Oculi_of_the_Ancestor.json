@@ -1,0 +1,45 @@
+{
+  "name": "Oculi of the Ancestor",
+  "_id": "KPoculioftheance",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>An intricately depicted replica of an eyeball, right down to the blood vessels and other fine details, this item is carved from sacred hardwoods by soothsayers using a specialized ceremonial blade handcrafted specifically for this purpose.<br>When you use an action to place the orb within the eye socket of a skull, it telepathically shows you the last thing that was experienced by the creature before it died. This lasts for up to 1 minute and is limited to only what the creature saw or heard in the final moments of its life. The orb can’t show you what the creature might have detected using another sense, such as tremorsense.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "oculi-of-the-ancestor",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPoculioftheance"
+}

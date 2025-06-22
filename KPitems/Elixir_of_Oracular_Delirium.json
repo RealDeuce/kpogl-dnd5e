@@ -1,0 +1,44 @@
+{
+  "name": "Elixir of Oracular Delirium",
+  "_id": "KPelixiroforacul",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, common</em><br>This pearlescent fluid perpetually swirls inside its container with a slow kaleidoscopic churn. When you drink this potion, you can cast the <em>@UUID[Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY]{guidance}</em> spell for 1 hour at will. You can end this effect early as an action and gain the effects of the <em>@UUID[Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd]{augury}</em> spell. If you do, you are afflicted with short-term madness after learning the spell’s results.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "elixir-of-oracular-delirium",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPelixiroforacul"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Staff of the Unhatched",
+  "_id": "KPstaffoftheunha",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, uncommon (requires attunement by a sorcerer, warlock, or wizard)</em><br>This staff carved from a burnt ash tree is topped with an @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPunhatched00000]{unhatched dragon’s} skull. This staff can be wielded as a magic quarterstaff.<br>The staff has 5 charges for the following properties. It regains 1d4 + 1 expended charges daily at dusk. If you expend the last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed.<br><em><strong>Necrotic Strike.</strong></em> When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d8 necrotic damage to the target.<br><em><strong>Spells.</strong></em> While holding the staff, you can use an action to expend 1 charge to cast <em>@UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]{bane}</em> or <em>@UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil and good}</em> from it using your spell save DC. You can also use an action to cast one of the following spells from the staff without using any charges, using your spell save DC and spellcasting ability: <em>@UUID[Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd]{chill touch}</em> or <em>@UUID[Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU]{minor illusion}</em>.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-the-unhatched",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "5",
+      "recovery": [
+        {
+          "period": "dusk",
+          "formula": "1d4 + 1",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPstaffoftheunha"
+}

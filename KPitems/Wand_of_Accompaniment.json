@@ -1,0 +1,55 @@
+{
+  "name": "Wand of Accompaniment",
+  "_id": "KPwandofaccompan",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/weapons/wands/wand-star-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wand, very rare (requires attunement)</em><br>Tiny musical notes have been etched into the sides of this otherwise plain, wooden wand. It has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand disintegrates with a small bang.<br><em><strong>Dance.</strong></em> While holding the wand, you can use an action to expend 3 charges to cast the <em>@UUID[Compendium.dnd5e.spells.Item.TfRzwEgBHHkCc6Ql]{irresistible dance}</em> spell (save DC 17) from it. If the target is in the area of the Song property of this wand, it has disadvantage on the saving throw.<br><em><strong>Song.</strong></em> While holding the wand, you can use an action to expend 1 charge to cause the area within a 30-foot radius of you to fill with music for 1 minute. The type of music played is up to you, but it is performed flawlessly. Each creature in the area that can hear the music has advantage on saving throws against being deafened and against spells and effects that deal thunder damage.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "wand-of-accompaniment",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "7",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 1",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPwandofaccompan"
+}

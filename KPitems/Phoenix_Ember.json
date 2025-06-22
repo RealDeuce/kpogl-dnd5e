@@ -1,0 +1,55 @@
+{
+  "name": "Phoenix Ember",
+  "_id": "KPphoenixember00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, legendary (requires attunement)</em><br>This egg-shaped red and black stone is hot to the touch. An ancient, fossilized phoenix egg, the stone holds the burning essence of life and rebirth. While you are carrying the stone, you have resistance to fire damage.<br><em><strong>Fiery Rebirth.</strong></em> If you drop to 0 hit points while carrying the stone, you can drop to 1 hit point instead. If you do, a wave of flame bursts out from you, filling the area within 20 feet of you. Each of your enemies in the area must make a DC 17 Dexterity saving throw, taking 8d6 fire damage on a failed save, or half as much damage on a successful one. Once used, this property can’t be used again until the next dawn, and a small, burning crack appears in the egg’s surface.<br><em><strong>Spells.</strong></em> The stone has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it: <em>@UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{revivify}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz]{raise dead}</em> (2 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.jhhT9PsHy5A7EojO]{resurrection}</em> (3 charges, the spell functions as long as some bit of the target’s body remains, even just ashes or dust). If you expend the last charge, roll a d20. On a 1, the stone shatters into searing fragments, and a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPfirebird000000]{firebird} arises from the ashes. On any other roll, the stone regains 1d3 charges.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "phoenix-ember",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "legendary"
+  },
+  "_key": "!items!KPphoenixember00"
+}

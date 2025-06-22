@@ -1,0 +1,44 @@
+{
+  "name": "Potion of Malleability",
+  "_id": "KPpotionofmallea",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, uncommon</em><br>The glass bottle holding this thick, red liquid is strangely pliable, and compresses in your hand under the slightest pressure while it still holds the magical liquid. When you drink this potion, your body becomes extremely flexible and adaptable to pressure. For 1 hour, you have resistance to bludgeoning damage, can squeeze through a space large enough for a creature two sizes smaller than you, and have advantage on Dexterity (Acrobatics) checks made to escape a grapple.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "potion-of-malleability",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPpotionofmallea"
+}

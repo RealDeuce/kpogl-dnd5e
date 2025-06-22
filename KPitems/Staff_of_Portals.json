@@ -1,0 +1,75 @@
+{
+  "name": "Staff of Portals",
+  "_id": "KPstaffofportals",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, very rare (requires attunement by a wizard)</em><br>This iron-shod wooden staff is heavily worn, and it can be wielded as a quarterstaff that grants a +1 bonus to attack and damage rolls made with it. The staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses all of its magic and becomes a nonmagical quarterstaff.<br>While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: <em>@UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{arcane lock}</em> (2 charges), <em>@UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{dimension door}</em> (4 charges), <em>@UUID[Compendium.dnd5e.spells.Item.1nhIxh0DsJsntCfj]{knock}</em> (2 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{passwall}</em> (5 charges).<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-portals",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "10",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPstaffofportals"
+}

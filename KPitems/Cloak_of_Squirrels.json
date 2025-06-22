@@ -1,0 +1,55 @@
+{
+  "name": "Cloak of Squirrels",
+  "_id": "KPcloakofsquirre",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>This wool brocade cloak features a repeating pattern of squirrel heads and tree branches. It has 3 charges and regains all expended charges daily at dawn.<br>While wearing this cloak, you can use an action to expend 1 charge to cast the <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPlegionofrabids]{legion of rabid squirrels}</em> spell from it. You don’t need to be in a forest to cast the spell from this cloak, as the squirrels come from within the cloak. When the spell ends, the swarm vanishes back inside the cloak.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "cloak-of-squirrels",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPcloakofsquirre"
+}

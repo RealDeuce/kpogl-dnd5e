@@ -1,0 +1,44 @@
+{
+  "name": "Verdant Elixir",
+  "_id": "KPverdantelixir0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, uncommon</em><br>Multi-colored streaks of light occasionally flash through the clear liquid in this container, like bottled lightning. As an action, you can pour the contents of the vial onto the ground. All normal plants in a 100-foot radius centered on the point where you poured the vial become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.<br>Alternatively, you can apply the contents of the vial to a plant creature within 5 feet of you. For 1 hour, the target gains 2d10 temporary hit points, and it gains the “enlarge” effect of the <em>@UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{enlarge/reduce}</em> spell (no concentration required).<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "verdant-elixir",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPverdantelixir0"
+}

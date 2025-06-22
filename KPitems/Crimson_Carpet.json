@@ -1,0 +1,45 @@
+{
+  "name": "Crimson Carpet",
+  "_id": "KPcrimsoncarpet0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This rolled bundle of red felt is 3-feet long and 1-foot wide, and it weighs 10 pounds. You can use an action to speak the carpet’s command word to cause it to unroll, creating a horizontal walking surface or bridge up to 10 feet wide, up to 60 feet long, and 1/4 inch thick. The carpet doesn’t need to be anchored and can hover. The carpet has immunity to all damage and isn’t affected by the <em>@UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{dispel magic}</em> spell. The <em>@UUID[Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn]{disintegrate}</em> spell destroys the carpet.<br>The carpet remains unrolled until you use an action to repeat the command word, causing it to roll up again. When you do so, the carpet can’t be unrolled again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "crimson-carpet",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPcrimsoncarpet0"
+}

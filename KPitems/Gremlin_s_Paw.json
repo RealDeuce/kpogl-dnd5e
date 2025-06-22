@@ -1,0 +1,55 @@
+{
+  "name": "Gremlin’s Paw",
+  "_id": "KPgremlinspaw000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/weapons/wands/wand-star-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wand, rare (requires attunement)</em><br>This wand is fashioned from the fossilized forearm and claw of a gremlin. The wand has 5 charges. While holding the wand, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 15): <em>@UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]{bane}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL]{bestow curse}</em> (3 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.BQk5Row4NymMnUQl]{hideous laughter}</em> (1 charge).<br>The wand regains 1d4 + 1 expended charges daily at dusk. If you expend the wand’s last charge, roll a d20. On a 20, you must succeed on a DC 15 Wisdom saving throw or become afflicted with short-term madness. On a 1, the rod crumbles into ashes and is destroyed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "gremlins-paw",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "5",
+      "recovery": [
+        {
+          "period": "dusk",
+          "formula": "1d4 + 1",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPgremlinspaw000"
+}

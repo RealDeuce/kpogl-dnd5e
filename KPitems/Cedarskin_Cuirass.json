@@ -1,0 +1,44 @@
+{
+  "name": "Cedarskin Cuirass",
+  "_id": "KPcedarskincuira",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (Studded Leather), Very Rare (Requires Attunement)</em><br>This lightweight, fragrant piece is finely crafted of doeskin and reinforced with strips of woven cedar bark and rawhide. The armor is treated as <em>+1 studded leather</em>. In addition, while you wear it, you have advantage on any saving throws related to poison and disease, and difficult terrain doesn’t impede your movement.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "cedarskin-cuirass",
+    "source": {
+      "book": "WG4",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPcedarskincuira"
+}

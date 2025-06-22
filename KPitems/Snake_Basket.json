@@ -1,0 +1,45 @@
+{
+  "name": "Snake Basket",
+  "_id": "KPsnakebasket000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>The bowl of this simple, woven basket has hig‑sloped sides, making it almost spherical. A matching woven lid sits on top of it, and leather straps secure the lid through loops on the base. The basket can hold up to 10 pounds.<br>As an action, you can speak the command word and remove the lid to summon a @UUID[Compendium.dnd5e.monsters.Actor.XfQMBoTh892XSnCX]{swarm of poisonous snakes}. You can’t summon the snakes if items are in the basket. The snakes return to the basket, vanishing, after 1 minute or when the swarm is reduced to 0 hit points. If the basket is unavailable or otherwise destroyed, the snakes instead dissipate into a fine sand.<br>The swarm is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the swarm moves and what action it takes on its next turn, or give it general orders, such as to attack your enemies. In the absence of such orders, the swarm acts in a fashion appropriate to its nature.<br>Once the basket has been used to summon a @UUID[Compendium.dnd5e.monsters.Actor.XfQMBoTh892XSnCX]{swarm of poisonous snakes}, it can’t be used in this way again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "snake-basket",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPsnakebasket000"
+}

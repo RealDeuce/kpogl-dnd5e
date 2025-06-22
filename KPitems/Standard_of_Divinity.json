@@ -1,0 +1,64 @@
+{
+  "name": "Standard of Divinity",
+  "_id": "KPstandardofdivi",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (glaive, halberd, lance, or pike), rare (requires attunement by a cleric or paladin)</em><br>This weapon was created in a long-forgotten holy war. A woven banner bearing the symbol of a god hangs from it. When you attune to it, the banner changes to the colors and symbol of your deity. You gain a +1 bonus to attack and damage rolls made with this magic weapon.<br><em><strong>Plant Standard.</strong></em> You can use an action to thrust one end of the weapon into the ground and create a safeguard for yourself and your allies. Choose up to six creatures, which can include yourself. While within 30 feet of the standard, each creature you chose has advantage on saving throws for 1 minute. While the weapon is planted in the ground, you can’t use it to make attacks. You can’t use this property of the weapon again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "standard-of-divinity",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": ""
+  },
+  "_key": "!items!KPstandardofdivi"
+}

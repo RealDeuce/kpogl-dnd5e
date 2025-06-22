@@ -1,0 +1,44 @@
+{
+  "name": "Elk Horn Rod",
+  "_id": "KPelkhornrod0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, rare (requires attunement by a spellcaster)</em><br>This rod is fashioned from elk or reindeer horn. As an action, you can grant a +1 bonus on saving throws against spells and magical effects to a target touched by the wand, including yourself. The bonus lasts 1 round. If you are holding the rod while performing the somatic component of a <em>@UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{dispel magic}</em> spell or comparable magic, you have a +1 bonus on your spellcasting ability check.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "elk-horn-rod",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPelkhornrod0000"
+}

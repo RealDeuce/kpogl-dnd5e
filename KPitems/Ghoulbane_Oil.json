@@ -1,0 +1,44 @@
+{
+  "name": "Ghoulbane Oil",
+  "_id": "KPghoulbaneoil00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, very rare</em><br>This rusty-red gelatinous liquid glistens with tiny sparkling crystal flecks. The oil can coat one weapon or 5 pieces of ammunition. Applying the oil takes 1 minute. For 1 hour, if a @UUID[Compendium.dnd5e.monsters.Actor.OBujQLLPSmlJiZnL]{ghoul}, @UUID[Compendium.dnd5e.monsters.Actor.IyIybE5t2adMEVUM]{ghast}, or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPdarakhul000000]{darakhul} takes damage from the coated item, it takes an extra 2d6 damage of the weapon’s type.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ghoulbane-oil",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPghoulbaneoil00"
+}

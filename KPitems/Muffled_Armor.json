@@ -1,0 +1,44 @@
+{
+  "name": "Muffled Armor",
+  "_id": "KPmuffledarmor00",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (padded, scale mail, half plate, or any heavy), common</em><br>This magical armor is laid with enchantments to mute its noise and ease movement, even muting and dulling its colors and shine when you attempt to conceal yourself. While wearing this armor, you don’t have disadvantage on Dexterity (Stealth) checks as a result of wearing the armor, but you might still have disadvantage on such checks from other effects.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "muffled-armor",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": ""
+  },
+  "_key": "!items!KPmuffledarmor00"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Shroud of Oth",
+  "_id": "KPshroudofoth000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Unique (Requires Attunement)</em><br>The strands of this shimmering, silken shroud swirl like wisps of clouds. A plain golden band runs along its edge. Once attuned to it, you have resistance to radiant damage while wearing or carrying it. You can also cast the shroud over your head to render yourself invisible to celestial creatures and unable to be targeted by their abilities or magic. While hidden by the shroud, you can see the faint outline of a bent humanoid form staring at it from a nearby point. Ever‑watching, the crone-like figure occasionally points at you ominously. For each minute you are hidden by the shroud, you must succeed on a DC 12 Wisdom saving throw or become frightened, forcing you to remove it and ending the hidden effect.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "shroud-of-oth",
+    "source": {
+      "book": "PEC",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "unique"
+  },
+  "_key": "!items!KPshroudofoth000"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Elixir of the Deep",
+  "_id": "KPelixirofthedee",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, rare</em><br>This thick, green, swirling liquid tastes like salted mead. For 1 hour after drinking this elixir, you can breathe underwater, and you can see clearly underwater out to a range of 60 feet. The elixir doesn’t allow you to see through magical darkness, but you can see through nonmagical clouds of silt and other sedimentary particles as if they didn’t exist. For the duration, you also have advantage on saving throws against the spells and other magical effects of fey creatures native to water environments, such as a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPlorelei0000000]{lorelei} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPwaterhorse0000]{water horse}.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "elixir-of-the-deep",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPelixirofthedee"
+}

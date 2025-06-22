@@ -1,0 +1,44 @@
+{
+  "name": "Philter of Luck",
+  "_id": "KPphilterofluck0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, uncommon</em><br>When you drink this vibrant green, effervescent potion, you gain a finite amount of good fortune. Roll a d3 to determine where your fortune falls: ability checks (1), saving throws (2), or attack rolls (3). When you make a roll associated with your fortune, you can choose to tap into your good fortune and reroll the d20. This effect ends after you tap into your good fortune or when 1 hour has passed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "philter-of-luck",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPphilterofluck0"
+}

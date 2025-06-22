@@ -1,0 +1,45 @@
+{
+  "name": "Broken Rune: Uplift",
+  "_id": "KPbrokenruneupli",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Very Rare</em><br>An arcane rune engraved on this ancient, decorative tile glows faintly. As an action, you can toss the tile to the ground within 30 feet of you. For 1 minute, gravity reverses in a 10-foot-radius, 50-foot-high cylinder centered on the tile, mirroring the reverse gravity spell, except falling creatures take no damage from falling. After the duration ends, the tile crumbles to dust.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "broken-rune-uplift",
+    "source": {
+      "book": "MW",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPbrokenruneupli"
+}

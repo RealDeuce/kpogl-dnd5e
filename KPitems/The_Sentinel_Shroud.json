@@ -1,0 +1,45 @@
+{
+  "name": "The Sentinel Shroud",
+  "_id": "KPthesentinelshr",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em><br>This gauzy, charcoal-dyed cloak clasps around the neck, falling over any pack or lying comfortably underneath without impairing movement. Three times per long rest, you may, as a reaction that does not provoke opportunity attacks, activate the shroud to gain the effects of the <em>@UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{sanctuary}</em> spell for 30 minutes (DC 15). Creatures who succeed against the save cannot be affected by it again until after you’ve taken a long rest.<br>In addition, you are invisible to constructs and undead (as the <em>@UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibility}</em> spell). They cannot see you unless you act against them or the effect is dispelled. (The shroud is considered a 4th-level effect for dispelling attempts.)<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "the-sentinel-shroud",
+    "source": {
+      "book": "MW",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPthesentinelshr"
+}

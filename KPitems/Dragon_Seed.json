@@ -1,0 +1,45 @@
+{
+  "name": "Dragon Seed",
+  "_id": "KPdragonseed0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Very Rare</em><br>When thrown, this illusion seed turns into a dragon of some kind, though the exact type is known only to its creator. Roll on the table below.<table><tr><th>d20</th><th>Dragon Type</th><th>Charisma DC</th></tr><tr><td>1–2</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPlanterndragone]{Lantern dragonette}</td><td>8</td></tr><tr><td>3–4</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPwinddragonwyrm]{Wind dragon wyrmling}</td><td>9</td></tr><tr><td>5–6</td><td>@UUID[Compendium.dnd5e.monsters.Actor.vc2TAgIuq4yInjbf]{White dragon wyrmling}</td><td>10</td></tr><tr><td>7</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPlindwurm000000]{Lindwurm}</td><td>10</td></tr><tr><td>8</td><td>@UUID[Compendium.dnd5e.monsters.Actor.zgWkII3VoE4AHCND]{Red dragon wyrmling}</td><td>11</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.monsters.Actor.u1UQfHutP5eEKkjM]{Young white dragon}</td><td>11</td></tr><tr><td>10</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPyoungmithraldr]{Young mithral dragon}</td><td>12</td></tr><tr><td>11</td><td>@UUID[Compendium.dnd5e.monsters.Actor.FzvZ6xl3U9GoL9ju]{Young brass dragon}</td><td>13</td></tr><tr><td>12</td><td>@UUID[Compendium.dnd5e.monsters.Actor.qW8cBwg7ghCA4Cw6]{Young copper dragon}</td><td>14</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd5e.monsters.Actor.mNijwXPMhwR7yYfc]{Young blue dragon}</td><td>15</td></tr><tr><td>14</td><td>@UUID[Compendium.dnd5e.monsters.Actor.85ahD1jEo9B3POaQ]{Young green dragon}</td><td>16</td></tr><tr><td>15</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPyoungflamedrag]{Young flame dragon}</td><td>17</td></tr><tr><td>16</td><td>@UUID[Compendium.dnd5e.monsters.Actor.QSytPah5WKoFJ1zt]{Young gold dragon}</td><td>18</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd5e.monsters.Actor.3uIursokd3KdZrW3]{Adult white dragon}</td><td>19</td></tr><tr><td>18</td><td>@UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPadultmithraldr]{Adult mithral dragon}</td><td>20</td></tr><tr><td>19</td><td>@UUID[Compendium.dnd5e.monsters.Actor.geM2F7HvVGhtk3h4]{Adult silver dragon}</td><td>21</td></tr><tr><td>20</td><td>@UUID[Compendium.dnd5e.monsters.Actor.ZyIBOoZZD0nDaO2s]{Adult red dragon}</td><td>22</td></tr></table><br>The dragon created by the illusion seed considers you to be a friend, and it speaks with you and keeps you company for at least 24 hours. During that time, the dragon defends itself and may defend you. After each additional 24 hours, you must make a Charisma saving throw as shown on the table above. When the check fails, the illusory dragon vanishes.</table><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "dragon-seed",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPdragonseed0000"
+}

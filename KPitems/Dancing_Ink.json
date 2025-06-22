@@ -1,0 +1,45 @@
+{
+  "name": "Dancing Ink",
+  "_id": "KPdancingink0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>This ink is favored by merchants for eye-catching banners and by toy makers for scrolls and books for children. Typically found in 1d4 pots, this ink allows you to draw an illustration that moves about the page where it was drawn, whether that is an illustration of waves crashing against a shore along the bottom of the page or a rabbit leaping over the page’s text. The ink wears away over time due to the movement and fades from the page after 2d4 weeks. The ink moves only when exposed to light, and some long-forgotten tomes have been opened to reveal small, moving illustrations drawn by ancient scholars.<br>One pot can be used to fill 25 pages of a book or a similar total area for larger banners.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "dancing-ink",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPdancingink0000"
+}

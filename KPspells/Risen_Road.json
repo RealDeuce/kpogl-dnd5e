@@ -1,0 +1,138 @@
+{
+  "_id": "KPrisenroad00000",
+  "name": "Risen Road",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>When you cast this spell, you open a glowing portal into the plane of shadow. The portal remains open for 1 minute, until 10 creatures step through it, or until you collapse it (no action required). Stepping through the portal places you on a shadow road leading to a destination within 50 miles, or in a direction specified by you. The road is in ideal condition. You and your companions can travel it safely at a normal pace, but you can't rest on the road; if you stop for more than 10 minutes, the spell expires and dumps you back into the real world at a random spot within 10 miles of your starting point.<br>The spell expires 2d6 hours after being cast. When that happens, travelers on the road are safely deposited near their specified destination or 50 miles from their starting point in the direction that was specified when the spell was cast. Travelers never incur exhaustion no matter how many hours they spent walking or riding on the shadow road. The temporary shadow road ceases to exist; anything left behind is lost in the shadow realm. Each casting of <em>risen road</em> creates a new shadow road.<br>A small chance exists that a temporary shadow road might intersect with an existing shadow road, opening the possibility for meeting other travelers or monsters, or for choosing a different destination mid-journey. The likelihood is entirely up to the GM.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM:B&D",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "2-12 hours"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "mi",
+        "type": "radius",
+        "size": "50",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "50",
+      "units": "mi"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 4,
+    "school": "trs",
+    "materials": {
+      "value": "a bentwood stick",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "risen-road"
+  },
+  "sort": 972,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPrisenroad00000"
+}

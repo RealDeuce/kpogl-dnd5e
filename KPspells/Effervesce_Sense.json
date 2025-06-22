@@ -1,0 +1,138 @@
+{
+  "_id": "KPeffervescesens",
+  "name": "Effervesce Sense",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You transform one sensory organ of a willing creature you touch. Choose one of the target’s sensory organs (eyes, nose, mouth, ears, or skin). In a blur of magical bubbles that inflate and pop around it, the chosen organ transforms into the corresponding organ of an animal, enhancing the associated sense (sight for eyes, smell for nose, taste for mouth, hearing for ears, and touch for skin). For example, a pair of transformed eyes might become like a chameleon’s or owl’s, while transformed skin might become covered in millions of tiny hairs like those on a spider or the skin of the target’s hand might become exceptionally fleshy like a star-nosed mole’s nose.<br>Once before the spell ends, the target can grant itself advantage on one Wisdom (Perception) check of its choice using that sense. The spell then ends. At the GM’s discretion, this advantage can be applied to a different ability check related to the chosen sensory organ, such as a rogue gaining advantage on a thieves’ tools check while listening to the tumblers within a lock the rogue is picking.<br>This spell has no effect on a creature with a naturally strong sense, such as a badger’s already-enhanced smell from its Keen Smell trait (though this spell can be used to enhance the badger’s sight or hearing).<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM2",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "0",
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 0,
+    "school": "trs",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "effervesce-sense"
+  },
+  "sort": 497,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPeffervescesens"
+}

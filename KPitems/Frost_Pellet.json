@@ -1,0 +1,45 @@
+{
+  "name": "Frost Pellet",
+  "_id": "KPfrostpellet000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>Fashioned from the stomach lining of a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPdevilshark0000]{devil shark}, this rubbery pellet is cold to the touch. When you consume the pellet, you feel bloated, and you are immune to cold damage for 1 hour. Once before the duration ends, you can expel a 30-foot cone of cold water. Each creature in the cone must make a DC 15 Constitution saving throw. On a failure, the creature takes 6d8 cold damage and is pushed 10 feet away from you. On a success, the creature takes half the damage and isn’t pushed away.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "frost-pellet",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPfrostpellet000"
+}

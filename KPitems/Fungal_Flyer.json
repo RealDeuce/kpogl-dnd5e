@@ -1,0 +1,45 @@
+{
+  "name": "Fungal Flyer",
+  "_id": "KPfungalflyer000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>This living vehicle was once a dire bat, but now it is as much fungus as flesh. Saddlelike formations grow from its back to accommodate a Small pilot and several passengers. The <em>fungal flyer</em> is technically alive, controlled by a goad fixed into its brain and a set of reins. Despite being a living thing, the <em>fungal flyer</em> is treated as an object for purposes of spells and other effects. It has AC 9, 40 hit points, resistance to nonmagical bludgeoning, piercing, and slashing damage, and immunity to psychic damage.<br>The <em>fungal flyer</em> can transport up to five Medium creatures in addition to its pilot, who must be Small and must be attuned to the flyer. The vehicle flies at 6 mph (50 feet per round). Its maximum load under any circumstance is 1,000 lb.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "fungal-flyer",
+    "source": {
+      "book": "DC&SS",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPfungalflyer000"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Potion of Regurgitation",
+  "_id": "KPpotionofregurg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, uncommon</em><br>When you drink this potion, you can use your action to devour any object you hold, weighing up to 2 pounds. This object remains within an extradimensional space until any time up to 1 hour later, when you can use a bonus action to vomit it back up. If you vomit an item back up before 1 hour has elapsed, you can use the effect again on the same object or any other item you hold of up to 2 pounds. You automatically regurgitate any swallowed item once the hour is up.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "potion-of-regurgitation",
+    "source": {
+      "book": "ZCC",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPpotionofregurg"
+}

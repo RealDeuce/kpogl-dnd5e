@@ -1,0 +1,44 @@
+{
+  "name": "Scroll of Conjuring",
+  "_id": "KPscrollofconjur",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "icons/sundries/scrolls/scroll-bound-black-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Scroll, uncommon (least), rare (lesser), very rare (greater)</em><br>By using an action to recite the incantation inscribed on this scroll, you can conjure a creature to assist you, chosen by the GM or determined by rolling a d8 and consulting the appropriate table. Once the creature appears, the scroll crumbles to dust and is destroyed. The creature vanishes after 8 hours or when it is reduced to 0 hit points.<br>The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In absence of such orders, the creature acts in a fashion appropriate to its nature.<br>Alternately, you can command the creature to perform a single task, which it will do to the best of its ability. A task can be simple (“Remove the debris blocking this passage. ”) or complex (“Search the castle, taking care to remain unnoticed. Take a count of the guards and their locations, then return here and draw me a map. ”) but must be completable within 8 hours.<br><h2>Least Scroll of Conjuring</h2><table><tr><th>d8</th><th>Creature</th></tr><tr><td>1</td><td>@UUID[Compendium.dnd5e.monsters.Actor.BUCfQ7ihaXX75Vai]{Dust}/@UUID[Compendium.dnd5e.monsters.Actor.ESEm3fGUfSKjzVUc]{Ice}/@UUID[Compendium.dnd5e.monsters.Actor.oJCOB9X2BPsBkWW5]{Magma mephit} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPlanterndragone]{lantern dragonette}</td></tr><tr><td>2</td><td>@UUID[Compendium.dnd5e.monsters.Actor.T2PExQE84ZcIbAXz]{Hippogriff} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworksoldi]{clockwork soldier}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e.monsters.Actor.dLQiESMsfsXijD5c]{Imp}/@UUID[Compendium.dnd5e.monsters.Actor.bwtkdzavdNHISgp4]{Quasit} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPaviere00000000]{aviere}</td></tr><tr><td>4</td><td>@UUID[Compendium.dnd5e.monsters.Actor.PH78NBdvoaszAb61]{Death dog} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPshockwing00000]{shockwing giant moth}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.monsters.Actor.5kZNNWzZ6HrfKuWf]{Centaur} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KProggenwolf0000]{roggenwolf}</td></tr><tr><td>6</td><td>@UUID[Compendium.dnd5e.monsters.Actor.aKt7vFAS1J0x3FQm]{Ettercap} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworkhound]{clockwork hound}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.monsters.Actor.eIGowKTkEBC9gUzx]{Ogre} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPspiderthief000]{spider thief}</td></tr><tr><td>8</td><td>@UUID[Compendium.dnd5e.monsters.Actor.h052EIIUmRwJum65]{Griffon} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPlightdragonwyr]{light dragon wyrmling}</td></tr></table><br><h2>Lesser Scroll of Conjuring</h2><tr><th>d8</th><th>Creature</th></tr><tr><td>1</td><td>@UUID[Compendium.dnd5e.monsters.Actor.AyvniEKtyroOe83p]{Copper dragon wyrmling} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPwinddragonwyrm]{wind dragon wyrmling}</td></tr><tr><td>2</td><td>@UUID[Compendium.dnd5e.monsters.Actor.EIgAW1dWVPpyWLUh]{Pegasus} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPwinddemon00000]{wind demon}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e.monsters.Actor.0m8QyDN52qw9zzOM]{Gargoyle} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPhoarfrostdrake]{hoarfrost drake}</td></tr><tr><td>4</td><td>@UUID[Compendium.dnd5e.monsters.Actor.tFJX45zj3QDc3Zli]{Grick} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPkitsune0000000]{kitsune}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.monsters.Actor.iSCL4Q82ivnYelzc]{Hell hound} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPswolbold000000]{swolbold}</td></tr><tr><td>6</td><td>@UUID[Compendium.dnd5e.monsters.Actor.yGTh874etxUckmAf]{Winter wolf} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPclockworkhunts]{clockwork huntsman}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf]{Minotaur} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPpeludadrake000]{peluda drake}</td></tr><tr><td>8</td><td>@UUID[Compendium.dnd5e.monsters.Actor.mWbrPhcKOz6oLXMV]{Doppelganger} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPpombero0000000]{pombero}</td></tr></table><br><h2>Greater Scroll of Conjuring</h2><tr><th>d8</th><th>Creature</th></tr><tr><td>1</td><td>@UUID[Compendium.dnd5e.monsters.Actor.9ggQBmAKXraOtz7S]{Bearded devil} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPkorrigan000000]{korrigan}</td></tr><tr><td>2</td><td>@UUID[Compendium.dnd5e.monsters.Actor.5SgVGhQBswgWRwsF]{Nightmare} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPflamedragonwyr]{flame dragon wyrmling}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e.monsters.Actor.llSG0Hi4eGlRlQ4o]{Phase spider} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPbloodsapper000]{bloodsapper}</td></tr><tr><td>4</td><td>@UUID[Compendium.dnd5e.monsters.Actor.P6qC8jB3pnEH0tIE]{Chuul} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPvenomelemental]{venom elemental}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.monsters.Actor.KLCkHep28HBfdsky]{Ettin} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPdomovoi0000000]{domovoi}</td></tr><tr><td>6</td><td>@UUID[Compendium.dnd5e.monsters.Actor.VmdyZDjqAc8vdncY]{Succubus/Incubus} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPratatosk000000]{ratatosk}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.monsters.Actor.yVNPVJIBpQ2Mp3Xa]{Salamander} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPmoondrake00000]{moon drake}</td></tr><tr><td>8</td><td>@UUID[Compendium.dnd5e.monsters.Actor.2MZNHeOZweXAYbv1]{Xorn} or @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPkarakura000000]{karakura}</td></tr></table><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "scroll-of-conjuring",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPscrollofconjur"
+}

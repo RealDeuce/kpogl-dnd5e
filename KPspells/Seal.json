@@ -1,0 +1,146 @@
+{
+  "_id": "KPseal0000000000",
+  "name": "Seal",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You magically seal the cracks, crevices, gaps, and breaches of a room or vehicle, protecting those inside it. You must be in a room, structure, vehicle, or chamber with a ceiling, walls, and windows, doors, portcullises, or other ways of physically closing off ingress and egress, or the spell fails.<br>When you cast this spell, you touch the floor of a chamber that is up to fifty 5-foot squares and up to 10 feet tall, shaped as you desire. You can ward a long hallway, a square bedchamber, the lowest deck of a ship, the interior of a siege engine, or a similar chamber.<br>Until the spell ends, the chamber is protected in the following ways.<br><em><strong>Barred.</strong></em> Doors, windows, and other entryways into the chamber are magically locked, as if sealed by an arcane lock spell.<br><em><strong>Bolstered.</strong></em> The chamber’s walls, floor, ceiling, doors, windows, and similar structural features are immune to nonmagical bludgeoning, piercing, and slashing damage and have resistance to magical damage.<br><em><strong>Impermeable.</strong></em> Magical and nonmagical water, gases, and other liquids and vapors can’t pass into the chamber from outside of it.<br><em><strong>Safe.</strong></em> The air within the chamber is safe to breathe and capable of sustaining any number of breathing creatures for the duration, provided the creature is wholly within the chamber.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM2",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+      },
+      "prompt": true,
+      "override": false
+    },
+    "range": {
+      "value": "0",
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 3,
+    "school": "abj",
+    "materials": {
+      "value": "an ounce of wax with flakes of gold worth at least 50 gp",
+      "consumed": false,
+      "cost": 50,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "seal"
+  },
+  "sort": 1000,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPseal0000000000"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Alchemical Lantern",
+  "_id": "KPalchemicallant",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This <em>@UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{hooded lantern}</em> has 3 charges and regains all expended charges daily at dusk. While the lantern is lit, you can use an action to expend 1 charge to cause the lantern to spit gooey alchemical fire at a creature you can see in the lantern’s bright light. The lantern makes its attack roll with a +5 bonus. On a hit, the target takes 2d6 fire damage, and it ignites. Until a creature takes an action to douse the fire, the target takes 1d6 fire damage at the start of each of its turns.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "alchemical-lantern",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "dusk",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPalchemicallant"
+}

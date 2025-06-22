@@ -1,0 +1,45 @@
+{
+  "name": "Tavern Seed",
+  "_id": "KPtavernseed0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em><br>A <em>tavern seed</em> must be used outdoors, and when thrown, it creates a small, snug tavern of stone and wood, roughly 40 feet by 20 feet, with a lower public floor and an upper floor devoted to the staff bedchambers, storage, and a single room for rent. The entire building takes on an outward style of architecture, materials, roofing, and appearance as suits the region where it stands. It has a staff of three: a cook, a bartender, and a servant, of a type typical of the region (so humans in a human realm, shadow fey in the Shadow Realm, goblins in the wastelands, and so on).<br>Using a tavern seed in an existing settlement creates a snug tavern as normal, magically shifting two buildings to either side slightly to make room. The new structure is certainly notable and surprising to residents of the place.<br>A <em>tavern seed</em> combined with a <em>@UUID[Compendium.koboldpressogl.koboldpressitems.Item.KProadseed000000]{road seed}</em> always includes a set of warm, secure stables as well as the tavern building itself.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "tavern-seed",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPtavernseed0000"
+}

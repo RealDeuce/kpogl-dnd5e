@@ -1,0 +1,45 @@
+{
+  "name": "Beads of Contemplation",
+  "_id": "KPbeadsofcontemp",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement by a monk)</em><br>This strand of eight wooden beads, each cleverly carved with geometric patterns, hangs from a stout length of cording. The beads store ki energy placed into them, holding the ki until you use it. The beads can store up to 8 ki points. At the end of a short or long rest, you can place ki energy into the beads by touching them and expending a number of ki points equal to half your proficiency bonus.<br>While wearing or carrying the beads, you can use a bonus action to remove any number of ki points from the beads, regaining that amount of ki points and freeing up space in the beads.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "beads-of-contemplation",
+    "source": {
+      "book": "ToH",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPbeadsofcontemp"
+}

@@ -1,0 +1,155 @@
+{
+  "_id": "KPpratfall000000",
+  "name": "Pratfall",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You cause a small bit of bad luck to befall a creature, making it look humorously foolish. When you cast this spell and as a bonus action on each of your turns, you can cause one creature you can see within range to experience one of the following effects. A creature can experience only one of these effects at a time.<br><em><strong>Clothing Malfunction.</strong></em> An invisible force sharply tugs on the target’s trousers, causing their clothing to slip. The target must succeed on a Dexterity saving throw or it has disadvantage on the next attack roll it makes with a two-handed weapon or it loses its shield bonus to its AC (your choice) until the end of its next turn as it uses one hand to gather itself.<br><em><strong>Disorienting Clap.</strong></em> The target feels the sensation of a quick, mild clap against its ears, briefly disorienting it. The target must succeed on a Constitution saving throw or it can’t cast spells with somatic components until the end of its next turn.<br><em><strong>Flash of Lights.</strong></em> Strobing lights flash briefly before your target’s eyes, causing difficulties with its vision. The target must succeed on a Constitution saving throw or its passive Perception is halved until the end of its next turn.<br><em><strong>Slippery Floor.</strong></em> A small, oily puddle appears under the target’s feet, causing it to lose balance. The target must succeed on a Dexterity saving throw or be unable to use bonus actions on its next turn as it regains its footing and balance.<br><em><strong>Sneezing Fit.</strong></em> Tiny particles blow in your target’s face, causing it to sneeze. The target must succeed on a Constitution saving throw or have disadvantage on the first attack roll it makes before the end of its next turn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM2",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 1,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "pratfall"
+  },
+  "sort": 913,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPpratfall000000"
+}

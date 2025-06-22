@@ -1,0 +1,55 @@
+{
+  "name": "Chronomancer’s Pocket Clock",
+  "_id": "KPchronomancersp",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare</em><br>This golden pocketwatch has 3 charges and regains 1d3 expended charges daily at midnight. While holding it, you can use an action to wind it and expend 1 charge to cast the <em>@UUID[Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5]{haste}</em> spell from it.<br>If the pendant is destroyed (AC 14, 15 hit points) while it has 3 charges, the creature that broke it gains the effects of the <em>@UUID[Compendium.dnd5e.spells.Item.JYuRBwxpoFhXduvD]{time stop}</em> spell.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "chronomancers-pocket-clock",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPchronomancersp"
+}

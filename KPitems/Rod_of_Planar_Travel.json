@@ -1,0 +1,44 @@
+{
+  "name": "Rod of Planar Travel",
+  "_id": "KProdofplanartra",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, very rare (requires attunement)</em><br>This ornate rod has a crystal button halfway along its length. You can use an action to push the button and then make a DC 15 Intelligence check. On a successful check, the rod opens a gate (as per the <em>@UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{gate}</em> spell) to another plane of your choice. On a failure, you and each creature and object within 15 feet of you are pulled into a random plane.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "rod-of-planar-travel",
+    "source": {
+      "book": "WG3",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KProdofplanartra"
+}

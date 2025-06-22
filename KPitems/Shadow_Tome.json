@@ -1,0 +1,45 @@
+{
+  "name": "Shadow Tome",
+  "_id": "KPshadowtome0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>This unassuming book possesses powerful illusory magics. When you write on its pages while attuned to it, you can choose for the contents to appear to be something else entirely. A <em>shadow tome</em> used as a spellbook could be made to look like a cookbook, for example. To read the true text, you must speak a command word. A second speaking of the word hides the true text once more. A <em>@UUID[Compendium.dnd5e.spells.Item.XzkJpE6XpZfKjODD]{true seeing}</em> spell can see past the shadow tome’s magic and reveals the true text to the reader.<br>Most shadow tomes already contain text, and it is rare to find one filled with blank pages. When you first attune to the book, you can choose to keep or remove the book’s previous contents.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "shadow-tome",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPshadowtome0000"
+}

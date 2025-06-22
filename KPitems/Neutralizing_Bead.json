@@ -1,0 +1,45 @@
+{
+  "name": "Neutralizing Bead",
+  "_id": "KPneutralizingbe",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This hard, gritty, flavorless bead can be dissolved in liquid or powdered between your fingers and sprinkled over food. Doing so neutralizes any poisons that may be present. If the food or liquid is poisoned, it takes on a brief reddish hue where it makes contact with the bead as the bead dissolves. Alternatively, you can chew and swallow the bead and gain the effects of an antitoxin.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "neutralizing-bead",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPneutralizingbe"
+}

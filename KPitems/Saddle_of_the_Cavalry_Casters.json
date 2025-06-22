@@ -1,0 +1,45 @@
+{
+  "name": "Saddle of the Cavalry Casters",
+  "_id": "KPsaddleofthecav",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This magic saddle adjusts its size and shape to fit the animal to which it is strapped. While a mount wears this saddle, creatures have disadvantage on opportunity attacks against the mount or its rider. While you sit astride this saddle, you have advantage on any checks to remain mounted and on Constitution saving throws to maintain concentration on a spell when you take damage.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "saddle-of-the-cavalry-casters",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPsaddleofthecav"
+}

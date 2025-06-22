@@ -1,0 +1,75 @@
+{
+  "name": "Staff of Voices",
+  "_id": "KPstaffofvoices0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, rare (requires attunement by a bard, cleric, druid, warlock, or wizard)</em><br>The length of this wooden staff is carved with images of mouths whispering, speaking, and screaming. This staff can be wielded as a magic quarterstaff. While holding this staff, you can’t be deafened, and you can act normally in areas where sound is prevented, such as in the area of a silence spell. Any creature that is not deafened can hear your voice clearly from up to 1,000 feet away if you wish them to hear it.<br>The staff has 10 charges for the following properties. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the mouths carved into the staff give a collective sigh and close, and the staff becomes a nonmagical quarterstaff.<br><em><strong>Spells.</strong></em> While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: <em>@UUID[Compendium.dnd5e.spells.Item.T1vpZLam7LezjToj]{divine word}</em> (7 charges), <em>@UUID[Compendium.dnd5e.spells.Item.7v06rdmUakoTk1LQ]{magic mouth}</em> (2 charges), <em>@UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{speak with animals}</em> (1 charge), <em>@UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with dead}</em> (3 charges), <em>@UUID[Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy]{speak with plants}</em> (3 charges), or <em>@UUID[Compendium.dnd5e.spells.Item.76C0FdcxlU8F9Rl2]{word of recall}</em> (6 charges). You can also use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.cdrYKaFi98YWaBMw]{vicious mockery}</em> cantrip from the staff without using any charges.<br><em><strong>Thunderous Shout.</strong></em> While holding the staff, you can use an action to expend 1 charge and release a chorus of mighty shouts in a 15-foot cone from it. Each creature in the area must make a Constitution saving throw. On a failure, a creature takes 2d8 thunder damage and is deafened for 1 minute. On a success, a creature takes half the damage and is deafened until the end of its next turn. A deafened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "staff-of-voices",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "10",
+      "recovery": [
+        {
+          "period": "dawn",
+          "formula": "1d6 + 4",
+          "type": "formula"
+        }
+      ]
+    },
+    "rarity": "rare"
+  },
+  "_key": "!items!KPstaffofvoices0"
+}

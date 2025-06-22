@@ -1,0 +1,146 @@
+{
+  "_id": "KPcreategraveyar",
+  "name": "Create Graveyard Dragon",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Choose a corpse of a Huge or Large dragon within range. This corpse becomes a graveyard dragon, a skeletal dragon wrapped in energy of the dragon’s type, under your control.<br>As a bonus action on each of your turns, you can mentally command the dragon if the creature is within 120 feet of you. You decide what action the dragon will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the dragon only defends itself against hostile creatures. Once given an order, the dragon continues to follow it until its task is complete.<br>The dragon is under your control for 8 hours, after which it stops obeying any command you have given it. To maintain control of the dragon for another 8 hours, you must cast this spell on the dragon before the current 8-hour period ends, or you can use an action to make an ability check using your spellcasting ability contested by the dragon’s Charisma check, reasserting your control over the dragon for another 8 hours on a success. This use of the spell reasserts your control over the dragon rather than animating a new one. Once you have reasserted your control over the dragon with two successful checks, you can’t do so again until you reassert your control over the dragon at least once with a casting of this spell.<br>The GM has the statistics for this creature, using a @UUID[Compendium.koboldpressogl.koboldpressmonsters.Actor.KPgraveyarddrago]{graveyard dragon} or a @UUID[Compendium.dnd5e.monsters.Actor.bcapsJdIhY5WktpT]{young black dragon} with resistances and damage types appropriate to the type of dragon you targeted with this spell and with the following bonus action:<br><em><strong>Reassemble Bones.</strong></em> As a bonus action, the dragon can rearrange its bone structure to fit into a space as narrow as 1 foot wide without squeezing. It can use a bonus action to reassemble itself into its normal form. While in this compressed form, it can’t make melee weapon attacks.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM2",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "Instantaneous"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+      },
+      "prompt": true,
+      "override": false
+    },
+    "range": {
+      "value": "20",
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 9,
+    "school": "nec",
+    "materials": {
+      "value": "a collection of coins and gems worth at least 1,000 gp",
+      "consumed": false,
+      "cost": 1000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivityUtl": {
+        "_id": "KPOGLactivityUtl",
+        "type": "utility",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "create-graveyard-dragon"
+  },
+  "sort": 372,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPcreategraveyar"
+}

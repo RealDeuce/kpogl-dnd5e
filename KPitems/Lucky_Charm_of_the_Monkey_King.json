@@ -1,0 +1,45 @@
+{
+  "name": "Lucky Charm of the Monkey King",
+  "_id": "KPluckycharmofth",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common (requires attunement)</em><br>This tiny stone statue of a grinning monkey holds a leather loop in its paws, allowing the charm to hang from a belt or pouch. While attuned to this charm, you can use a bonus action to gain a +1 bonus on your next ability check, attack roll, or saving throw. Once used, the charm can’t be used again until the next dawn. You can be attuned to only one lucky charm at a time.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "lucky-charm-of-the-monkey-king",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPluckycharmofth"
+}

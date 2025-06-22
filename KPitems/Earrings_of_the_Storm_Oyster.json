@@ -1,0 +1,45 @@
+{
+  "name": "Earrings of the Storm Oyster",
+  "_id": "KPearringsofthes",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>The deep blue pearls forming the core of these earrings come from oysters that survive being struck by lightning. While wearing these earrings, you gain the following benefits:<ul><li>You have resistance to lightning and thunder damage.</li><li>You can understand Primordial. When it is spoken, the pearls echo the words in a language you can understand, at a whisper only you can hear.</li><li>You can’t be deafened.</li><li>You can breathe air and water.</li><li>As an action, you can cast the <em>@UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{sleet storm}</em> spell (save DC 15) from the earrings. The earrings can’t be used this way again until the next dawn.</li><br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "earrings-of-the-storm-oyster",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPearringsofthes"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Ward Against Wild Appetites",
+  "_id": "KPwardagainstwil",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement by a druid or ranger)</em><br>Seventeen animal teeth of various sizes hang together on a simple leather thong, and each tooth is dyed a different color using pigments from plants native to old-growth forests.<br>When a beast or monstrosity with an Intelligence of 4 or lower targets you with an attack, it has disadvantage on the attack roll if the attack is a bite. You must be wearing the necklace to gain this benefit.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ward-against-wild-appetites",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPwardagainstwil"
+}

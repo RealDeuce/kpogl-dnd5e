@@ -1,0 +1,180 @@
+{
+  "_id": "KPstonefetch0000",
+  "name": "Stone Fetch",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You create a stony duplicate of yourself, which rises out of the ground and appears next to you. The duplicate looks like a stone carving of you, including the clothing you’re wearing and equipment you’re carrying at the time of the casting. It uses the statistics of an @UUID[Compendium.dnd5e.monsters.Actor.sApYLZj9PTZ40wJr]{earth elemental}.<br>For the duration, you have a telepathic link with the duplicate. You can use this telepathic link to issue commands to the duplicate while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as “Run over there” or “Fetch that object.” If the duplicate completes the order and doesn’t receive further direction from you, it takes the Dodge or Hide action (your choice) on its turn.The duplicate can’t attack, but it can speak in a gravelly version of your voice and mimic your mannerisms with exact detail.<br>As a bonus action, you can see through the duplicate’s eyes and hear what it hears as if you were in the duplicate’s space, gaining the benefits of the earth elemental’s darkvision and tremorsense until the start of your next turn. During this time, you are deaf and blind with regard to your own senses. As an action while sharing the duplicate’s senses, you can make the duplicate explode in a shower of jagged chunks of rock, destroying the duplicate and ending the spell. Each creature within 10 feet of the duplicate must make a Dexterity saving throw. A creature takes 4d10 slashing damage on a failed save, or half as much damage on a successful one.<br>The duplicate explodes at the end of the duration, if you didn’t cause it to explode before then. If the duplicate is killed before it explodes, you suffer one level of exhaustion.<br><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 5th level or higher, the explosion damage increases by 1d10 for each slot level above 4th. In addition, when you cast this spell using a spell slot of 6th level or higher, the duration is 1 hour. When you cast this spell using a spell slot of 8th level or higher, the duration is 8 hours. Using a spell slot of 6th level or higher grants a duration that doesn’t require concentration.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "ToH",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+      },
+      "prompt": true,
+      "override": false
+    },
+    "range": {
+      "value": "0",
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "0",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "half",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 4,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "slashing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "stone-fetch"
+  },
+  "sort": 1113,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPstonefetch0000"
+}

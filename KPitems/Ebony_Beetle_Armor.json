@@ -1,0 +1,44 @@
+{
+  "name": "Ebony Beetle Armor",
+  "_id": "KPebonybeetlearm",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (Medium or Heavy), Rare</em><br>This glossy black armor is made from enchanted carrion beetle chitin by the darakhul. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the ebony beetle version of the armor doesn’t. While wearing the armor, you are immune to slashing damage. It is half the weight of comparable metal armor.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ebony-beetle-armor",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPebonybeetlearm"
+}

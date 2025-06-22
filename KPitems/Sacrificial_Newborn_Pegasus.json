@@ -1,0 +1,44 @@
+{
+  "name": "Sacrificial Newborn Pegasus",
+  "_id": "KPsacrificialnew",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item</em><br>This mewling newborn pegasus is sticky with membrane. If the sacrificial newborn pegasus was blighted by the pestilent grubs from the exalted mummified angel of pestilence, the pegasus is dead and cannot be sacrificed.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "sacrificial-newborn-pegasus",
+    "source": {
+      "book": "ToM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": ""
+  },
+  "_key": "!items!KPsacrificialnew"
+}

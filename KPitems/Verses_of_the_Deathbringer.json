@@ -1,0 +1,45 @@
+{
+  "name": "Verses of the Deathbringer",
+  "_id": "KPversesofthedea",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em><br>This small book of poetry has 1d4 + 2 pages with a poem on each page. You can use an action to tear out a page and read it aloud to a creature within 60 feet. That creature takes 2d6 psychic damage from the horrific nature of the poem and must make a DC 15 Wisdom saving throw or become charmed for 1 minute. While charmed, the creature is incapacitated and has a speed of 0.<br>The effect ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "verses-of-the-deathbringer",
+    "source": {
+      "book": "WG3",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPversesofthedea"
+}

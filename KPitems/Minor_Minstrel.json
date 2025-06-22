@@ -1,0 +1,45 @@
+{
+  "name": "Minor Minstrel",
+  "_id": "KPminorminstrel0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>This four-inch high, painted, ceramic figurine animates and sings one song, typically about 3 minutes in length, when you set it down and speak the command word. The song is chosen by the figurine’s original creator, and the figurine’s form is typically reflective of the song’s style. A red-nosed dwarf holding a mug sings a drinking song; a human figure in mourner’s garb sings a dirge; a well-dressed elf with a harp sings an elven love song; or similar, though some creators find it amusing to create a figurine with a song counter to its form. If you pick up the figurine before the song finishes, it falls silent.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "minor-minstrel",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPminorminstrel0"
+}

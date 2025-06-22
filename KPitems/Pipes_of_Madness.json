@@ -1,0 +1,45 @@
+{
+  "name": "Pipes of Madness",
+  "_id": "KPpipesofmadness",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em><br>You must be proficient with wind instruments to use these strange, pale ivory pipes. They have 5 charges. You can use an action to play them and expend 1 charge to emit a weird strain of alien music that is audible up to 600 feet away. Choose up to three creatures within 60 feet of you that can hear you play. Each target must succeed on a DC 15 Wisdom saving throw or be affected as if you had cast the <em>@UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{confusion}</em> spell on it. The pipes regain 1d4 + 1 expended charges daily at dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "pipes-of-madness",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPpipesofmadness"
+}

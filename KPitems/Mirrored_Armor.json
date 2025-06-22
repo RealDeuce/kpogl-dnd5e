@@ -1,0 +1,44 @@
+{
+  "name": "Mirrored Armor",
+  "_id": "KPmirroredarmor0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armor (breastplate, half plate, plate, or shield), uncommon</em><br>This metal armor is always polished to a mirror sheen, highly reflective, and can’t be dulled. If a creature has an action or trait that requires it to gaze at you to affect you, such as a basilisk’s Petrifying Gaze or a lich’s Frightening Gaze, it sees its reflection in the armor and is also affected by the gaze.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "mirrored-armor",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": ""
+  },
+  "_key": "!items!KPmirroredarmor0"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Flute of Saurian Summoning",
+  "_id": "KPfluteofsaurian",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This scaly, clawed flute has a musky smell, and it releases a predatory, screeching roar with reptilian overtones when blown. You must be proficient with wind instruments to use this flute. You can use an action to play the flute and conjure dinosaurs. This works like the <em>@UUID[Compendium.dnd5e.spells.Item.1Drt0SHxbEAHxprN]{conjure animals}</em> spell, except the animals you conjure must be dinosaurs or Medium or larger lizards. The dinosaurs remain for 1 hour, until they die, or until you dismiss them as a bonus action. The flute can’t be used to conjure dinosaurs again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "flute-of-saurian-summoning",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPfluteofsaurian"
+}

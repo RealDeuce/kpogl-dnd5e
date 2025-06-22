@@ -1,0 +1,44 @@
+{
+  "name": "Cleaning Concoction",
+  "_id": "KPcleaningconcoc",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, common</em><br>This fresh-smelling, clear green liquid can cover a Medium or smaller creature or object (or matched set of objects, such as a suit of clothes or pair of boots). Applying the liquid takes 1 minute. It removes soiling, stains, and residue, and it neutralizes and removes odors, unless those odors are particularly pungent, such as in skunks or creatures with the Stench trait. Once the potion has cleaned the target, it evaporates, leaving the creature or object both clean and dry.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "cleaning-concoction",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPcleaningconcoc"
+}

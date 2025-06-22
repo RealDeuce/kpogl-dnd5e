@@ -1,0 +1,45 @@
+{
+  "name": "Glowstone Helmet",
+  "_id": "KPglowstonehelme",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em><br>Glowstone helmets are usually of gnomish manufacture. While wearing this helm, you can use an action to cast a particular cantrip associated with that helmet (often <em>@UUID[Compendium.dnd5e.spells.Item.CAxSzHWizrafT033]{dancing lights}, @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{light}, @UUID[Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL]{mending}</em>, or sometimes <em>@UUID[Compendium.dnd5e.spells.Item.eCPQuQkIabFKTl9u]{produce flame}</em>). When combined with a <em>@UUID[Compendium.koboldpressogl.koboldpressitems.Item.KPfrostglowweapo]{frostglow weapon}</em> or a <em>@UUID[Compendium.dnd5e.spells.Item.cYI4RNNjI5GAmLhy]{find the path}</em> spell, this helmet allows you to sense the direction and distance to the nearest ley line, shadow road, radiant well, and similar arcane landmarks.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "glowstone-helmet",
+    "source": {
+      "book": "BoET",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPglowstonehelme"
+}

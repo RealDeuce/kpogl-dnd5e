@@ -1,0 +1,156 @@
+{
+  "_id": "KPamorphousform0",
+  "name": "Amorphous Form",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>Void</em><br>A Large or smaller creature you touch becomes a @UUID[Compendium.dnd5e.monsters.Actor.fqbFYtbtkrL53FOC]{gray ooze}. An unwilling target can make a Constitution saving throw at the end of each of its turns to end the effect and resume its normal form. A willing target can choose to become unwilling at any point of the duration and can make a saving throw at the end of its next turn after becoming unwilling. While under the effect of this spell, a creature retains its size, general shape, and alignment and its Intelligence, Wisdom, and Charisma ability scores but otherwise has the statistics of a gray ooze. If the spell ends because the duration elapses, the target is permanently transformed into a @UUID[Compendium.dnd5e.monsters.Actor.fqbFYtbtkrL53FOC]{gray ooze}.<br><em><strong>At Higher Levels.</strong></em> If you cast this spell using a 6th-level slot, the target transforms into your choice of a @UUID[Compendium.dnd5e.monsters.Actor.3fzQVYQhXxCXRa2o]{gelatinous cube} or an @UUID[Compendium.dnd5e.monsters.Actor.xBhG7Dos3tkg9jWz]{ochre jelly} instead of a gray ooze. If cast using an 8th-level slot, the target becomes a @UUID[Compendium.dnd5e.monsters.Actor.NwQpeeaMxAC3fRft]{black pudding} instead of a gray ooze.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "WG4",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "null",
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "0",
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 4,
+    "school": "trs",
+    "materials": {
+      "value": "a drop of ooze",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "0",
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "amorphous-form"
+  },
+  "sort": 135,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPamorphousform0"
+}

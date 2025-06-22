@@ -1,0 +1,45 @@
+{
+  "name": "Amulet of the Outer Darkness",
+  "_id": "KPamuletoftheout",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Common (Requires Attunement)</em><br>This deep-blue sapphire is carved with a single eye surrounded by tentacles or wavy rays. The object is always cool to the touch. You gain the ability to understand and speak Void Speech. In addition, you do not need to breathe when in an airless space (but you are still affected by gas or air effects when in an atmosphere).<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "amulet-of-the-outer-darkness",
+    "source": {
+      "book": "WG4",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPamuletoftheout"
+}

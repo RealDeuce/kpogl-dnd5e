@@ -1,0 +1,163 @@
+{
+  "_id": "KPbeastessence00",
+  "name": "Beast Essence",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You transform your body to take on aspects of one of the following creatures for the duration.<br><em><strong>Bear.</strong></em> Your body becomes bulkier, and your fingers are tipped with thick, yellow claws. You can use your spellcasting ability modifier instead of your Strength modifier when making a grapple attack and when escaping a grapple. In addition, you gain temporary hit points equal to twice your spellcasting ability modifier when you cast this spell and every 10 minutes until the spell ends.<br><em><strong>Boar.</strong></em> Two yellowed tusks grow from your bottom jaw, and short, coarse hair covers your face, neck, torso, and arms. You have advantage on Wisdom (Perception) checks that rely on smell. In addition, once on each of your turns, if you move at least 10 feet before making a melee attack, the attack deals extra damage of the attack’s type equal to your spellcasting ability modifier, and the target must succeed on a Strength saving throw or be pushed up to 5 feet away from you.<br><em><strong>Hare.</strong></em> Your skin becomes covered in a layer of soft fur, and your legs become more muscular. Your speed increases by 10 feet, and you can take the Dash action as a bonus action on each of your turns. In addition, you can use your spellcasting ability score instead of your Strength score to determine the height and distance you can jump.<br><em><strong>Raven.</strong></em> Feathers erupt along your arms, cheekbones, and legs. You gain a flying speed equal to your walking speed, and you have advantage on Wisdom (Perception) checks that rely on sight. In addition, you can mimic any sound you have heard. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check against your spell save DC. When the spell ends, you fall if you are still aloft.<br><em><strong>Snake.</strong></em> Your body becomes slimmer, your skin becomes cool to the touch, and your neck elongates slightly. Once on each of your turns, when you hit a creature with an attack, that creature must succeed on a Constitution saving throw or take poison damage equal to your spellcasting ability modifier and become poisoned until the end of its next turn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DM2",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+      },
+      "prompt": true,
+      "override": false
+    },
+    "range": {
+      "value": "0",
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 3,
+    "school": "trs",
+    "materials": {
+      "value": "a feather or bit of animal fur",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "0",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "beast-essence"
+  },
+  "sort": 194,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPbeastessence00"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Elemental Wraps",
+  "_id": "KPelementalwraps",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>These cloth arm wraps are decorated with elemental symbols depicting flames, lightning bolts, snowflakes, and similar. You have resistance to acid, cold, fire, lightning, or thunder damage while you wear these arm wraps. You choose the type of damage when you first attune to the wraps, and you can choose a different type of damage at the end of a short or long rest.<br>The wraps have 10 charges. When you hit with an unarmed strike while wearing these wraps, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d6 damage of the type to which you have resistance.<br>The wraps regain 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the wraps unravel and fall to the ground, becoming nonmagical.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "elemental-wraps",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPelementalwraps"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Wand of Guidance",
+  "_id": "KPwandofguidance",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/weapons/wands/wand-star-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wand, common</em><br>This slim, metal wand is topped with a cage shaped like a three-sided pyramid. An eye of glass sits within the pyramid. The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges to cast the <em>@UUID[Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY]{guidance}</em> spell from it. The wand regains all expended charges at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand transforms into a <em>@UUID[Compendium.koboldpressogl.koboldpressitems.Item.KPwandofresistan]{wand of resistance}</em>.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "wand-of-guidance",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "common"
+  },
+  "_key": "!items!KPwandofguidance"
+}

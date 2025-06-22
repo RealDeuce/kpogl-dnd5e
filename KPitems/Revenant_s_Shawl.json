@@ -1,0 +1,45 @@
+{
+  "name": "Revenant’s Shawl",
+  "_id": "KPrevenantsshawl",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em><br>This shawl is made of old raven feathers woven together with elk sinew and small bones. When you are reduced to 0 hit points while wearing the shawl, it explodes in a burst of freezing wind. Each creature within 10 feet of you must make a DC 13 Dexterity saving throw, taking 4d6 cold damage on a failed save, or half as much damage on a successful one. You then regain 4d6 hit points, and the shawl disintegrates into fine black powder.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "revenants-shawl",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPrevenantsshawl"
+}

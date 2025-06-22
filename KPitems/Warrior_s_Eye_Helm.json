@@ -1,0 +1,45 @@
+{
+  "name": "Warrior’s Eye Helm",
+  "_id": "KPwarriorseyehel",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em><br>This finely crafted silver and bronze helm is etched on each side with a stylized eye surrounded by ivy.<br>When wearing it, you are better able to anticipate your opponent’s movements during battle. You gain either a +2 on your attack roll or a +2 to your AC during each round of combat. You can change how you use this bonus with a bonus action. In addition, you can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibility}</em> spell. Once used, the <em>@UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibility}</em> effect can’t be used again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "warriors-eye-helm",
+    "source": {
+      "book": "WL:ItW",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPwarriorseyehel"
+}

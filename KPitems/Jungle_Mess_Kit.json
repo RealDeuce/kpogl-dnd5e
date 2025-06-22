@@ -1,0 +1,45 @@
+{
+  "name": "Jungle Mess Kit",
+  "_id": "KPjunglemesskit0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>This crucial piece of survival gear guarantees safe use of the most basic of consumables. The hinged metal container acts as a cook pot and opens to reveal a cup, plate, and eating utensils. This kit renders any spoiled, rotten, or even naturally poisonous food or drink safe to consume (it does not neutralize brewed poisons, venoms, and similar toxins).<br>It can purify only mundane, natural effects and affects up to 1 cubic foot of food and drink 3 times per day. After it is spent, it regains all uses at next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "jungle-mess-kit",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPjunglemesskit0"
+}

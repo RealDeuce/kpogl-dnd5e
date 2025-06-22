@@ -1,0 +1,45 @@
+{
+  "name": "Granny Wax",
+  "_id": "KPgrannywax00000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em><br>Normally found in a small glass jar containing 1d3 doses, this foul-smelling, greasy yellow substance is made by hags in accordance with an age-old secret recipe. You can use an action to rub one dose of the wax onto an ordinary broom or wooden stick and transform it into a <em>@UUID[Compendium.dnd5e.items.Item.hFAVm9pTJDm0nu3g]{broom of flying}</em> for 1 hour.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "granny-wax",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "uncommon"
+  },
+  "_key": "!items!KPgrannywax00000"
+}

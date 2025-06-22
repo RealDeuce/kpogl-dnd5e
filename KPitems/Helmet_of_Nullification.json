@@ -1,0 +1,55 @@
+{
+  "name": "Helmet of Nullification",
+  "_id": "KPhelmetofnullif",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em><br>This helmet, covered in rust and verdigris, features glowing inlays in Void Speech. The helm has 3 charges. While wearing the helm, as an action, you can expend 1 charge to surround yourself with a 10-foot-radius invisible antimagic field, cutting you off from the magic imbuing the universe. Within the area, spells can’t be cast, summoned creatures disappear, and even magic items become mundane. The effect moves with you, centered on you, and ends after 10 rounds or when you speak the command word. Wizards and clerics wearing the helmet may expend 3 charges and maintain concentration to extend the duration up to an hour. The helm regains all its charges 24 hours after its last charge is expended.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "helmet-of-nullification",
+    "source": {
+      "book": "WG4",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "clothing",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "uses": {
+      "spent": 0,
+      "max": "3",
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "rarity": "very rare"
+  },
+  "_key": "!items!KPhelmetofnullif"
+}

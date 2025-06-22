@@ -1,0 +1,173 @@
+{
+  "_id": "KPleystorm000000",
+  "name": "Ley Storm",
+  "ownership": {
+    "default": 0
+  },
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>A roiling stormcloud of ley energy forms, centered around a point you can see and extending horizontally to a radius of 360 feet, with a thickness of 30 feet. Shifting color shoots through the writhing cloud, and thunder roars out of it. Each creature under the cloud at the moment when it’s created (no more than 5,000 feet beneath it) takes 2d6 thunder damage and is deafened for 5 minutes; a successful Constitution saving throw negates both effects.<br>Each round you maintain concentration on this spell, the storm produces additional effects on your turn.<br><em><strong>Round 2.</strong></em> Ley-infused pebbles rain from the cloud, causing 1d6 bludgeoning damage to everything beneath it (no saving throw).<br><em><strong>Round 3.</strong></em> Up to six bolts of ley energy leap from the cloud to strike creatures or objects of your choice beneath the cloud. No creature or object can be struck by more than one bolt. A creature struck takes 8d8 force damage, or half damage with a successful Dexterity saving throw.<br><em><strong>Round 4.</strong></em> A burst of prismatic light fills a 20-foot sphere centered on a point beneath the cloud. All creatures in the sphere are affected as if targeted by a <em>@UUID[Compendium.koboldpressogl.koboldpressspells.Item.KPdisruptiveaura]{disruptive aura}</em> spell.<br><em><strong>Rounds 5-10.</strong></em> Flashes of multicolored light burst through and out of the cloud, causing creatures to have disadvantage on Wisdom (Perception) checks that rely on sight while they are beneath the cloud. In addition, each round, you trigger a burst of energy that fills a 20-foot sphere centered on a point you can see beneath the cloud. Each creature in the sphere takes 4d8 force damage (no saving throw).<br><em><strong>Special.</strong></em> A geomancer who casts this spell regains 4d10 hit points.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HH",
+      "page": "",
+      "license": "OGL-1.0a",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "value": "1",
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "type": "radius",
+        "size": "360",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "0",
+      "units": "spec"
+    },
+    "uses": {
+      "value": 0,
+      "max": null,
+      "per": null
+    },
+    "level": 9,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "KPOGLactivitySav": {
+        "_id": "KPOGLactivitySav",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "0",
+          "units": "spec",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "damage": {
+          "onSave": "half",
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "thunder"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "ley-storm"
+  },
+  "sort": 761,
+  "flags": {},
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "effects": [],
+  "folder": null,
+  "_key": "!items!KPleystorm000000"
+}

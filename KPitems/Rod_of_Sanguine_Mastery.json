@@ -1,0 +1,44 @@
+{
+  "name": "Rod of Sanguine Mastery",
+  "_id": "KProdofsanguinem",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, very rare (requires attunement)</em><br>This rod is topped with a red ram’s skull with two backswept horns.<br>As an action, you can spend one or more Hit Dice, up to half of your maximum Hit Dice. For each Hit Die spent in this way, you roll the die and add your Constitution modifier to it. You lose hit points equal to the total, and a target within 60 feet of you must make a DC 17 Dexterity saving throw, taking necrotic damage equal to the total on a failed save, or half as much damage on a successful one. You can’t use this feature if you don’t have blood. Hit Dice spent on this feature can’t be used to regain hit points during a short rest. You regain spent Hit Dice as normal.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "rod-of-sanguine-mastery",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "very rare"
+  },
+  "_key": "!items!KProdofsanguinem"
+}

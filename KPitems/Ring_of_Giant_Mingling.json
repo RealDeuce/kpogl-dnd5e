@@ -1,0 +1,44 @@
+{
+  "name": "Ring of Giant Mingling",
+  "_id": "KPringofgiantmin",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, rare (requires attunement by a giant or humanoid)</em><br>While wearing this ring, your size changes to match the size of those around you. If you are a Large creature and start your turn within 100 feet of four or more Medium creatures, this ring makes you Medium. Similarly, if you are a Medium creature and start your turn within 100 feet of four or more Large creatures, this ring makes you Large. These effects work like the effects of the <em>@UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{enlarge/reduce}</em> spell, except they persist as long as you wear the ring and satisfy the conditions.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "ring-of-giant-mingling",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPringofgiantmin"
+}

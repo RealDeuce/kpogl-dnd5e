@@ -1,0 +1,45 @@
+{
+  "name": "Gizzard Pot",
+  "_id": "KPgizzardpot0000",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Rare (Requires Attunement)</em><br>A gizzard pot takes the form of a large cauldron inscribed with runes and leering faces. If you boil the skull of a creature in this pot, you may cast <em>@UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with dead}</em> with that creature as a target. When cast in this manner, the skull must offer a truthful answer and speaks whatever languages you can speak. The pot cannot be used in this way again until the next dusk.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "gizzard-pot",
+    "source": {
+      "book": "WL72",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPgizzardpot0000"
+}

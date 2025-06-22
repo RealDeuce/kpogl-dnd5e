@@ -1,0 +1,45 @@
+{
+  "name": "Spicebox Spoon",
+  "_id": "KPspiceboxspoon0",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "consumable",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em><br>This lacquered wooden spoon carries an entire cupboard within its smooth contours. When you swirl this spoon in any mixture, whether drink or stew, it exudes a flavorful aroma and infuses the edibles. This culinary wonder mimics any imagined variation of simple seasonings, from salt and pepper to aromatic herbs and complex spice blends. These flavors persist for 1 hour.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "spicebox-spoon",
+    "source": {
+      "book": "ZG",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "common"
+  },
+  "_key": "!items!KPspiceboxspoon0"
+}

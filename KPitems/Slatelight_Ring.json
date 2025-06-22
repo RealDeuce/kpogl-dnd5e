@@ -1,0 +1,44 @@
+{
+  "name": "Slatelight Ring",
+  "_id": "KPslatelightring",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-lines-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, rare (requires attunement)</em><br>This decorated thick gold band is adorned with a single polished piece of slate. While wearing this ring, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing this ring increases its range by 60 feet.<br>In addition, you can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{faerie fire}</em> spell (DC 15) from it. The ring can’t be used this way again until the next dawn.<br>Content licensed under the @UUID[Compendium.koboldpressogl.koboldpressjournal.JournalEntry.KoboldPressOGL00.JournalEntryPage.KoboldPressOGLpg]{Open Game License}",
+      "chat": ""
+    },
+    "identifier": "slatelight-ring",
+    "source": {
+      "book": "VoM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "ring",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "rarity": "rare"
+  },
+  "_key": "!items!KPslatelightring"
+}

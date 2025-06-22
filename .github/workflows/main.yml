@@ -1,11 +1,3 @@
-/
-	- .github
-		- workflows/
-			- main.yml
-	- lang/
-	- module.json
-	- packs
-
 name: KoboldPressOGL Release
 
 on:
@@ -31,5 +23,5 @@ jobs:
 					draft: false
 					prerelease: false
 					token: ${{ secrets.GITHUB_TOKEN }}
-					artifacts: './module.json,koboldpressogl.zip'
+					artifacts: 'module.json,koboldpressogl.zip'
 					tag: latest

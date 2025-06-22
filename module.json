@@ -62,7 +62,7 @@
     }
   ],
   "manifest": "https://github.com/RealDeuce/kpogl-dnd5e/releases/download/latest/module.json",
-  "download": "https://github.com/RealDeuce/kpogl-dnd5e/releases/download/0.32/koboldpressogl.zip",
+  "download": "https://github.com/RealDeuce/kpogl-dnd5e/releases/download/v0.32/koboldpressogl.zip",
   "id": "koboldpressogl",
   "compatibility": {
     "minimum": "11",
